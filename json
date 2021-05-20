@@ -8,6 +8,12 @@
       {
          "card":{
             "type":"list_card",
+            "paddings":{
+               "top":"10x",
+               "left":"8x",
+               "right":"8x",
+               "bottom":"10x"
+            },
             "cells":[
                {
                   "type":"text_cell_view",
