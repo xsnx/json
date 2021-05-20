@@ -1,0 +1,25 @@
+{
+   "items":[
+      {
+         "bubble":{
+            "text":"Спасибо, сегодня, 05.20.2021 все отлично"
+         }
+      },
+      {
+         "card":{
+            "type":"list_card",
+            "cells":[
+               {
+                  "type":"text_cell_view",
+                  "content":{
+                     "text":"05.20.2021",
+                     "typeface":"headline3",
+                     "text_color":"default",
+                     "max_lines":2
+                  }
+               }
+            ]
+         }
+      }
+   ]
+}
