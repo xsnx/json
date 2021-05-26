@@ -1,31 +1,43 @@
 {
-   "items":[
-      {
-         "bubble":{
-            "text":"Спасибо, сегодня, 05.20.2021 все отлично"
-         }
+   "card":{
+      "type":"list_card",
+      "paddings":{https://github.com/xsnx/json/blob/main/json
+         "top":"10x",
+         "left":"8x",
+         "right":"8x",
+         "bottom":"10x"
       },
-      {
-         "card":{
-            "type":"list_card",
-            "paddings":{
-               "top":"10x",
-               "left":"8x",
-               "right":"8x",
-               "bottom":"10x"
+      "cells":[
+         {
+            "type":"text_cell_view",
+            "content":{
+               "text":"card",
+               "typeface":"headline3",
+               "text_color":"default"
+            }
+         },
+         {
+            "type":"text_cell_view",
+            "content":{
+               "text":"avgust",
+               "typeface":"headline1",
+               "text_color":"default"
             },
-            "cells":[
-               {
-                  "type":"text_cell_view",
-                  "content":{
-                     "text":"05.20.2021",
-                     "typeface":"headline3",
-                     "text_color":"default",
-                     "max_lines":5
-                  }
-               }
-            ]
+            "paddings":{
+               "top":"6x"
+            }
+         },
+         {
+            "type":"text_cell_view",
+            "content":{
+               "text":"1000",
+               "typeface":"headline1",
+               "text_color":"default"
+            },
+            "paddings":{
+               "top":"6x"
+            }
          }
-      }
-   ]
+      ]
+   }
 }
