@@ -1,7 +1,7 @@
-
+{
    "card":{
       "type":"list_card",
-      "paddings":{https://github.com/xsnx/json/blob/main/json
+      "paddings":{
          "top":"10x",
          "left":"8x",
          "right":"8x",
@@ -40,4 +40,4 @@
          }
       ]
    }
-
+}
