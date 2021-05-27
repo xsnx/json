@@ -19,23 +19,37 @@
          {
             "type":"text_cell_view",
             "content":{
-               "text":"avgust",
-               "typeface":"footnote1",
-               "text_color":"secondary"
-            },
-            "paddings":{
-               "top":"2x"
-            }
-         },
-         {
-            "type":"text_cell_view",
-            "content":{
                "text":"10000888000222444",
                "typeface":"headline1",
                "text_color":"default"
             },
             "paddings":{
                "top":"6x"
+            }
+         },
+         {
+            "title":"IconView",
+            "type":"object",
+            "description":"Иконка",
+            "properties":{
+               "address":{
+                  "type":"local",
+                  "identificator":"https://res.online.sberbank.ru/VA/icons/ic_36_to_client_36x36.png"
+               },
+               "size":{
+                  "width":"medium",
+                  "height":"medium"
+               },
+               "margins":{
+                  "right":"6x"
+               },
+               "tint_color":"solid_brand"
+            }
+         },
+         {
+            "type":"left_right_cell_view",
+            "paddings":{
+               "top":"2x"
             }
          },
          {
