@@ -11,7 +11,7 @@
          {
             "type":"text_cell_view",
             "content":{
-               "text":"card",
+               "text":"TITLE",
                "typeface":"headline3",
                "text_color":"default"
             }
@@ -20,6 +20,17 @@
             "type":"text_cell_view",
             "content":{
                "text":"avgust",
+               "typeface":"footnote1",
+               "text_color":"secondary"
+            },
+            "paddings":{
+               "top":"2x"
+            }
+         },
+         {
+            "type":"text_cell_view",
+            "content":{
+               "text":"10000888000222444",
                "typeface":"headline1",
                "text_color":"default"
             },
@@ -30,12 +41,12 @@
          {
             "type":"text_cell_view",
             "content":{
-               "text":"10000000000",
-               "typeface":"headline1",
-               "text_color":"default"
+               "text":"subtitle",
+               "typeface":"footnote1",
+               "text_color":"secondary"
             },
             "paddings":{
-               "top":"6x"
+               "top":"2x"
             }
          }
       ]
