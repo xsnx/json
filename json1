@@ -1,43 +1,50 @@
 {
-   "card":{
-      "type":"list_card",
-      "paddings":{
-         "top":"10x",
-         "left":"8x",
-         "right":"8x",
-         "bottom":"10x"
+  "card": {
+    "type": "list_card",
+    "cells": [{
+      "type": "left_right_cell_view",
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "tint_color": "solid_brand",
+          "address": {
+            "type": "local",
+            "identificator": "other"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "left": "8x",
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x"
+          }
+        },
+        "title": {
+          "text": "История операций",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "9x",
+            "bottom": "9x"
+          }
+        }
       },
-      "cells":[
-         {
-            "type":"text_cell_view",
-            "content":{
-               "text":"card",
-               "typeface":"headline3",
-               "text_color":"default"
-            }
-         },
-         {
-            "type":"text_cell_view",
-            "content":{
-               "text":"avgust",
-               "typeface":"footnote1",
-               "text_color":"secondary"
-            },
-            "paddings":{
-               "top":"2x"
-            }
-         },
-         {
-            "type":"text_cell_view",
-            "content":{
-               "text":"1000",
-               "typeface":"headline1",
-               "text_color":"default"
-            },
-            "paddings":{
-               "top":"6x"
-            }
-         }
-      ]
-   }
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [{
+        "type": "deep_link",
+        "deep_link": "android-app://ru.sberbankmobile/alf/expenses"
+      }]
+    }]
+  }
 }
