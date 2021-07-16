@@ -3,7 +3,21 @@
     {
       "card": {
         "type": "list_card",
+        "paddings": {
+                "top": "10x",
+                "left": "8x",
+                "right": "8x",
+                "bottom": "10x"
+        },
         "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Что-то мешает посмотреть ваши операции. Спросите позже или загляните в историю в СберБанк Онлайн.",
+              "typeface": "headline3",
+              "text_color": "default"
+            }
+          },
           {
             "type": "button_cell_view",
             "content": {
@@ -17,18 +31,15 @@
                   "deep_link": "android-app://ru.sberbankmobile/alf/expenses"
                 }
               ],
-              "margins": {
-                "left": "10x",
-                "top": "8x",
-                "right": "10x",
-                "bottom": "8x"
-              }
-            },
-            "paddings": {
-              "left": "4x",
-              "top": "4x",
-              "right": "4x",
-              "bottom": "4x"
+
+          "text_color": "default",
+          "max_lines": 0,
+          "margins": {
+            "top": "2x",
+            "bottom": "2x",
+            "left": "2x",
+            "right": "2x"
+          }
             }
           }
         ]
