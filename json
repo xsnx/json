@@ -4,163 +4,38 @@
       "card": {
         "type": "list_card",
         "paddings": {
-          "top": "4x",
-          "bottom": "4x"
+          "top": "10x",
+          "left": "8x",
+          "right": "8x",
+          "bottom": "10x"
         },
         "cells": [
           {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Что-то мешает посмотреть ваши операции. Спросите позже или загляните в историю в СберБанк Онлайн.",
+              "typeface": "headline3",
+              "text_color": "default"
+            }
+          },
+          {
             "type": "button_cell_view",
             "content": {
-              "text": "зеленая кнопка",
+              "text": "История операций",
               "typeface": "button1",
               "style": "default",
               "type": "accept",
               "actions": [
                 {
-                  "type": "text",
-                  "text": "нажал на зеленую кнопку"
+                  "type": "deep_link",
+                  "deep_link": "android-app://ru.sberbankmobile/alf/expenses"
                 }
               ],
               "margins": {
                 "left": "10x",
-                "top": "5x",
+                "top": "8x",
                 "right": "10x",
-                "bottom": "5x"
-              }
-            },
-            "paddings": {
-              "left": "4x",
-              "top": "4x",
-              "right": "4x",
-              "bottom": "4x"
-            }
-          },
-          {
-            "type": "button_cell_view",
-            "content": {
-              "text": "серая кнопка",
-              "typeface": "button1",
-              "style": "default",
-              "type": "disabled",
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "нажал на серую кнопку"
-                }
-              ],
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
-              }
-            },
-            "paddings": {
-              "left": "4x",
-              "top": "4x",
-              "right": "4x",
-              "bottom": "4x"
-            }
-          },
-          {
-            "type": "button_cell_view",
-            "content": {
-              "text": "красная кнопка",
-              "typeface": "button1",
-              "style": "default",
-              "type": "negative",
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "нажал на красную кнопку"
-                }
-              ],
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
-              }
-            },
-            "paddings": {
-              "left": "4x",
-              "top": "4x",
-              "right": "4x",
-              "bottom": "4x"
-            }
-          },
-          {
-            "type": "button_cell_view",
-            "content": {
-              "text": "кнопка с зеленым текстом",
-              "typeface": "button1",
-              "style": "transparent",
-              "type": "accept",
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "нажал на кнопку с зеленым текстом"
-                }
-              ],
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
-              }
-            },
-            "paddings": {
-              "left": "4x",
-              "top": "4x",
-              "right": "4x",
-              "bottom": "4x"
-            }
-          },
-          {
-            "type": "button_cell_view",
-            "content": {
-              "text": "кнопка с серым текстом",
-              "typeface": "button1",
-              "style": "transparent",
-              "type": "disabled",
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "нажал на кнопку с серым текстом"
-                }
-              ],
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
-              }
-            },
-            "paddings": {
-              "left": "4x",
-              "top": "4x",
-              "right": "4x",
-              "bottom": "4x"
-            }
-          },
-          {
-            "type": "button_cell_view",
-            "content": {
-              "text": "кнопка с красным текстом",
-              "typeface": "button1",
-              "style": "transparent",
-              "type": "negative",
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "нажал на кнопку с красным текстом"
-                }
-              ],
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
+                "bottom": "18x"
               }
             },
             "paddings": {
