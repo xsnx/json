@@ -1,75 +1,177 @@
 {
   "items": [
     {
-{
-   "card":{
-      "type":"list_card",
-      "paddings":{
-         "top":"10x",
-         "left":"8x",
-         "right":"8x",
-         "bottom":"10x"
-      },
-      "cells":[
-         {
-            "type":"text_cell_view",
-            "content":{
-               "text":"TITLE",
-               "typeface":"headline3",
-               "text_color":"default"
-            }
-         },
-         {
-            "type":"text_cell_view",
-            "content":{
-               "text":"10000888000222444",
-               "typeface":"headline1",
-               "text_color":"default"
+      "card": {
+        "type": "list_card",
+        "paddings": {
+          "top": "4x",
+          "bottom": "4x"
+        },
+        "cells": [
+          {
+            "type": "button_cell_view",
+            "content": {
+              "text": "зеленая кнопка",
+              "typeface": "button1",
+              "style": "default",
+              "type": "accept",
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "нажал на зеленую кнопку"
+                }
+              ],
+              "margins": {
+                "left": "10x",
+                "top": "5x",
+                "right": "10x",
+                "bottom": "5x"
+              }
             },
-            "paddings":{
-               "top":"6x"
+            "paddings": {
+              "left": "4x",
+              "top": "4x",
+              "right": "4x",
+              "bottom": "4x"
             }
-         },
-         {
-            "title":"IconView",
-            "type":"object",
-            "description":"Иконка",
-            "properties":{
-               "address":{
-                  "type":"local",
-                  "identificator":"https://res.online.sberbank.ru/VA/icons/ic_36_to_client_36x36.png"
-               },
-               "size":{
-                  "width":"medium",
-                  "height":"medium"
-               },
-               "margins":{
-                  "right":"6x"
-               },
-               "tint_color":"solid_brand"
-            }
-         },
-         {
-            "type":"left_right_cell_view",
-            "paddings":{
-               "top":"2x"
-            }
-         },
-         {
-            "type":"text_cell_view",
-            "content":{
-               "text":"subtitle",
-               "typeface":"footnote1",
-               "text_color":"secondary"
+          },
+          {
+            "type": "button_cell_view",
+            "content": {
+              "text": "серая кнопка",
+              "typeface": "button1",
+              "style": "default",
+              "type": "disabled",
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "нажал на серую кнопку"
+                }
+              ],
+              "margins": {
+                "left": "10x",
+                "top": "5x",
+                "right": "10x",
+                "bottom": "5x"
+              }
             },
-            "paddings":{
-               "top":"2x"
+            "paddings": {
+              "left": "4x",
+              "top": "4x",
+              "right": "4x",
+              "bottom": "4x"
             }
-         }
-      ]
-   }
+          },
+          {
+            "type": "button_cell_view",
+            "content": {
+              "text": "красная кнопка",
+              "typeface": "button1",
+              "style": "default",
+              "type": "negative",
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "нажал на красную кнопку"
+                }
+              ],
+              "margins": {
+                "left": "10x",
+                "top": "5x",
+                "right": "10x",
+                "bottom": "5x"
+              }
+            },
+            "paddings": {
+              "left": "4x",
+              "top": "4x",
+              "right": "4x",
+              "bottom": "4x"
+            }
+          },
+          {
+            "type": "button_cell_view",
+            "content": {
+              "text": "кнопка с зеленым текстом",
+              "typeface": "button1",
+              "style": "transparent",
+              "type": "accept",
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "нажал на кнопку с зеленым текстом"
+                }
+              ],
+              "margins": {
+                "left": "10x",
+                "top": "5x",
+                "right": "10x",
+                "bottom": "5x"
+              }
+            },
+            "paddings": {
+              "left": "4x",
+              "top": "4x",
+              "right": "4x",
+              "bottom": "4x"
+            }
+          },
+          {
+            "type": "button_cell_view",
+            "content": {
+              "text": "кнопка с серым текстом",
+              "typeface": "button1",
+              "style": "transparent",
+              "type": "disabled",
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "нажал на кнопку с серым текстом"
+                }
+              ],
+              "margins": {
+                "left": "10x",
+                "top": "5x",
+                "right": "10x",
+                "bottom": "5x"
+              }
+            },
+            "paddings": {
+              "left": "4x",
+              "top": "4x",
+              "right": "4x",
+              "bottom": "4x"
+            }
+          },
+          {
+            "type": "button_cell_view",
+            "content": {
+              "text": "кнопка с красным текстом",
+              "typeface": "button1",
+              "style": "transparent",
+              "type": "negative",
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "нажал на кнопку с красным текстом"
+                }
+              ],
+              "margins": {
+                "left": "10x",
+                "top": "5x",
+                "right": "10x",
+                "bottom": "5x"
+              }
+            },
+            "paddings": {
+              "left": "4x",
+              "top": "4x",
+              "right": "4x",
+              "bottom": "4x"
+            }
+          }
+        ]
+      }
+    }
+  ]
 }
-
-    }
-    ]
-    }
