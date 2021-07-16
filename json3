@@ -1,0 +1,38 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "button_cell_view",
+            "content": {
+              "text": "История операций",
+              "typeface": "button1",
+              "style": "default",
+              "type": "accept",
+              "actions": [
+                {
+                  "type": "deep_link",
+                  "deep_link": "android-app://ru.sberbankmobile/alf/expenses"
+                }
+              ],
+              "margins": {
+                "left": "10x",
+                "top": "8x",
+                "right": "10x",
+                "bottom": "8x"
+              }
+            },
+            "paddings": {
+              "left": "2x",
+              "top": "4x",
+              "right": "2x",
+              "bottom": "4x"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
