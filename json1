@@ -1,50 +1,38 @@
 {
-  "card": {
-    "type": "list_card",
-    "cells": [{
-      "type": "left_right_cell_view",
-      "left": {
-        "type": "simple_left_view",
-        "icon": {
-          "tint_color": "solid_brand",
-          "address": {
-            "type": "local",
-            "identificator": "other"
-          },
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "margins": {
-            "left": "8x",
-            "top": "5x",
-            "right": "6x",
-            "bottom": "5x"
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "button_cell_view",
+            "content": {
+              "text": "История операций",
+              "typeface": "button1",
+              "style": "default",
+              "type": "accept",
+              "actions": [
+                {
+                  "type": "deep_link",
+                  "deep_link": "android-app://ru.sberbankmobile/alf/expenses"
+                }
+              ],
+              "margins": {
+                "left": "10x",
+                "top": "8x",
+                "right": "10x",
+                "bottom": "8x"
+              }
+            },
+            "paddings": {
+              "left": "4x",
+              "top": "4x",
+              "right": "4x",
+              "bottom": "4x"
+            }
           }
-        },
-        "title": {
-          "text": "История операций",
-          "typeface": "body1",
-          "text_color": "default",
-          "max_lines": 1,
-          "margins": {
-            "top": "9x",
-            "bottom": "9x"
-          }
-        }
-      },
-      "right": {
-        "type": "disclosure_right_view",
-        "margins": {
-          "top": "8x",
-          "right": "4x",
-          "bottom": "8x"
-        }
-      },
-      "actions": [{
-        "type": "deep_link",
-        "deep_link": "android-app://ru.sberbankmobile/alf/expenses"
-      }]
-    }]
-  }
+        ]
+      }
+    }
+  ]
 }
