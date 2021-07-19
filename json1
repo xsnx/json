@@ -1,58 +1,39 @@
 {
-  "items": [
-    {
-      "card": {
-        "type": "list_card",
-        "paddings": {
-          "top": "4x",
-          "bottom": "4x"
-        },
-        "cells": [
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Что-то мешает посмотреть ваши операции. Спросите позже или загляните в историю в СберБанк Онлайн.",
-                  "typeface": "footnote2",
-                  "text_color": "default",
-                  "max_lines": 0
-                }
-              }
-            },
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            }
-          },
-          {
-            "type": "button_cell_view",
-            "content": {
-              "text": "История операций",
-              "typeface": "button1",
-              "style": "default",
-              "type": "accept",
-              "actions": [
-                {
-                  "type": "deep_link",
-                  "deep_link": "android-app://ru.sberbankmobile/alf/expenses"
-                }
-              ],
-              "text_color": "default",
-              "max_lines": 0
-            },
-            "paddings": {
-              "left": "8x",
-              "top": "2x",
-              "right": "8x",
-              "bottom": "8x"
-            }
-          }
-        ]
-      }
+  "title": "ButtonView",
+  "type": "object",
+  "description": "Кнопки для универсальных карточек",
+  "properties": {
+    "text": {
+      "type": "string",
+      "description": "Текст кнопки."
+    },
+    "typeface": {
+      "$ref": "../Styles/typeface.json",
+      "default": "button1"
+    },
+    "style": {
+      "type": "string",
+      "description": "Стиль кнопки.",
+      "enum": ["default", "transparent"],
+      "default": "default"
+    },
+    "type": {
+      "type": "string",
+      "description": "Тип кнопки.",
+      "enum": ["accept", "disabled", "negative"],
+      "default": "accept"
+    },
+    "actions": {
+      "$ref": "../Actions/actions.json",
+      "minItems": 1
+    },
+    "log_id": {
+      "type": "string",
+      "description": "Id для отправки в метрику"
+    },
+    "margins": {
+      "$ref": "margins.json"
     }
-  ]
+  },
+  "required": ["text", "actions"]
 }
