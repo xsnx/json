@@ -15,13 +15,19 @@
                   "text_color": "default",
                   "max_lines": 0
                 }
+              },
+              "margins": {
+                "left": "10x",
+                "top": "5x",
+                "right": "10x",
+                "bottom": "5x"
               }
             },
             "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
+              "left": "2x",
+              "top": "4x",
+              "right": "2x",
+              "bottom": "2x"
             }
           },
           {
@@ -45,9 +51,9 @@
               }
             },
             "paddings": {
-              "left": "4x",
+              "left": "2x",
               "top": "4x",
-              "right": "4x",
+              "right": "2x",
               "bottom": "4x"
             }
           }
