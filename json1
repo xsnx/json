@@ -3,6 +3,10 @@
     {
       "card": {
         "type": "list_card",
+        "paddings": {
+          "top": "4x",
+          "bottom": "4x"
+        },
         "cells": [
           {
             "type": "left_right_cell_view",
@@ -23,7 +27,6 @@
               "right": "8x",
               "bottom": "8x"
             }
-
           },
           {
             "type": "button_cell_view",
@@ -41,10 +44,9 @@
               "text_color": "default",
               "max_lines": 0
             },
-
             "paddings": {
               "left": "8x",
-              "top": "8x",
+              "top": "2x",
               "right": "8x",
               "bottom": "8x"
             }
