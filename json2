@@ -1,27 +1,19 @@
 {
   "items": [
+        {
+      "bubble": {
+        "text": "*Привет всем*",
+        "markdown": true
+      }
+    },
     {
       "card": {
+
         "type": "list_card",
-        "paddings": {
-          "top": "10x",
-          "left": "8x",
-          "right": "8x",
-          "bottom": "10x"
-        },
         "cells": [
           {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Что-то мешает посмотреть ваши операции. Спросите позже или загляните в историю в СберБанк Онлайн.",
-              "typeface": "headline3",
-              "text_color": "default"
-            },
-            "paddings": {
-              "left": "4x",
-              "top": "4x",
-              "right": "4x",
-              "bottom": "4x"
+            "bubble": {
+              "text": "Что-то мешает посмотреть ваши операции. Спросите позже или загляните в историю в СберБанк Онлайн."
             }
           },
           {
@@ -40,17 +32,17 @@
               "text_color": "default",
               "max_lines": 0
             },
-            "paddings": {
-              "left": "4x",
-              "top": "4x",
-              "right": "4x",
-              "bottom": "4x"
-            },
             "margins": {
+              "left": "10x",
+              "top": "8x",
+              "right": "10x",
+              "bottom": "8x"
+            },
+            "paddings": {
+              "left": "1x",
               "top": "4x",
-              "bottom": "4x",
-              "left": "4x",
-              "right": "4x"
+              "right": "1x",
+              "bottom": "4x"
             }
           }
         ]
