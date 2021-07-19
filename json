@@ -23,7 +23,6 @@
               "right": "8x",
               "bottom": "8x"
             }
-
           },
           {
             "type": "button_cell_view",
@@ -46,11 +45,7 @@
               "top": "2x",
               "right": "8x",
               "bottom": "8x"
-            },
-                      "size": {
-            "width": "medium",
-            "height": "medium"
-          }
+            }
           }
         ]
       }
