@@ -22,17 +22,17 @@
                 }
               ],
               "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
+                "left": "50x",
+                "top": "50x",
+                "right": "50x",
+                "bottom": "50x"
               }
             },
             "paddings": {
               "left": "4x",
-              "top": "40x",
+              "top": "4x",
               "right": "4x",
-              "bottom": "40x"
+              "bottom": "4x"
             }
           }
         ]
