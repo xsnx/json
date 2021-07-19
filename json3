@@ -30,9 +30,9 @@
             },
             "paddings": {
               "left": "4x",
-              "top": "4x",
+              "top": "40x",
               "right": "4x",
-              "bottom": "4x"
+              "bottom": "40x"
             }
           }
         ]
