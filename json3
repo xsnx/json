@@ -20,7 +20,19 @@
                   "type": "deep_link",
                   "deep_link": "android-app://ru.sberbankmobile/alf/expenses"
                 }
-              ]
+              ],
+              "margins": {
+                "left": "10x",
+                "top": "5x",
+                "right": "10x",
+                "bottom": "5x"
+              }
+            },
+            "paddings": {
+              "left": "4x",
+              "top": "4x",
+              "right": "4x",
+              "bottom": "4x"
             }
           }
         ]
