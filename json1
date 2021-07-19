@@ -3,18 +3,6 @@
     {
       "card": {
         "type": "list_card",
-        "margins": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "paddings": {
-          "top": "30x",
-          "bottom": "30x",
-          "left": "30x",
-          "right": "30x"
-        },
         "cells": [
           {
             "type": "left_right_cell_view",
@@ -57,10 +45,10 @@
               "bottom": "8x"
             },
             "paddings": {
-              "left": "1x",
-              "top": "1x",
-              "right": "1x",
-              "bottom": "1x"
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
             }
           }
         ]
