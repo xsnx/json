@@ -4,22 +4,17 @@
       "card": {
         "type": "list_card",
         "paddings": {
-          "top": "9x",
-          "bottom": "12x",
+          "top": "8x",
+          "bottom": "8x",
           "left": "8x",
           "right": "8x"
         },
         "cells": [
-
           {
             "type": "left_right_cell_view",
             "paddings": {
-              "top": "6x",
-              "bottom": "6x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d1"
+              "top": "8x",
+              "bottom": "8x"
             },
             "left": {
               "type": "simple_left_view",
@@ -50,10 +45,10 @@
               "max_lines": 0
             },
             "margins": {
-              "left": "10x",
-              "top": "8x",
-              "right": "10x",
-              "bottom": "8x"
+              "left": "8x",
+              "top": "20x",
+              "right": "8x",
+              "bottom": "20x"
             },
             "paddings": {
               "left": "1x",
