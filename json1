@@ -2,12 +2,35 @@
   "items": [
     {
       "card": {
-
         "type": "list_card",
+        "paddings": {
+          "top": "9x",
+          "bottom": "12x",
+          "left": "8x",
+          "right": "8x"
+        },
         "cells": [
+
           {
-            "bubble": {
-              "text": "Что-то мешает посмотреть ваши операции. Спросите позже или загляните в историю в СберБанк Онлайн."
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            },
+            "left": {
+              "type": "text_cell_view",
+              "texts": {
+                "title": {
+                  "text": "Что-то мешает посмотреть ваши операции. Спросите позже или загляните в историю в СберБанк Онлайн.",
+                  "typeface": "footnote2",
+                  "text_color": "default",
+                  "max_lines": 0
+                }
+              }
             }
           },
           {
