@@ -23,6 +23,7 @@
               "right": "8x",
               "bottom": "8x"
             }
+
           },
           {
             "type": "button_cell_view",
@@ -42,18 +43,16 @@
             },
             "paddings": {
               "left": "8x",
-              "top": "8x",
+              "top": "2x",
               "right": "8x",
               "bottom": "8x"
-            }
+            },
+                      "size": {
+            "width": "medium",
+            "height": "medium"
+          }
           }
         ]
-      },
-      "paddings": {
-        "top": "8x",
-        "bottom": "8x",
-        "left": "8x",
-        "right": "8x"
       }
     }
   ]
