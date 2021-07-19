@@ -9,6 +9,28 @@
         },
         "cells": [
           {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Что-то мешает посмотреть ваши операции. Спросите позже или загляните в историю в СберБанк Онлайн.",
+                  "typeface": "footnote2",
+                  "text_color": "default",
+                  "max_lines": 0
+                }
+              }
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            }
+          },
+
+    
+          {
             "type": "button_cell_view",
             "content": {
               "text": "История операций",
@@ -21,19 +43,21 @@
                   "deep_link": "android-app://ru.sberbankmobile/alf/expenses"
                 }
               ],
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
-              }
+              "text_color": "default",
+              "max_lines": 0
             },
             "paddings": {
-              "left": "4x",
-              "top": "4x",
-              "right": "4x",
-              "bottom": "4x"
+              "left": "8x",
+              "top": "2x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+                        "properties":
+          {
+            "margins": {
+              "$ref": "margins.json"
             }
+          }
           }
         ]
       }
