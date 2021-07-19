@@ -6,18 +6,6 @@
         "cells": [
           {
             "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "margins": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
             "left": {
               "type": "simple_left_view",
               "texts": {
@@ -28,7 +16,14 @@
                   "max_lines": 0
                 }
               }
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
             }
+
           },
           {
             "type": "button_cell_view",
@@ -46,12 +41,7 @@
               "text_color": "default",
               "max_lines": 0
             },
-            "margins": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
+
             "paddings": {
               "left": "8x",
               "top": "8x",
@@ -60,12 +50,6 @@
             }
           }
         ]
-      },
-      "paddings": {
-        "top": "8x",
-        "bottom": "8x",
-        "left": "8x",
-        "right": "8x"
       }
     }
   ]
