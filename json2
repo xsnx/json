@@ -15,6 +15,12 @@
                   "text_color": "default",
                   "max_lines": 0
                 }
+              },
+              "margins": {
+                "left": "10x",
+                "top": "5x",
+                "right": "10x",
+                "bottom": "5x"
               }
             },
             "paddings": {
@@ -37,20 +43,18 @@
                   "deep_link": "android-app://ru.sberbankmobile/alf/expenses"
                 }
               ],
-              "text_color": "default",
-              "max_lines": 0
+              "margins": {
+                "left": "10x",
+                "top": "5x",
+                "right": "10x",
+                "bottom": "5x"
+              }
             },
             "paddings": {
-              "left": "8x",
-              "top": "2x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-                        "margins": {
-              "left": "28x",
-              "top": "28x",
-              "right": "28x",
-              "bottom": "28x"
+              "left": "4x",
+              "top": "4x",
+              "right": "4x",
+              "bottom": "4x"
             }
           }
         ]
