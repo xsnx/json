@@ -3,21 +3,25 @@
     {
       "card": {
         "type": "list_card",
-        "paddings": {
-          "top": "9x",
-          "bottom": "12x",
+        "margins": {
           "left": "8x",
-          "right": "8x"
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "paddings": {
+          "top": "30x",
+          "bottom": "30x",
+          "left": "30x",
+          "right": "30x"
         },
         "cells": [
-
           {
             "type": "left_right_cell_view",
             "paddings": {
-              "top": "6x",
-              "bottom": "6x"
+              "top": "8x",
+              "bottom": "8x"
             },
-
             "left": {
               "type": "simple_left_view",
               "texts": {
@@ -47,16 +51,16 @@
               "max_lines": 0
             },
             "margins": {
-              "left": "10x",
+              "left": "8x",
               "top": "8x",
-              "right": "10x",
+              "right": "8x",
               "bottom": "8x"
             },
             "paddings": {
               "left": "1x",
-              "top": "4x",
+              "top": "1x",
               "right": "1x",
-              "bottom": "4x"
+              "bottom": "1x"
             }
           }
         ]
