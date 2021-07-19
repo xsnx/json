@@ -1,28 +1,23 @@
 {
   "items": [
-        {
-      "bubble": {
-        "text": "Прив3"
-      }
-    },
     {
       "card": {
         "type": "list_card",
         "paddings": {
-          "top": "9x",
-          "bottom": "12x",
+          "top": "8x",
+          "bottom": "8x",
           "left": "8x",
           "right": "8x"
         },
         "cells": [
           {
-            "type": "text_cell_view",
+            "type": "left_right_cell_view",
             "paddings": {
-              "top": "6x",
-              "bottom": "6x"
+              "top": "8x",
+              "bottom": "8x"
             },
             "left": {
-              "type": "text_cell_view",
+              "type": "simple_left_view",
               "texts": {
                 "title": {
                   "text": "Что-то мешает посмотреть ваши операции. Спросите позже или загляните в историю в СберБанк Онлайн.",
@@ -50,16 +45,16 @@
               "max_lines": 0
             },
             "margins": {
-              "left": "10x",
-              "top": "8x",
-              "right": "10x",
-              "bottom": "8x"
+              "left": "8x",
+              "top": "20x",
+              "right": "8x",
+              "bottom": "20x"
             },
             "paddings": {
               "left": "1x",
-              "top": "4x",
+              "top": "20x",
               "right": "1x",
-              "bottom": "4x"
+              "bottom": "30x"
             }
           }
         ]
