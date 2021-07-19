@@ -3,10 +3,6 @@
     {
       "card": {
         "type": "list_card",
-        "paddings": {
-          "top": "4x",
-          "bottom": "4x"
-        },
         "cells": [
           {
             "type": "left_right_cell_view",
@@ -26,6 +22,12 @@
               "top": "8x",
               "right": "8x",
               "bottom": "8x"
+            },
+            "margins": {
+              "left": "28x",
+              "top": "28x",
+              "right": "28x",
+              "bottom": "28x"
             }
           },
           {
@@ -42,12 +44,7 @@
                 }
               ],
               "text_color": "default",
-              "max_lines": 0,
-              "properties": {
-                "margins": {
-                  "$ref": "margins.json"
-                }
-              }
+              "max_lines": 0
             },
             "paddings": {
               "left": "8x",
