@@ -3,31 +3,8 @@
     {
       "card": {
         "type": "list_card",
-        "margins": {
-          "left": "8x",
-          "top": "30x",
-          "right": "30x",
-          "bottom": "8x"
-        },
+
         "cells": [
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "top": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Что-то мешает посмотреть ваши операции. Спросите позже или загляните в историю в СберБанк Онлайн.",
-                  "typeface": "footnote2",
-                  "text_color": "default",
-                  "max_lines": 0
-                }
-              }
-            }
-          },
           {
             "type": "button_cell_view",
             "content": {
@@ -41,29 +18,21 @@
                   "deep_link": "android-app://ru.sberbankmobile/alf/expenses"
                 }
               ],
-              "text_color": "default",
-              "max_lines": 0
-            },
-            "margins": {
-              "left": "1x",
-              "top": "1x",
-              "right": "1x",
-              "bottom": "1x"
+              "margins": {
+                "left": "10x",
+                "top": "5x",
+                "right": "10x",
+                "bottom": "5x"
+              }
             },
             "paddings": {
-              "left": "1x",
-              "top": "1x",
-              "right": "1x",
-              "bottom": "1x"
+              "left": "4x",
+              "top": "4x",
+              "right": "4x",
+              "bottom": "4x"
             }
           }
         ]
-      },
-      "paddings": {
-        "top": "30x",
-        "bottom": "30x",
-        "left": "30x",
-        "right": "30x"
       }
     }
   ]
