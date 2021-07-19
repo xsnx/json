@@ -1,5 +1,10 @@
 {
   "items": [
+        {
+      "bubble": {
+        "text": "Прив3"
+      }
+    },
     {
       "card": {
         "type": "list_card",
