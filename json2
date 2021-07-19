@@ -10,168 +10,56 @@
           "right": "8x"
         },
         "cells": [
+
           {
-            "type": "text_cell_view",
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            },
+            "left": {
+              "type": "text_cell_view",
+              "texts": {
+                "title": {
+                  "text": "Что-то мешает посмотреть ваши операции. Спросите позже или загляните в историю в СберБанк Онлайн.",
+                  "typeface": "footnote2",
+                  "text_color": "default",
+                  "max_lines": 0
+                }
+              }
+            }
+          },
+          {
+            "type": "button_cell_view",
             "content": {
-              "text": "Последние новости",
-              "typeface": "headline3",
-              "text_color": "default"
-            },
-            "paddings": {
-              "bottom": "2x"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "top": "6x",
-              "bottom": "6x"
-            },
-            "divider": {
+              "text": "История операций",
+              "typeface": "button1",
               "style": "default",
-              "size": "d1"
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "https://ria.ru/location_Moskva/"
-              }
-            ],
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "ФСБ объявила о предотвращении теракта в Хабаровске",
-                  "typeface": "footnote2",
-                  "text_color": "default",
-                  "max_lines": 0
-                }
-              }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "top": "6x",
-              "bottom": "6x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d1"
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "https://ria.ru/location_Moskva/"
-              }
-            ],
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "В Фонд борьбы с коррупцией пришли с обыском",
-                  "typeface": "footnote2",
-                  "text_color": "default",
-                  "max_lines": 0
-                }
-              }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "top": "6x",
-              "bottom": "6x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d1"
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "https://ria.ru/location_Moskva/"
-              }
-            ],
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Собянин: у 60% жителей Москвы есть коллективный иммунитет к коронавирусу",
-                  "typeface": "footnote2",
-                  "text_color": "default",
-                  "max_lines": 0
-                }
-              }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "top": "6x",
-              "bottom": "6x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d1"
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "https://ria.ru/location_Moskva/"
-              }
-            ],
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Сотрудник Сбербанка Руслан Гафаров объявил об увольнении после обвинений в домогательствах и изнасиловании",
-                  "typeface": "footnote2",
-                  "text_color": "default",
-                  "max_lines": 0
-                }
-              }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "top": "6x",
-              "bottom": "6x"
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "https://ria.ru/location_Moskva/"
-              }
-            ],
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Канье Уэст прифотошопил себя на гору Рашмор к другим президентам США",
-                  "typeface": "footnote2",
-                  "text_color": "default",
-                  "max_lines": 0
-                }
-              }
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "По данным Lenta.ru",
-              "typeface": "footnote1",
-              "text_color": "secondary",
+              "type": "accept",
               "actions": [
                 {
                   "type": "deep_link",
-                  "deep_link": "https://lenta.ru"
+                  "deep_link": "android-app://ru.sberbankmobile/alf/expenses"
                 }
-              ]
+              ],
+              "text_color": "default",
+              "max_lines": 0
+            },
+            "margins": {
+              "left": "10x",
+              "top": "8x",
+              "right": "10x",
+              "bottom": "8x"
             },
             "paddings": {
-              "top": "6x"
+              "left": "1x",
+              "top": "4x",
+              "right": "1x",
+              "bottom": "4x"
             }
           }
         ]
