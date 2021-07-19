@@ -46,15 +46,15 @@
             },
             "margins": {
               "left": "8x",
-              "top": "20x",
+              "top": "8x",
               "right": "8x",
-              "bottom": "20x"
+              "bottom": "8x"
             },
             "paddings": {
-              "left": "1x",
-              "top": "4x",
-              "right": "1x",
-              "bottom": "4x"
+              "left": "10x",
+              "top": "20x",
+              "right": "10x",
+              "bottom": "30x"
             }
           }
         ]
