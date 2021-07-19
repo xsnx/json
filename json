@@ -6,9 +6,9 @@
         "cells": [
           {
             "type": "text_cell_view",
-            "content": {
+            "bubble": {
               "text": "Что-то мешает посмотреть ваши операции. Спросите позже или загляните в историю в СберБанк Онлайн.",
-              "typeface": "headline3",
+              "typeface": "body1",
               "text_color": "default"
             },
             "margins": {
