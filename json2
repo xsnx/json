@@ -23,7 +23,6 @@
               "right": "8x",
               "bottom": "8x"
             }
-
           },
           {
             "type": "button_cell_view",
@@ -47,10 +46,12 @@
               "right": "8x",
               "bottom": "8x"
             },
-                      "size": {
-            "width": "medium",
-            "height": "medium"
-          }
+                        "margins": {
+              "left": "28x",
+              "top": "28x",
+              "right": "28x",
+              "bottom": "28x"
+            }
           }
         ]
       }
