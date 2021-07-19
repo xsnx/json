@@ -7,7 +7,15 @@
           {
             "type": "left_right_cell_view",
             "paddings": {
+              "left": "8x",
               "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "margins": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
               "bottom": "8x"
             },
             "left": {
@@ -52,6 +60,12 @@
             }
           }
         ]
+      },
+      "paddings": {
+        "top": "8x",
+        "bottom": "8x",
+        "left": "8x",
+        "right": "8x"
       }
     }
   ]
