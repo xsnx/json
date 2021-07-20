@@ -24,10 +24,10 @@
               }
             },
             "paddings": {
-              "left": "2x",
-              "top": "4x",
-              "right": "2x",
-              "bottom": "2x"
+                "top": "10x",
+                "left": "8x",
+                "right": "8x",
+                "bottom": "10x"
             }
           },
           {
@@ -51,10 +51,10 @@
               }
             },
             "paddings": {
-              "left": "2x",
-              "top": "4x",
-              "right": "2x",
-              "bottom": "4x"
+                "top": "10x",
+                "left": "8x",
+                "right": "8x",
+                "bottom": "10x"
             }
           }
         ]
