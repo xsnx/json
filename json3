@@ -1,62 +1,64 @@
-[
-  {
-    "card": {
-      "type": "list_card",
-      "cells": [
-        {
-          "type": "left_right_cell_view",
-          "left": {
-            "type": "simple_left_view",
-            "texts": {
-              "title": {
-                "text": "Почему-то пока не могу посмотреть все ваши деньги, но вы можете сделать это самостоятельно в приложении.",
-                "typeface": "body1",
-                "text_color": "default",
-                "max_lines": 0
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Почему-то пока не могу посмотреть все ваши деньги, но вы можете сделать это самостоятельно в приложении.",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0
+                }
+              },
+              "margins": {
+                "left": "10x",
+                "top": "5x",
+                "right": "10x",
+                "bottom": "5x"
               }
             },
-            "margins": {
-              "left": "10x",
-              "top": "5x",
-              "right": "10x",
-              "bottom": "5x"
+            "paddings": {
+              "left": "6x",
+              "top": "4x",
+              "right": "6x",
+              "bottom": "2x"
             }
           },
-          "paddings": {
-            "left": "6x",
-            "top": "4x",
-            "right": "6x",
-            "bottom": "2x"
-          }
-        },
-        {
-          "type": "button_cell_view",
-          "content": {
-            "text": "Узнать общую сумму",
-            "typeface": "button2",
-            "style": "default",
-            "type": "accept",
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "sberbankonline://pfm/open-financeschart"
+          {
+            "type": "button_cell_view",
+            "content": {
+              "text": "Узнать общую сумму",
+              "typeface": "button2",
+              "style": "default",
+              "type": "accept",
+              "actions": [
+                {
+                  "type": "deep_link",
+                  "deep_link": "sberbankonline://pfm/open-financeschart"
+                }
+              ],
+              "margins": {
+                "left": "10x",
+                "top": "5x",
+                "right": "10x",
+                "bottom": "5x"
               }
-            ],
-            "margins": {
-              "left": "10x",
-              "top": "5x",
-              "right": "10x",
-              "bottom": "5x"
+            },
+            "paddings": {
+              "left": "4x",
+              "top": "8x",
+              "right": "4x",
+              "bottom": "8x"
             }
-          },
-          "paddings": {
-            "left": "4x",
-            "top": "8x",
-            "right": "4x",
-            "bottom": "8x"
           }
-        }
-      ]
+        ]
+      }
     }
-  }
-]
+  ]
+}
