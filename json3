@@ -11,7 +11,7 @@
               "texts": {
                 "title": {
                   "text": "Что-то мешает посмотреть ваши операции. Спросите позже или загляните в историю в СберБанк Онлайн.",
-                  "typeface": "footnote2",
+                  "typeface": "footnote3",
                   "text_color": "default",
                   "max_lines": 0
                 }
@@ -51,9 +51,9 @@
               }
             },
             "paddings": {
-              "left": "2x",
+              "left": "4x",
               "top": "4x",
-              "right": "2x",
+              "right": "4x",
               "bottom": "4x"
             }
           }
