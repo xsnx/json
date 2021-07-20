@@ -11,7 +11,7 @@
               "texts": {
                 "title": {
                   "text": "Что-то мешает посмотреть ваши операции. Спросите позже или загляните в историю в СберБанк Онлайн.",
-                  "typeface": "footnote2",
+                  "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0
                 }
@@ -24,17 +24,17 @@
               }
             },
             "paddings": {
-                "top": "10x",
-                "left": "8x",
-                "right": "8x",
-                "bottom": "10x"
+              "left": "6x",
+              "top": "4x",
+              "right": "6x",
+              "bottom": "8x"
             }
           },
           {
             "type": "button_cell_view",
             "content": {
               "text": "История операций",
-              "typeface": "button1",
+              "typeface": "button2",
               "style": "default",
               "type": "accept",
               "actions": [
@@ -51,10 +51,10 @@
               }
             },
             "paddings": {
-                "top": "10x",
-                "left": "8x",
-                "right": "8x",
-                "bottom": "10x"
+              "left": "4x",
+              "top": "4x",
+              "right": "4x",
+              "bottom": "4x"
             }
           }
         ]
