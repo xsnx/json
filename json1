@@ -1,6 +1,11 @@
 {
   "items": [
     {
+      "bubble": {
+        "text": "Вести бюджет — значит контролировать свои расходы."
+      }
+    },
+    {
       "card": {
         "type": "list_card",
         "cells": [
@@ -10,7 +15,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "Что-то мешает посмотреть ваши операции. Спросите позже или загляните в историю в СберБанк Онлайн.",
+                  "text": "П",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0
@@ -33,14 +38,14 @@
           {
             "type": "button_cell_view",
             "content": {
-              "text": "История операций",
+              "text": "Посчитать бюджет",
               "typeface": "button2",
               "style": "default",
               "type": "accept",
               "actions": [
                 {
                   "type": "deep_link",
-                  "deep_link": "android-app://ru.sberbankmobile/alf/expenses"
+                  "deep_link": "sberbankonline://pfm/budget"
                 }
               ],
               "margins": {
