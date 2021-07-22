@@ -40,7 +40,7 @@
               "actions": [
                 {
                   "type": "deep_link",
-                  "deep_link": "android-app://ru.sberbankmobile/android-app/ru.sberbankmobile/assistant/launcher?projectId=fin_advisor&intent=pfm_my_expenses"
+                  "deep_link": "android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile/assistant/launcher?projectId=fin_advisor&intent=pfm_my_expenses"
                 }
               ],
               "margins": {
