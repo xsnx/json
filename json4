@@ -33,7 +33,7 @@
           {
             "type": "button_cell_view",
             "content": {
-              "text": "test_expenses",
+              "text": "sberbankmobile_alpha",
               "typeface": "button2",
               "style": "default",
               "type": "accept",
