@@ -33,14 +33,14 @@
           {
             "type": "button_cell_view",
             "content": {
-              "text": "Узнать общую сумму",
+              "text": "test_expenses",
               "typeface": "button2",
               "style": "default",
               "type": "accept",
               "actions": [
                 {
                   "type": "deep_link",
-                  "deep_link": "sberbankonline://alf/expenses"
+                  "deep_link": "android-app://ru.sberbankmobile/android-app/ru.sberbankmobile/assistant/launcher?projectId=fin_advisor&intent=pfm_my_expenses"
                 }
               ],
               "margins": {
