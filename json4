@@ -33,14 +33,14 @@
           {
             "type": "button_cell_view",
             "content": {
-              "text": "sberbankmobile_alpha",
+              "text": "android sberbankmobile_alpha",
               "typeface": "button2",
               "style": "default",
               "type": "accept",
               "actions": [
                 {
                   "type": "deep_link",
-                  "deep_link": "android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile/assistant/launcher?projectId=fin_advisor&intent=pfm_my_expenses"
+                  "deep_link": "android-app://ru.sberbankmobile_alpha/assistant/launcher?projectId=fin_advisor&intent=pfm_my_expenses"
                 }
               ],
               "margins": {
