@@ -10,7 +10,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "Сервис «Ваш бюджет» поможет посчитать, сколько ты можешь потратить в этом месяце без ущерба обязательным расходам.",
+                  "text": "Почему-то пока не могу посмотреть твои расходы, но ты можешь сделать это самостоятельно в приложении.",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0
@@ -33,14 +33,14 @@
           {
             "type": "button_cell_view",
             "content": {
-              "text": "Перейти в бюджет",
+              "text": "Узнать общую сумму",
               "typeface": "button2",
               "style": "default",
               "type": "accept",
               "actions": [
                 {
                   "type": "deep_link",
-                  "deep_link": "android-app://ru.sberbankmobile_alpha/pfm/budget"
+                  "deep_link": "sberbankonline://alf/expenses"
                 }
               ],
               "margins": {
