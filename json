@@ -1,64 +1,101 @@
 {
   "items": [
     {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Что-то мешает посмотреть ваши операции. Спросите позже или загляните в историю в СберБанк Онлайн.",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0
-                }
-              },
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
-              }
+  "card": {
+    "type": "list_card",
+    "cells": [
+      {
+        "type": "left_right_cell_view",
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "tint_color": "solid_brand",
+            "address": {
+              "type": "local",
+              "identificator": "other"
             },
-            "paddings": {
-              "left": "6x",
-              "top": "4x",
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "left": "8x",
+              "top": "5x",
               "right": "6x",
-              "bottom": "2x"
+              "bottom": "5x"
             }
           },
-          {
-            "type": "button_cell_view",
-            "content": {
-              "text": "История операций",
-              "typeface": "button2",
-              "style": "default",
-              "type": "accept",
-              "actions": [
-                {
-                  "type": "deep_link",
-                  "deep_link": "android-app://ru.sberbankmobile/alf/expenses"
-                }
-              ],
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
-              }
-            },
-            "paddings": {
-              "left": "4x",
-              "top": "4x",
-              "right": "4x",
-              "bottom": "4x"
+          "title": {
+            "text": "История операций",
+            "typeface": "body1",
+            "text_color": "default",
+            "max_lines": 1,
+            "margins": {
+              "top": "9x",
+              "bottom": "9x"
             }
+          }
+        },
+        "right": {
+          "type": "disclosure_right_view",
+          "margins": {
+            "top": "8x",
+            "right": "4x",
+            "bottom": "8x"
+          }
+        },
+        "actions": [
+          {
+            "type": "deep_link",
+            "deep_link": "sberbankonline://history"
           }
         ]
       }
+    ]
+  },
+  "buttons": [
+    {
+      "title": "За этот месяц",
+      "actions": [
+        {
+          "text": "Мои расходы в этом месяце",
+          "type": "text",
+          "should_send_to_backend": true
+        }
+      ]
+    },
+    {
+      "title": "За год",
+      "actions": [
+        {
+          "text": "Мои расходы в этом году",
+          "type": "text",
+          "should_send_to_backend": true
+        }
+      ]
+    },
+    {
+      "title": "Интересный факт",
+      "actions": [
+        {
+          "type": "server_action",
+          "message_name": "SERVER_ACTION",
+          "server_action": {
+            "action_id": "run_app",
+            "parameters": {
+              "intent": "pfm_get_financial_insight"
+            }
+          }
+        },
+        {
+          "text": "Получить интересный факт",
+          "type": "text",
+          "should_send_to_backend": true
+        }
+      ]
     }
+  ]
+}
+
   ]
 }
