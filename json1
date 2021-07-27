@@ -38,14 +38,23 @@
           {
             "type": "button_cell_view",
             "content": {
-              "text": "Настроить бюджет",
+              "text": "fin_advisor pfm_get_financial_insight",
               "typeface": "button2",
               "style": "default",
               "type": "accept",
               "actions": [
                 {
-                  "type": "deep_link",
-                  "deep_link": "sberbankonline://pfm/budget"
+                          "type": "server_action",
+                          "message_name": "RUN_APP",
+                          "server_action": {
+                             "action_id": "run_app",
+                            "app_info": {
+                                "systemName": "fin_advisor"
+                            },
+                            "parameters": {
+                              "intent": "pfm_get_financial_insight"
+                            }
+                          }
                 }
               ],
               "margins": {
