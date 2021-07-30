@@ -1,100 +1,151 @@
 {
   "items": [
-    {
+   
+{
+
+  "bubble": {
+    "text": "Окей, вот расходы:"
+  },
   "card": {
     "type": "list_card",
+    "paddings": {
+      "top": "10x",
+      "left": "8x",
+      "right": "8x",
+      "bottom": "10x"
+    },
+    "cells": [
+      {
+        "type": "text_cell_view",
+        "content": {
+          "text": "Расходы сегодня",
+          "typeface": "headline3",
+          "text_color": "default"
+        }
+      },
+      {
+        "type": "text_cell_view",
+        "content": {
+          "text": "1xa0256xa0₽",
+          "typeface": "headline1",
+          "text_color": "default"
+        },
+        "paddings": {
+          "top": "6x"
+        }
+      }
+    ]
+  },
+
+  "card": {
+    "type": "list_card",
+    "paddings": {
+      "top": "4x",
+      "bottom": "4x",
+      "left": "4x"
+    },
     "cells": [
       {
         "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
         "left": {
           "type": "simple_left_view",
           "icon": {
-            "tint_color": "solid_brand",
             "address": {
               "type": "local",
-              "identificator": "other"
+              "identificator": "car"
             },
             "size": {
               "width": "medium",
               "height": "medium"
             },
             "margins": {
-              "left": "8x",
-              "top": "5x",
-              "right": "6x",
-              "bottom": "5x"
-            }
+              "right": "6x"
+            },
+            "tint_color": "solid_brand"
           },
-          "title": {
-            "text": "История операций",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 1,
-            "margins": {
-              "top": "9x",
-              "bottom": "9x"
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Автомобиль",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
             }
           }
         },
         "right": {
-          "type": "disclosure_right_view",
+          "type": "detail_right_view",
+          "detail": {
+            "text": "628xa0₽",
+            "typeface": "body1",
+            "text_color": "default"
+          },
           "margins": {
-            "top": "8x",
-            "right": "4x",
-            "bottom": "8x"
+            "left": "4x"
           }
         },
-        "actions": [
-          {
-            "type": "deep_link",
-            "deep_link": "sberbankonline://history"
-          }
-        ]
-      }
-    ]
-  },
-  "buttons": [
-    {
-      "title": "За этот месяц",
-      "actions": [
-        {
-          "text": "Мои расходы в этом месяце",
-          "type": "text",
-          "should_send_to_backend": true
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
         }
-      ]
-    },
-    {
-      "title": "За год",
-      "actions": [
-        {
-          "text": "Мои расходы в этом году",
-          "type": "text",
-          "should_send_to_backend": true
-        }
-      ]
-    },
-    {
-      "title": "Интересный факт",
-      "actions": [
-        {
-          "type": "server_action",
-          "message_name": "SERVER_ACTION",
-          "server_action": {
-            "action_id": "run_app",
-            "parameters": {
-              "intent": "pfm_get_financial_insight"
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "photo"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Искусство",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
             }
           }
         },
-        {
-          "text": "Получить интересный факт",
-          "type": "text",
-          "should_send_to_backend": true
-        }
-      ]
-    }
-  ]
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "628xa0₽",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "margins": {
+            "left": "4x"
+          }
+        },
+        "vertical_gravity": "center"
+      }
+    ]
+  }
+
 }
 
   ]
