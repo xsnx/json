@@ -2,10 +2,6 @@
   "items": [
    
 {
-
-  "bubble": {
-    "text": "Окей, вот расходы:"
-  },
   "card": {
     "type": "list_card",
     "paddings": {
