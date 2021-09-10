@@ -1,64 +1,118 @@
 {
   "items": [
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Что-то мешает посмотреть ваши операции. Спросите позже или загляните в историю в СберБанк Онлайн.",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0
-                }
-              },
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
-              }
+   {
+  "card": {
+    "type": "list_card",
+    "paddings": {
+      "top": "4x",
+      "bottom": "4x",
+      "left": "4x"
+    },
+    "cells": [
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "car"
             },
-            "paddings": {
-              "left": "6x",
-              "top": "4x",
-              "right": "6x",
-              "bottom": "2x"
-            }
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand"
           },
-          {
-            "type": "button_cell_view",
-            "content": {
-              "text": "История операций",
-              "typeface": "button2",
-              "style": "default",
-              "type": "accept",
-              "actions": [
-                {
-                  "type": "deep_link",
-                  "deep_link": "android-app://ru.sberbankmobile/alf/expenses"
-                }
-              ],
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
-              }
-            },
-            "paddings": {
-              "left": "4x",
-              "top": "4x",
-              "right": "4x",
-              "bottom": "10x"
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Автомобиль",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
             }
           }
-        ]
+        },
+        "right": {
+          "type": "disclosure_right_view",
+          "margins": {
+            "right": "5x"
+          }
+        },
+        "actions": [
+          {
+            "text": "Мои расходы на автомобиль",
+            "type": "text",
+            "should_send_to_backend": true
+          }
+        ],
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "photo"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Искусство",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            }
+          }
+        },
+        "right": {
+          "type": "disclosure_right_view",
+          "margins": {
+            "right": "5x"
+          }
+        },
+        "actions": [
+          {
+            "text": "Мои расходы на искусство",
+            "type": "text",
+            "should_send_to_backend": true
+          }
+        ],
+        "vertical_gravity": "center"
       }
-    }
+    ]
+  }
+}
   ]
 }
