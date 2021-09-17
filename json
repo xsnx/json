@@ -1,38 +1,4 @@
 {
-  "items": [
-   
-{
-  "card": {
-    "type": "list_card",
-    "paddings": {
-      "top": "10x",
-      "left": "8x",
-      "right": "8x",
-      "bottom": "10x"
-    },
-    "cells": [
-      {
-        "type": "text_cell_view",
-        "content": {
-          "text": "Расходы сегодня",
-          "typeface": "headline3",
-          "text_color": "default"
-        }
-      },
-      {
-        "type": "text_cell_view",
-        "content": {
-          "text": "1xa0256xa0₽",
-          "typeface": "headline1",
-          "text_color": "default"
-        },
-        "paddings": {
-          "top": "6x"
-        }
-      }
-    ]
-  },
-
   "card": {
     "type": "list_card",
     "paddings": {
@@ -76,16 +42,18 @@
           }
         },
         "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "628xa0₽",
-            "typeface": "body1",
-            "text_color": "default"
-          },
+          "type": "disclosure_right_view",
           "margins": {
-            "left": "4x"
+            "right": "5x"
           }
         },
+        "actions": [
+          {
+            "text": "Мои операции по категории автомобиль в этом месяце",
+            "type": "text",
+            "should_send_to_backend": true
+          }
+        ],
         "vertical_gravity": "center",
         "divider": {
           "style": "default",
@@ -105,7 +73,7 @@
           "icon": {
             "address": {
               "type": "local",
-              "identificator": "photo"
+              "identificator": "basket"
             },
             "size": {
               "width": "medium",
@@ -119,7 +87,7 @@
           "icon_vertical_gravity": "top",
           "texts": {
             "title": {
-              "text": "Искусство",
+              "text": "Супермаркеты",
               "typeface": "body1",
               "text_color": "default",
               "max_lines": 3
@@ -127,22 +95,126 @@
           }
         },
         "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "628xa0₽",
-            "typeface": "body1",
-            "text_color": "default"
-          },
+          "type": "disclosure_right_view",
           "margins": {
-            "left": "4x"
+            "right": "5x"
           }
         },
+        "actions": [
+          {
+            "text": "Мои операции по категории супермаркеты в этом месяце",
+            "type": "text",
+            "should_send_to_backend": true
+          }
+        ],
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "house_handset"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Коммунальные платежи, связь, интернет",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            }
+          }
+        },
+        "right": {
+          "type": "disclosure_right_view",
+          "margins": {
+            "right": "5x"
+          }
+        },
+        "actions": [
+          {
+            "text": "Мои операции по категории коммунальные платежи, связь, интернет в этом месяце",
+            "type": "text",
+            "should_send_to_backend": true
+          }
+        ],
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "heart"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Здоровье и красота",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            }
+          }
+        },
+        "right": {
+          "type": "disclosure_right_view",
+          "margins": {
+            "right": "5x"
+          }
+        },
+        "actions": [
+          {
+            "text": "Мои операции по категории здоровье и красота в этом месяце",
+            "type": "text",
+            "should_send_to_backend": true
+          }
+        ],
         "vertical_gravity": "center"
       }
     ]
   }
-
-}
-
-  ]
 }
