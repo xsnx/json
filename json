@@ -1,220 +1,224 @@
 {
-  "card": {
-    "type": "list_card",
-    "paddings": {
-      "top": "4x",
-      "bottom": "4x",
-      "left": "4x"
-    },
-    "cells": [
-      {
-        "type": "left_right_cell_view",
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
         "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
+          "top": "4x",
+          "bottom": "4x",
+          "left": "4x"
         },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "car"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
-            },
-            "tint_color": "solid_brand"
-          },
-          "icon_vertical_gravity": "top",
-          "texts": {
-            "title": {
-              "text": "Автомобиль",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 3
-            }
-          }
-        },
-        "right": {
-          "type": "disclosure_right_view",
-          "margins": {
-            "right": "5x"
-          }
-        },
-        "actions": [
+        "cells": [
           {
-            "text": "Мои операции по категории автомобиль в этом месяце",
-            "type": "text",
-            "should_send_to_backend": true
-          }
-        ],
-        "vertical_gravity": "center",
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        }
-      },
-      {
-        "type": "left_right_cell_view",
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "basket"
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
             },
-            "size": {
-              "width": "medium",
-              "height": "medium"
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "car"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Автомобиль",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
             },
-            "margins": {
-              "right": "6x"
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
             },
-            "tint_color": "solid_brand"
-          },
-          "icon_vertical_gravity": "top",
-          "texts": {
-            "title": {
-              "text": "Супермаркеты",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 3
+            "actions": [
+              {
+                "text": "Мои операции по категории автомобиль в этом месяце",
+                "type": "text",
+                "should_send_to_backend": true
+              }
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
             }
-          }
-        },
-        "right": {
-          "type": "disclosure_right_view",
-          "margins": {
-            "right": "5x"
-          }
-        },
-        "actions": [
-          {
-            "text": "Мои операции по категории супермаркеты в этом месяце",
-            "type": "text",
-            "should_send_to_backend": true
-          }
-        ],
-        "vertical_gravity": "center",
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        }
-      },
-      {
-        "type": "left_right_cell_view",
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "house_handset"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
-            },
-            "tint_color": "solid_brand"
           },
-          "icon_vertical_gravity": "top",
-          "texts": {
-            "title": {
-              "text": "Коммунальные платежи, связь, интернет",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 3
-            }
-          }
-        },
-        "right": {
-          "type": "disclosure_right_view",
-          "margins": {
-            "right": "5x"
-          }
-        },
-        "actions": [
           {
-            "text": "Мои операции по категории коммунальные платежи, связь, интернет в этом месяце",
-            "type": "text",
-            "should_send_to_backend": true
-          }
-        ],
-        "vertical_gravity": "center",
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        }
-      },
-      {
-        "type": "left_right_cell_view",
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "heart"
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
             },
-            "size": {
-              "width": "medium",
-              "height": "medium"
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "basket"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Супермаркеты",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
             },
-            "margins": {
-              "right": "6x"
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
             },
-            "tint_color": "solid_brand"
+            "actions": [
+              {
+                "text": "Мои операции по категории супермаркеты в этом месяце",
+                "type": "text",
+                "should_send_to_backend": true
+              }
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
           },
-          "icon_vertical_gravity": "top",
-          "texts": {
-            "title": {
-              "text": "Здоровье и красота",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 3
-            }
-          }
-        },
-        "right": {
-          "type": "disclosure_right_view",
-          "margins": {
-            "right": "5x"
-          }
-        },
-        "actions": [
           {
-            "text": "Мои операции по категории здоровье и красота в этом месяце",
-            "type": "text",
-            "should_send_to_backend": true
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "house_handset"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Коммунальные платежи, связь, интернет",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "text": "Мои операции по категории коммунальные платежи, связь, интернет в этом месяце",
+                "type": "text",
+                "should_send_to_backend": true
+              }
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "heart"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Здоровье и красота",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "text": "Мои операции по категории здоровье и красота в этом месяце",
+                "type": "text",
+                "should_send_to_backend": true
+              }
+            ],
+            "vertical_gravity": "center"
           }
-        ],
-        "vertical_gravity": "center"
+        ]
       }
-    ]
-  }
+    }
+  ]
 }
