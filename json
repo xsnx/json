@@ -4,9 +4,40 @@
       "card": {
         "type": "list_card",
         "paddings": {
+          "top": "10x",
+          "left": "8x",
+          "right": "8x",
+          "bottom": "10x"
+        },
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Расходы c 23 февраля по сегодня",
+              "typeface": "headline3",
+              "text_color": "default"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "10 512 ₽",
+              "typeface": "headline1",
+              "text_color": "default"
+            },
+            "paddings": {
+              "top": "6x"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "paddings": {
           "top": "4x",
-          "bottom": "4x",
-          "left": "4x"
+          "bottom": "4x"
         },
         "cells": [
           {
@@ -21,8 +52,8 @@
               "type": "simple_left_view",
               "icon": {
                 "address": {
-                  "type": "local",
-                  "identificator": "car"
+                  "type": "url",
+                  "url": "https://cdn.sberdevices.ru/VA/icons/first_session/balance.png"
                 },
                 "size": {
                   "width": "medium",
@@ -44,18 +75,16 @@
               }
             },
             "right": {
-              "type": "disclosure_right_view",
+              "type": "detail_right_view",
+              "detail": {
+                "text": "5 256 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
               "margins": {
-                "right": "5x"
+                "left": "4x"
               }
             },
-            "actions": [
-              {
-                "text": "Мои операции по категории автомобиль в этом месяце",
-                "type": "text",
-                "should_send_to_backend": true
-              }
-            ],
             "vertical_gravity": "center",
             "divider": {
               "style": "default",
@@ -74,8 +103,8 @@
               "type": "simple_left_view",
               "icon": {
                 "address": {
-                  "type": "local",
-                  "identificator": "basket"
+                  "type": "url",
+                  "url": "https://cdn.sberdevices.ru/VA/icons/first_session/balance.png"
                 },
                 "size": {
                   "width": "medium",
@@ -89,7 +118,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "Супермаркеты",
+                  "text": "Искусство",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
@@ -97,124 +126,16 @@
               }
             },
             "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "right": "5x"
-              }
-            },
-            "actions": [
-              {
-                "text": "Мои операции по категории супермаркеты в этом месяце",
-                "type": "text",
-                "should_send_to_backend": true
-              }
-            ],
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "house_handset"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand"
+              "type": "detail_right_view",
+              "detail": {
+                "text": "5 256 ₽",
+                "typeface": "body1",
+                "text_color": "default"
               },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Коммунальные платежи, связь, интернет",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
               "margins": {
-                "right": "5x"
+                "left": "4x"
               }
             },
-            "actions": [
-              {
-                "text": "Мои операции по категории коммунальные платежи, связь, интернет в этом месяце",
-                "type": "text",
-                "should_send_to_backend": true
-              }
-            ],
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "heart"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Здоровье и красота",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "right": "5x"
-              }
-            },
-            "actions": [
-              {
-                "text": "Мои операции по категории здоровье и красота в этом месяце",
-                "type": "text",
-                "should_send_to_backend": true
-              }
-            ],
             "vertical_gravity": "center"
           }
         ]
