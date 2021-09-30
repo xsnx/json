@@ -103,8 +103,8 @@
               "type": "simple_left_view",
               "icon": {
                 "address": {
-                  "type": "url",
-                  "url": "https://cdn.sberdevices.ru/VA/icons/first_session/balance.png"
+                                "type": "local",
+                                "identificator": "car"
                 },
                 "size": {
                   "width": "medium",
