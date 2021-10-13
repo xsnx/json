@@ -2,11 +2,6 @@
   "items": [
     [
       {
-        "bubble": {
-          "text": "Отлично. Вот вам:"
-        }
-      },
-      {
         "card": {
           "type": "list_card",
           "paddings": {
@@ -19,7 +14,7 @@
             {
               "type": "text_cell_view",
               "content": {
-                "text": "card_title",
+                "text": "Мои подписки",
                 "typeface": "headline3",
                 "text_color": "default",
                 "max_lines": 2
@@ -34,12 +29,6 @@
               },
               "paddings": {
                 "top": "6x"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "top": "2x"
               }
             },
             {
@@ -72,29 +61,14 @@
           },
           "cells": [
             {
-              "type": "left_right_cell_view",
+              "type": "text_cell_view",
               "paddings": {
-                "left": "8x",
-                "top": "8x",
-                "right": "8x",
-                "bottom": "8x"
+                "left": "8x"
               },
-              "left": {
-                "type": "simple_left_view",
-                "icon_vertical_gravity": "top",
-                "texts": {
-                  "title": {
-                    "text": "<built-in method title of str object at 0x7fa04d2442b0>",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 3
-                  }
-                }
-              },
-              "vertical_gravity": "center",
-              "divider": {
-                "style": "default",
-                "size": "d5"
+              "content": {
+                "text": "Мои подписки",
+                "typeface": "headline3",
+                "text_color": "default"
               }
             },
             {
@@ -107,430 +81,47 @@
               },
               "left": {
                 "type": "simple_left_view",
+                "icon": {
+                  "address": {
+                    "type": "local",
+                    "identificator": "star_light"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "right": "6x"
+                  },
+                  "tint_color": "solid_brand"
+                },
                 "icon_vertical_gravity": "top",
                 "texts": {
                   "title": {
-                    "text": "<built-in method title of str object at 0x7fa04d2b30f0>",
+                    "text": "Подписки",
                     "typeface": "body1",
                     "text_color": "default",
                     "max_lines": 3
+                  },
+                  "subtitle": {
+                    "text": "√иперглобус",
+                    "typeface": "footnote1",
+                    "text_color": "secondary",
+                    "margins": {
+                      "top": "1x"
+                    }
                   }
                 }
               },
-              "vertical_gravity": "center",
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "8x",
-                "top": "8x",
-                "right": "8x",
-                "bottom": "8x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon_vertical_gravity": "top",
-                "texts": {
-                  "title": {
-                    "text": "<built-in method title of str object at 0x7fa04bead730>",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 3
-                  }
-                }
-              },
-              "vertical_gravity": "center",
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "8x",
-                "top": "8x",
-                "right": "8x",
-                "bottom": "8x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon_vertical_gravity": "top",
-                "texts": {
-                  "title": {
-                    "text": "<built-in method title of str object at 0x7fa04d27e4f0>",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 3
-                  }
-                }
-              },
-              "vertical_gravity": "center",
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "8x",
-                "top": "8x",
-                "right": "8x",
-                "bottom": "8x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon_vertical_gravity": "top",
-                "texts": {
-                  "title": {
-                    "text": "<built-in method title of str object at 0x7fa04be96e30>",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 3
-                  }
-                }
-              },
-              "vertical_gravity": "center",
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "8x",
-                "top": "8x",
-                "right": "8x",
-                "bottom": "8x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon_vertical_gravity": "top",
-                "texts": {
-                  "title": {
-                    "text": "<built-in method title of str object at 0x7fa04d2992b0>",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 3
-                  }
-                }
-              },
-              "vertical_gravity": "center",
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "8x",
-                "top": "8x",
-                "right": "8x",
-                "bottom": "8x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon_vertical_gravity": "top",
-                "texts": {
-                  "title": {
-                    "text": "<built-in method title of str object at 0x7fa04bed8bb0>",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 3
-                  }
-                }
-              },
-              "vertical_gravity": "center",
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "8x",
-                "top": "8x",
-                "right": "8x",
-                "bottom": "8x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon_vertical_gravity": "top",
-                "texts": {
-                  "title": {
-                    "text": "<built-in method title of str object at 0x7fa04d256c70>",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 3
-                  }
-                }
-              },
-              "vertical_gravity": "center",
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "8x",
-                "top": "8x",
-                "right": "8x",
-                "bottom": "8x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon_vertical_gravity": "top",
-                "texts": {
-                  "title": {
-                    "text": "<built-in method title of str object at 0x7fa04d2992b0>",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 3
-                  }
-                }
-              },
-              "vertical_gravity": "center",
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "8x",
-                "top": "8x",
-                "right": "8x",
-                "bottom": "8x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon_vertical_gravity": "top",
-                "texts": {
-                  "title": {
-                    "text": "<built-in method title of str object at 0x7fa04d2442b0>",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 3
-                  }
-                }
-              },
-              "vertical_gravity": "center",
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "8x",
-                "top": "8x",
-                "right": "8x",
-                "bottom": "8x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon_vertical_gravity": "top",
-                "texts": {
-                  "title": {
-                    "text": "<built-in method title of str object at 0x7fa04bead730>",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 3
-                  }
-                }
-              },
-              "vertical_gravity": "center",
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "8x",
-                "top": "8x",
-                "right": "8x",
-                "bottom": "8x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon_vertical_gravity": "top",
-                "texts": {
-                  "title": {
-                    "text": "<built-in method title of str object at 0x7fa04d25b330>",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 3
-                  }
-                }
-              },
-              "vertical_gravity": "center",
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "8x",
-                "top": "8x",
-                "right": "8x",
-                "bottom": "8x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon_vertical_gravity": "top",
-                "texts": {
-                  "title": {
-                    "text": "<built-in method title of str object at 0x7fa04d299270>",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 3
-                  }
-                }
-              },
-              "vertical_gravity": "center",
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "8x",
-                "top": "8x",
-                "right": "8x",
-                "bottom": "8x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon_vertical_gravity": "top",
-                "texts": {
-                  "title": {
-                    "text": "<built-in method title of str object at 0x7fa04d244a70>",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 3
-                  }
-                }
-              },
-              "vertical_gravity": "center",
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "8x",
-                "top": "8x",
-                "right": "8x",
-                "bottom": "8x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon_vertical_gravity": "top",
-                "texts": {
-                  "title": {
-                    "text": "<built-in method title of str object at 0x7fa04d25b330>",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 3
-                  }
-                }
-              },
-              "vertical_gravity": "center",
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "8x",
-                "top": "8x",
-                "right": "8x",
-                "bottom": "8x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon_vertical_gravity": "top",
-                "texts": {
-                  "title": {
-                    "text": "<built-in method title of str object at 0x7fa04d2bcaf0>",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 3
-                  }
-                }
-              },
-              "vertical_gravity": "center",
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "8x",
-                "top": "8x",
-                "right": "8x",
-                "bottom": "8x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon_vertical_gravity": "top",
-                "texts": {
-                  "title": {
-                    "text": "<built-in method title of str object at 0x7fa04d27e730>",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 3
-                  }
-                }
-              },
-              "vertical_gravity": "center",
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "8x",
-                "top": "8x",
-                "right": "8x",
-                "bottom": "8x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon_vertical_gravity": "top",
-                "texts": {
-                  "title": {
-                    "text": "<built-in method title of str object at 0x7fa04d2992b0>",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 3
-                  }
+              "right": {
+                "type": "detail_right_view",
+                "detail": {
+                  "text": "4 400 xa0₽",
+                  "typeface": "body1",
+                  "text_color": "default"
+                },
+                "margins": {
+                  "left": "4x"
                 }
               },
               "vertical_gravity": "center"
