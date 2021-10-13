@@ -1,6 +1,3 @@
-{
-  "items": [
-    [
       {
         "card": {
           "type": "list_card",
@@ -22,77 +19,4 @@
             }
           ]
         }
-      },
-      {
-        "card": {
-          "type": "list_card",
-          "paddings": {
-            "top": "4x",
-            "bottom": "4x",
-            "left": "4x"
-          },
-          "cells": [
-            {
-              "type": "text_cell_view",
-              "paddings": {
-                "left": "8x"
-              },
-              "content": {
-                "text": "Мои подписки",
-                "typeface": "headline3",
-                "text_color": "default"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "8x",
-                "top": "8x",
-                "right": "8x",
-                "bottom": "8x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon": {
-                  "address": {
-                    "type": "local",
-                    "identificator": "star_light"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "right": "6x"
-                  },
-                  "tint_color": "solid_brand"
-                },
-                "icon_vertical_gravity": "top",
-                "texts": {
-                  "title": {
-                    "text": "√иперглобус",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 3
-                  }
-                }
-              },
-              "right": {
-                "type": "detail_right_view",
-                "detail": {
-                  "text": "4 0400 ₽",
-                  "typeface": "body1",
-                  "text_color": "default"
-                },
-                "margins": {
-                  "left": "4x"
-                }
-              },
-              "vertical_gravity": "center"
-            }
-          ]
-        }
       }
-    ]
-  ]
-}
