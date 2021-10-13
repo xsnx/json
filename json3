@@ -19,23 +19,6 @@
                 "text_color": "default",
                 "max_lines": 2
               }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "top": "2x"
-              }
-            },
-            {
-              "type": "text_cell_view",
-              "content": {
-                "text": "subtitle11111",
-                "typeface": "footnote1",
-                "text_color": "secondary"
-              },
-              "paddings": {
-                "top": "2x"
-              }
             }
           ]
         }
