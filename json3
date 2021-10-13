@@ -1,6 +1,6 @@
-
 {
-    "items": [
+  "items": [
+    [
       {
         "bubble": {
           "text": "Отлично. Вот вам:"
@@ -19,7 +19,7 @@
             {
               "type": "text_cell_view",
               "content": {
-                "text": "None",
+                "text": "Мои подписки",
                 "typeface": "headline3",
                 "text_color": "default",
                 "max_lines": 2
@@ -28,12 +28,35 @@
             {
               "type": "text_cell_view",
               "content": {
-                "text": "None",
+                "text": "тут сумма",
                 "typeface": "headline1",
                 "text_color": "default"
               },
               "paddings": {
                 "top": "6x"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "top": "2x"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "top": "2x"
+              }
+            },
+            {
+              "type": "text_cell_view",
+              "content": {
+                "text": "subtitle",
+                "typeface": "footnote1",
+                "text_color": "secondary"
+              },
+              "paddings": {
+                "top": "2x"
               }
             }
           ]
@@ -68,11 +91,22 @@
                   }
                 }
               },
+              "right": {
+                "type": "detail_right_view",
+                "detail": {
+                  "text": "4 400 0₽",
+                  "typeface": "body1",
+                  "text_color": "default"
+                },
+                "margins": {
+                  "left": "4x"
+                }
+              },
               "vertical_gravity": "center"
             }
           ]
         }
       }
     ]
-
+  ]
 }
