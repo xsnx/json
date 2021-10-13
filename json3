@@ -2,11 +2,6 @@
   "items": [
     [
       {
-        "bubble": {
-          "text": "Отлично. Вот вам:"
-        }
-      },
-      {
         "card": {
           "type": "list_card",
           "paddings": {
