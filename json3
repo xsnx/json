@@ -1,64 +1,78 @@
+
 {
-  "items": [
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Ох! Пока не могу посмотреть твои поступления за этот период. Но ты можешь узнать их самостоятельно в приложении.",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0
+    "items": [
+      {
+        "bubble": {
+          "text": "Отлично. Вот вам:"
+        }
+      },
+      {
+        "card": {
+          "type": "list_card",
+          "paddings": {
+            "top": "10x",
+            "left": "8x",
+            "right": "8x",
+            "bottom": "10x"
+          },
+          "cells": [
+            {
+              "type": "text_cell_view",
+              "content": {
+                "text": "None",
+                "typeface": "headline3",
+                "text_color": "default",
+                "max_lines": 2
+              }
+            },
+            {
+              "type": "text_cell_view",
+              "content": {
+                "text": "None",
+                "typeface": "headline1",
+                "text_color": "default"
+              },
+              "paddings": {
+                "top": "6x"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "card": {
+          "type": "list_card",
+          "paddings": {
+            "top": "4x",
+            "bottom": "4x",
+            "left": "4x"
+          },
+          "cells": [
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  }
                 }
               },
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
-              }
-            },
-            "paddings": {
-              "left": "6x",
-              "top": "4x",
-              "right": "6x",
-              "bottom": "2x"
+              "vertical_gravity": "center"
             }
-          },
-          {
-            "type": "button_cell_view",
-            "content": {
-              "text": "Узнать поступления",
-              "typeface": "button2",
-              "style": "default",
-              "type": "accept",
-              "actions": [
-                {
-                  "type": "deep_link",
-                  "deep_link": "sberbankonline://alf/incomes"
-                }
-              ],
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
-              }
-            },
-            "paddings": {
-              "left": "4x",
-              "top": "8x",
-              "right": "4x",
-              "bottom": "8x"
-            }
-          }
-        ]
+          ]
+        }
       }
-    }
-  ]
+    ]
+
 }
