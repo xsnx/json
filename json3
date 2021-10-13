@@ -14,30 +14,13 @@
             {
               "type": "text_cell_view",
               "content": {
-                "text": "Мои подписки",
+                "text": "Подписки",
                 "typeface": "headline3",
                 "text_color": "default",
                 "max_lines": 2
               }
             },
             {
-              "type": "text_cell_view",
-              "content": {
-                "text": "тут сумма",
-                "typeface": "headline1",
-                "text_color": "default"
-              },
-              "paddings": {
-                "top": "6x"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "top": "2x"
-              }
-            },
-            {
               "type": "left_right_cell_view",
               "paddings": {
                 "top": "2x"
@@ -46,7 +29,7 @@
             {
               "type": "text_cell_view",
               "content": {
-                "text": "subtitle",
+                "text": "subtitle11111",
                 "typeface": "footnote1",
                 "text_color": "secondary"
               },
@@ -67,6 +50,17 @@
           },
           "cells": [
             {
+              "type": "text_cell_view",
+              "paddings": {
+                "left": "8x"
+              },
+              "content": {
+                "text": "Мои подписки",
+                "typeface": "headline3",
+                "text_color": "default"
+              }
+            },
+            {
               "type": "left_right_cell_view",
               "paddings": {
                 "left": "8x",
@@ -76,10 +70,24 @@
               },
               "left": {
                 "type": "simple_left_view",
+                "icon": {
+                  "address": {
+                    "type": "local",
+                    "identificator": "star_light"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "right": "6x"
+                  },
+                  "tint_color": "solid_brand"
+                },
                 "icon_vertical_gravity": "top",
                 "texts": {
                   "title": {
-                    "text": "",
+                    "text": "√иперглобус",
                     "typeface": "body1",
                     "text_color": "default",
                     "max_lines": 3
@@ -89,7 +97,7 @@
               "right": {
                 "type": "detail_right_view",
                 "detail": {
-                  "text": "4 400 0₽",
+                  "text": "4 0400 ₽",
                   "typeface": "body1",
                   "text_color": "default"
                 },
