@@ -1,65 +1,543 @@
 {
   "items": [
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "можешь сделать",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0
+    [
+      {
+        "bubble": {
+          "text": "Отлично. Вот вам:"
+        }
+      },
+      {
+        "card": {
+          "type": "list_card",
+          "paddings": {
+            "top": "10x",
+            "left": "8x",
+            "right": "8x",
+            "bottom": "10x"
+          },
+          "cells": [
+            {
+              "type": "text_cell_view",
+              "content": {
+                "text": "card_title",
+                "typeface": "headline3",
+                "text_color": "default",
+                "max_lines": 2
+              }
+            },
+            {
+              "type": "text_cell_view",
+              "content": {
+                "text": "тут сумма",
+                "typeface": "headline1",
+                "text_color": "default"
+              },
+              "paddings": {
+                "top": "6x"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "top": "2x"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "top": "2x"
+              }
+            },
+            {
+              "type": "text_cell_view",
+              "content": {
+                "text": "subtitle",
+                "typeface": "footnote1",
+                "text_color": "secondary"
+              },
+              "paddings": {
+                "top": "2x"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "card": {
+          "type": "list_card",
+          "paddings": {
+            "top": "4x",
+            "bottom": "4x",
+            "left": "4x"
+          },
+          "cells": [
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "<built-in method title of str object at 0x7fa04d2442b0>",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  }
                 }
               },
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d5"
               }
             },
-            "paddings": {
-              "left": "6x",
-              "top": "4x",
-              "right": "6x",
-              "bottom": "2x"
-            }
-          },
-          {
-            "type": "button_cell_view",
-            "content": {
-              "text": "android sberbankmobile_alpha",
-              "typeface": "button2",
-              "style": "default",
-              "type": "accept",
-              "actions": [
-                {
-                  "type": "deep_link",
-                  "deep_link": "android-app://ru.sberbankmobile_alpha/assistant/launcher?projectId=fin_advisor&intent=pfm_my_expenses"
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "<built-in method title of str object at 0x7fa04d2b30f0>",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  }
                 }
-              ],
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d5"
               }
             },
-            "paddings": {
-              "left": "4x",
-              "top": "8x",
-              "right": "4x",
-              "bottom": "8x"
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "<built-in method title of str object at 0x7fa04bead730>",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  }
+                }
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "<built-in method title of str object at 0x7fa04d27e4f0>",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  }
+                }
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "<built-in method title of str object at 0x7fa04be96e30>",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  }
+                }
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "<built-in method title of str object at 0x7fa04d2992b0>",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  }
+                }
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "<built-in method title of str object at 0x7fa04bed8bb0>",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  }
+                }
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "<built-in method title of str object at 0x7fa04d256c70>",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  }
+                }
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "<built-in method title of str object at 0x7fa04d2992b0>",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  }
+                }
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "<built-in method title of str object at 0x7fa04d2442b0>",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  }
+                }
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "<built-in method title of str object at 0x7fa04bead730>",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  }
+                }
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "<built-in method title of str object at 0x7fa04d25b330>",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  }
+                }
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "<built-in method title of str object at 0x7fa04d299270>",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  }
+                }
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "<built-in method title of str object at 0x7fa04d244a70>",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  }
+                }
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "<built-in method title of str object at 0x7fa04d25b330>",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  }
+                }
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "<built-in method title of str object at 0x7fa04d2bcaf0>",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  }
+                }
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "<built-in method title of str object at 0x7fa04d27e730>",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  }
+                }
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "<built-in method title of str object at 0x7fa04d2992b0>",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  }
+                }
+              },
+              "vertical_gravity": "center"
             }
-          }
-        ]
+          ]
+        }
       }
-    }
-  ],
-  "pronounceText": "Вот ваши операции, посмотрите"
+    ]
+  ]
 }
