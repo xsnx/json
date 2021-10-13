@@ -1,56 +1,3 @@
-{
-  "items": [
-    [
-      {
-        "card": {
-          "type": "list_card",
-          "paddings": {
-            "top": "10x",
-            "left": "8x",
-            "right": "8x",
-            "bottom": "10x"
-          },
-          "cells": [
-            {
-              "type": "text_cell_view",
-              "content": {
-                "text": "Мои подписки",
-                "typeface": "headline3",
-                "text_color": "default",
-                "max_lines": 2
-              }
-            },
-            {
-              "type": "text_cell_view",
-              "content": {
-                "text": "тут сумма",
-                "typeface": "headline1",
-                "text_color": "default"
-              },
-              "paddings": {
-                "top": "6x"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "top": "2x"
-              }
-            },
-            {
-              "type": "text_cell_view",
-              "content": {
-                "text": "subtitle",
-                "typeface": "footnote1",
-                "text_color": "secondary"
-              },
-              "paddings": {
-                "top": "2x"
-              }
-            }
-          ]
-        }
-      },
       {
         "card": {
           "type": "list_card",
@@ -129,6 +76,3 @@
           ]
         }
       }
-    ]
-  ]
-}
