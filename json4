@@ -1,3 +1,11 @@
+{
+  "items": [
+    [
+      {
+        "bubble": {
+          "text": "Отлично. Вот вам:"
+        }
+      },
       {
         "card": {
           "type": "list_card",
@@ -13,7 +21,7 @@
                 "left": "8x"
               },
               "content": {
-                "text": "Мои подписки",
+                "text": "Подписки",
                 "typeface": "headline3",
                 "text_color": "default"
               }
@@ -49,6 +57,14 @@
                     "typeface": "body1",
                     "text_color": "default",
                     "max_lines": 3
+                  },
+                  "subtitle": {
+                    "text": "2021-03-15 01:08:00+02:30",
+                    "typeface": "footnote1",
+                    "text_color": "secondary",
+                    "margins": {
+                      "top": "1x"
+                    }
                   }
                 }
               },
@@ -68,3 +84,6 @@
           ]
         }
       }
+    ]
+  ]
+}
