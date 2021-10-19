@@ -30,8 +30,8 @@
                             "type": "simple_left_view",
                             "icon": {
                               "address": {
-                                "type": "local",
-                                "identificator": "star_light"
+                                "type": "url",
+                                "url": "https://pfm.stat.online.sberbank.ru/PFM/logos/1511713.jpg"
                               },
                               "size": {
                                 "width": "medium",
