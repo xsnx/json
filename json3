@@ -1,1 +1,431 @@
-
+{
+  "card": {
+    "type": "list_card",
+    "paddings": {
+      "top": "4x",
+      "bottom": "4x",
+      "left": "4x"
+    },
+    "cells": [
+      {
+        "type": "text_cell_view",
+        "paddings": {
+          "left": "8x"
+        },
+        "content": {
+          "text": "Пример",
+          "typeface": "headline3",
+          "text_color": "default"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "star_light"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "категория TransfersOutside",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "4 400 ₽",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "margins": {
+            "left": "4x"
+          }
+        },
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "safe"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "категория accumulation_products",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "4 400 ₽",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "margins": {
+            "left": "4x"
+          }
+        },
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "card"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "категория card_products",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "4 400 ₽",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "margins": {
+            "left": "4x"
+          }
+        },
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "card"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "категория card_debt",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "4 400 ₽",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "margins": {
+            "left": "4x"
+          }
+        },
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "wallet"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "категория loan_debt",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "4 400 ₽",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "margins": {
+            "left": "4x"
+          }
+        },
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "house"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "категория mortgage_debt",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "4 400 ₽",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "margins": {
+            "left": "4x"
+          }
+        },
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "bag"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "категория alf_all_operations",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "4 400 ₽",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "margins": {
+            "left": "4x"
+          }
+        },
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "list"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "категория load_more",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "4 400 ₽",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "margins": {
+            "left": "4x"
+          }
+        },
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      }
+    ]
+  }
+}
