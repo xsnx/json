@@ -1,255 +1,65 @@
-  {
-    "card": {
-      "type": "list_card",
-      "paddings": {
-        "top": "4x",
-        "bottom": "4x",
-        "left": "4x"
-      },
-      "cells": [
-        {
-          "type": "text_cell_view",
-          "paddings": {
-            "left": "8x"
-          },
-          "content": {
-            "text": "Подписки",
-            "typeface": "headline3",
-            "text_color": "default"
-          }
-        },
-        {
-          "type": "left_right_cell_view",
-          "paddings": {
-            "left": "8x",
-            "top": "8x",
-            "right": "8x",
-            "bottom": "8x"
-          },
-          "left": {
-            "type": "simple_left_view",
-            "icon": {
-              "address": {
-                "type": "local",
-                "identificator": "whistle"
-              },
-              "size": {
-                "width": "medium",
-                "height": "medium"
-              },
-              "margins": {
-                "right": "6x"
-              },
-              "tint_color": "solid_brand"
-            },
-            "icon_vertical_gravity": "top",
-            "texts": {
-              "title": {
-                "text": "GOOGLE*ORNAMENTHEALTH SUPPORT.GOOG USA",
-                "typeface": "body1",
-                "text_color": "default",
-                "max_lines": 3
-              },
-              "subtitle": {
-                "text": "Платёж был 11 октября",
-                "typeface": "footnote1",
-                "text_color": "secondary",
-                "margins": {
-                  "top": "1x"
-                }
-              }
-            }
-          },
-          "right": {
-            "type": "detail_right_view",
-            "detail": {
-              "text": "199 ₽",
-              "typeface": "body1",
-              "text_color": "default"
-            },
-            "margins": {
-              "left": "4x"
-            }
-          },
-          "vertical_gravity": "center",
-          "divider": {
-            "style": "default",
-            "size": "d5"
-          }
-        },
-        {
-          "type": "left_right_cell_view",
-          "paddings": {
-            "left": "8x",
-            "top": "8x",
-            "right": "8x",
-            "bottom": "8x"
-          },
-          "left": {
-            "type": "simple_left_view",
-            "icon": {
-              "address": {
-                "type": "local",
-                "identificator": "whistle"
-              },
-              "size": {
-                "width": "medium",
-                "height": "medium"
-              },
-              "margins": {
-                "right": "6x"
-              },
-              "tint_color": "solid_brand"
-            },
-            "icon_vertical_gravity": "top",
-            "texts": {
-              "title": {
-                "text": "YM YANDEX.PLUS GOROD MOSKVA RUS",
-                "typeface": "body1",
-                "text_color": "default",
-                "max_lines": 3
-              },
-              "subtitle": {
-                "text": "Платёж был 6 октября",
-                "typeface": "footnote1",
-                "text_color": "secondary",
-                "margins": {
-                  "top": "1x"
-                }
-              }
-            }
-          },
-          "right": {
-            "type": "detail_right_view",
-            "detail": {
-              "text": "199 ₽",
-              "typeface": "body1",
-              "text_color": "default"
-            },
-            "margins": {
-              "left": "4x"
-            }
-          },
-          "vertical_gravity": "center",
-          "divider": {
-            "style": "default",
-            "size": "d5"
-          }
-        },
-        {
-          "type": "left_right_cell_view",
-          "paddings": {
-            "left": "8x",
-            "top": "8x",
-            "right": "8x",
-            "bottom": "8x"
-          },
-          "left": {
-            "type": "simple_left_view",
-            "icon": {
-              "address": {
-                "type": "local",
-                "identificator": "house_handset"
-              },
-              "size": {
-                "width": "medium",
-                "height": "medium"
-              },
-              "margins": {
-                "right": "6x"
-              },
-              "tint_color": "solid_brand"
-            },
-            "icon_vertical_gravity": "top",
-            "texts": {
-              "title": {
-                "text": "Tele2",
-                "typeface": "body1",
-                "text_color": "default",
-                "max_lines": 3
-              },
-              "subtitle": {
-                "text": "Платёж был 28 сентября",
-                "typeface": "footnote1",
-                "text_color": "secondary",
-                "margins": {
-                  "top": "1x"
-                }
-              }
-            }
-          },
-          "right": {
-            "type": "detail_right_view",
-            "detail": {
-              "text": "600 ₽",
-              "typeface": "body1",
-              "text_color": "default"
-            },
-            "margins": {
-              "left": "4x"
-            }
-          },
-          "vertical_gravity": "center",
-          "divider": {
-            "style": "default",
-            "size": "d5"
-          }
-        },
-        {
-          "type": "left_right_cell_view",
-          "paddings": {
-            "left": "8x",
-            "top": "8x",
-            "right": "8x",
-            "bottom": "8x"
-          },
-          "left": {
-            "type": "simple_left_view",
-            "icon": {
-              "address": {
-                "type": "local",
-                "identificator": "whistle"
-              },
-              "size": {
-                "width": "medium",
-                "height": "medium"
-              },
-              "margins": {
-                "right": "6x"
-              },
-              "tint_color": "solid_brand"
-            },
-            "icon_vertical_gravity": "top",
-            "texts": {
-              "title": {
-                "text": "GOOGLE*IVI RU SUPPORT.GOOG USA",
-                "typeface": "body1",
-                "text_color": "default",
-                "max_lines": 3
-              },
-              "subtitle": {
-                "text": "Платёж был 21 сентября",
-                "typeface": "footnote1",
-                "text_color": "secondary",
-                "margins": {
-                  "top": "1x"
-                }
-              }
-            }
-          },
-          "right": {
-            "type": "detail_right_view",
-            "detail": {
-              "text": "399 ₽",
-              "typeface": "body1",
-              "text_color": "default"
-            },
-            "margins": {
-              "left": "4x"
-            }
-          },
-          "vertical_gravity": "center"
-        }
-      ]
-    }
-  }
+       {
+                    "card": {
+                      "type": "list_card",
+                      "paddings": {
+                        "top": "4x",
+                        "bottom": "4x"
+                      },
+                      "cells": [
+                        {
+                          "type": "left_right_cell_view",
+                          "paddings": {
+                            "left": "8x",
+                            "top": "8x",
+                            "right": "8x",
+                            "bottom": "8x"
+                          },
+                          "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                              "address": {
+                                "type": "url",
+                                "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/22.png"
+                              },
+                              "size": {
+                                "width": "medium",
+                                "height": "medium"
+                              },
+                              "margins": {
+                                "right": "6x"
+                              },
+                              "tint_color": "solid_brand"
+                            },
+                            "icon_vertical_gravity": "top",
+                            "texts": {
+                              "title": {
+                                "text": "Искусство",
+                                "typeface": "body1",
+                                "text_color": "default",
+                                "max_lines": 3
+                              }
+                            }
+                          },
+                          "right": {
+                            "type": "detail_right_view",
+                            "detail": {
+                              "text": "2 628 ₽",
+                              "typeface": "body1",
+                              "text_color": "default"
+                            },
+                            "margins": {
+                              "left": "4x"
+                            }
+                          },
+                          "actions": [
+                            {
+                              "text": "Самые большие операции в категории искусство вчера",
+                              "type": "text",
+                              "should_send_to_backend": true
+                            }
+                          ],
+                          "vertical_gravity": "center"
+                        }
+                      ]
+                    }
+                  }
