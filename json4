@@ -31,7 +31,7 @@
                             "icon": {
                               "address": {
                                 "type": "url",
-                                "url": "https://pfm-stat.online.sberbank.ru/PFM/logos3/42.png"
+                                "url": "https://pfm-stat.online.sberbank.ru/PFM/logos3/5e97d24b-1ace-4a52-ae96-a0d431e0c59d.png"
                               },
                               "size": {
                                 "width": "medium",
@@ -90,7 +90,7 @@
                             "icon": {
                               "address": {
                                 "type": "url",
-                                "url": "https://pfm.stat.online.sberbank.ru/PFM/logos/1512959.jpg"
+                                "url": "https://pfm-stat.online.sberbank.ru/PFM/logos3/d839d535-e3a3-4a07-802e-4f62094e57e6.png"
                               },
                               "size": {
                                 "width": "medium",
@@ -104,7 +104,7 @@
                             "icon_vertical_gravity": "top",
                             "texts": {
                               "title": {
-                                "text": "Автодор",
+                                "text": "Google Play",
                                 "typeface": "body1",
                                 "text_color": "default",
                                 "max_lines": 3
