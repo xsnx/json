@@ -1,1 +1,137 @@
-
+                  {
+                    "card": {
+                      "type": "list_card",
+                      "paddings": {
+                        "top": "4x",
+                        "bottom": "4x",
+                        "left": "4x"
+                      },
+                      "cells": [
+                        {
+                          "type": "text_cell_view",
+                          "paddings": {
+                            "left": "8x"
+                          },
+                          "content": {
+                            "text": "Подписки",
+                            "typeface": "headline3",
+                            "text_color": "default"
+                          }
+                        },
+                        {
+                          "type": "left_right_cell_view",
+                          "paddings": {
+                            "left": "8x",
+                            "top": "8x",
+                            "right": "8x",
+                            "bottom": "8x"
+                          },
+                          "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                              "address": {
+                                "type": "url",
+                                "url": "https://pfm-stat.online.sberbank.ru/PFM/logos3/42.png"
+                              },
+                              "size": {
+                                "width": "medium",
+                                "height": "medium"
+                              },
+                              "margins": {
+                                "right": "6x"
+                              },
+                              "tint_color": "solid_brand"
+                            },
+                            "icon_vertical_gravity": "top",
+                            "texts": {
+                              "title": {
+                                "text": "YM NETFLIX MOSCOW RUS",
+                                "typeface": "body1",
+                                "text_color": "default",
+                                "max_lines": 3
+                              },
+                              "subtitle": {
+                                "text": "Платёж был 25 февраля",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "margins": {
+                                  "top": "1x"
+                                }
+                              }
+                            }
+                          },
+                          "right": {
+                            "type": "detail_right_view",
+                            "detail": {
+                              "text": "999 ₽",
+                              "typeface": "body1",
+                              "text_color": "default"
+                            },
+                            "margins": {
+                              "left": "4x"
+                            }
+                          },
+                          "vertical_gravity": "center",
+                          "divider": {
+                            "style": "default",
+                            "size": "d5"
+                          }
+                        },
+                        {
+                          "type": "left_right_cell_view",
+                          "paddings": {
+                            "left": "8x",
+                            "top": "8x",
+                            "right": "8x",
+                            "bottom": "8x"
+                          },
+                          "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                              "address": {
+                                "type": "url",
+                                "url": "https://pfm.stat.online.sberbank.ru/PFM/logos/1512959.jpg"
+                              },
+                              "size": {
+                                "width": "medium",
+                                "height": "medium"
+                              },
+                              "margins": {
+                                "right": "6x"
+                              },
+                              "tint_color": "solid_brand"
+                            },
+                            "icon_vertical_gravity": "top",
+                            "texts": {
+                              "title": {
+                                "text": "Автодор",
+                                "typeface": "body1",
+                                "text_color": "default",
+                                "max_lines": 3
+                              },
+                              "subtitle": {
+                                "text": "Платёж был 10 февраля",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "margins": {
+                                  "top": "1x"
+                                }
+                              }
+                            }
+                          },
+                          "right": {
+                            "type": "detail_right_view",
+                            "detail": {
+                              "text": "2 005 ₽",
+                              "typeface": "body1",
+                              "text_color": "default"
+                            },
+                            "margins": {
+                              "left": "4x"
+                            }
+                          },
+                          "vertical_gravity": "center"
+                        }
+                      ]
+                    }
+                  }
