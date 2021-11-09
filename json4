@@ -279,7 +279,7 @@
             "tint_color": "solid_brand",
             "rounded_corners": {
               "type": "string",
-              "default": "circle"
+              "enum": [ "circle"]
             }
           },
           "icon_vertical_gravity": "top",
