@@ -1,4 +1,3 @@
-
 {
   "card": {
     "type": "list_card",
@@ -280,10 +279,7 @@
             "tint_color": "solid_brand",
             "rounded_corners": {
               "type": "string",
-              "enum": [
-                "circle"
-              ],
-              "default": "none"
+              "default": "circle"
             }
           },
           "icon_vertical_gravity": "top",
