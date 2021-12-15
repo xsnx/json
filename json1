@@ -1,38 +1,7 @@
+
 {
+
   "items": [
-    {
-      "card": {
-        "type": "list_card",
-        "paddings": {
-          "top": "10x",
-          "left": "8x",
-          "right": "8x",
-          "bottom": "10x"
-        },
-        "cells": [
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Расходы в этом месяце",
-              "typeface": "headline3",
-              "text_color": "default",
-              "max_lines": 2
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "2xa0400,55xa0₽",
-              "typeface": "headline1",
-              "text_color": "default"
-            },
-            "paddings": {
-              "top": "6x"
-            }
-          }
-        ]
-      }
-    },
     {
       "card": {
         "type": "list_card",
@@ -54,8 +23,9 @@
               "type": "simple_left_view",
               "icon": {
                 "address": {
-                  "type": "local",
-                  "identificator": "car"
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/32.png",
+                  "placeholder": "star_light"
                 },
                 "size": {
                   "width": "medium",
@@ -64,12 +34,13 @@
                 "margins": {
                   "right": "6x"
                 },
-                "tint_color": "solid_brand"
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
               },
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "Автомобиль",
+                  "text": "подписки",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
@@ -79,7 +50,7 @@
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "1xa0000,15xa0₽",
+                "text": "100 0₽",
                 "typeface": "body1",
                 "text_color": "default"
               },
@@ -87,163 +58,18 @@
                 "left": "4x"
               }
             },
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "basket"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Супермаркеты",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                }
+            "actions": [
+              {
+                "text": "Самые большие операции в категории подписки в прошлом месяце",
+                "type": "text",
+                "should_send_to_backend": true
               }
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "700,15xa0₽",
-                "typeface": "body1",
-                "text_color": "default"
-              },
-              "margins": {
-                "left": "4x"
-              }
-            },
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "house_handset"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Коммунальные платежи, связь, интернет",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                }
-              }
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "500,10xa0₽",
-                "typeface": "body1",
-                "text_color": "default"
-              },
-              "margins": {
-                "left": "4x"
-              }
-            },
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "heart"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Здоровье и красота",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                }
-              }
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "200,15xa0₽",
-                "typeface": "body1",
-                "text_color": "default"
-              },
-              "margins": {
-                "left": "4x"
-              }
-            },
+            ],
             "vertical_gravity": "center"
           }
         ]
       }
     }
   ]
+
 }
