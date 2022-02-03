@@ -1,8 +1,63 @@
 {
   "items": [
     {
-      "bubble": {
-        "text": "Вот твои деньги. Но, может, и не все — прости, некоторые активы сейчас не могу посмотреть"
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Вот твои деньги. Но, может, и не все — для некоторых активов не хватает твоего согласия в настройках приложения",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0
+                }
+              },
+              "margins": {
+                "left": "10x",
+                "top": "5x",
+                "right": "10x",
+                "bottom": "5x"
+              }
+            },
+            "paddings": {
+              "left": "6x",
+              "top": "4x",
+              "right": "6x",
+              "bottom": "2x"
+            }
+          },
+          {
+            "type": "button_cell_view",
+            "content": {
+              "text": "Перейти в настройки",
+              "typeface": "button2",
+              "style": "default",
+              "type": "accept",
+              "actions": [
+                {
+                  "type": "deep_link",
+                  "deep_link": "sberbankonline://pfm/open-financeschart"
+                }
+              ],
+              "margins": {
+                "left": "10x",
+                "top": "5x",
+                "right": "10x",
+                "bottom": "5x"
+              }
+            },
+            "paddings": {
+              "left": "4x",
+              "top": "8x",
+              "right": "4x",
+              "bottom": "8x"
+            }
+          }
+        ]
       }
     },
     {
@@ -55,7 +110,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "С кредиткой картой",
+                  "text": "С кредитной картой",
                   "typeface": "title1",
                   "text_color": "secondary",
                   "max_lines": 1
@@ -323,5 +378,4 @@
       }
     }
   ]
-  
 }
