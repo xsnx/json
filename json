@@ -1,4 +1,3 @@
-{
   "items": [
     {
       "card": {
@@ -171,13 +170,13 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "Карты",
+                  "text": "Карты и платёжные счета",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "4 карты",
+                  "text": "На 4 счетах",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -291,7 +290,7 @@
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "6 продуктов",
+                  "text": "В 6 продуктах",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -330,8 +329,8 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/23.png",
-                  "placeholder": "digital_banknotes"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/153.png",
+                  "placeholder": "case_diagram"
                 },
                 "size": {
                   "width": "medium",
@@ -352,7 +351,7 @@
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "1 продукт",
+                  "text": "В 1 продукте",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -378,4 +377,3 @@
       }
     }
   ]
-}
