@@ -1,436 +1,381 @@
 {
-  "card": {
-    "type": "list_card",
-    "paddings": {
-      "top": "4x",
-      "bottom": "4x",
-      "left": "4x"
-    },
-    "cells": [
-      {
-        "type": "text_cell_view",
-        "paddings": {
-          "left": "8x"
-        },
-        "content": {
-          "text": "Подписки",
-          "typeface": "headline3",
-          "text_color": "default"
-        }
-      },
-      {
-        "type": "left_right_cell_view",
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "url",
-              "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/7.png"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
-            },
-            "tint_color": "solid_brand"
-          },
-          "icon_vertical_gravity": "top",
-          "texts": {
-            "title": {
-              "text": "HYPERGLOBUS PUSHKINO PUSHKINO RUS",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 3
-            },
-            "subtitle": {
-              "text": "Платёж был 25 февраля",
-              "typeface": "footnote1",
-              "text_color": "secondary",
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Вот твои деньги. Но, может, и не все — для некоторых активов не хватает твоего согласия в настройках приложения",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0
+                }
+              },
               "margins": {
-                "top": "1x"
+                "left": "10x",
+                "top": "5x",
+                "right": "10x",
+                "bottom": "5x"
               }
+            },
+            "paddings": {
+              "left": "6x",
+              "top": "4x",
+              "right": "6x",
+              "bottom": "2x"
             }
-          }
-        },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "999  ₽",
-            "typeface": "body1",
-            "text_color": "default"
           },
-          "margins": {
-            "left": "4x"
-          }
-        },
-        "vertical_gravity": "center",
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        }
-      },
-      {
-        "type": "left_right_cell_view",
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "url",
-              "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/4.png"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
-            },
-            "tint_color": "solid_brand"
-          },
-          "icon_vertical_gravity": "top",
-          "texts": {
-            "title": {
-              "text": "test",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 3
-            },
-            "subtitle": {
-              "text": "Платёж был 25 февраля",
-              "typeface": "footnote1",
-              "text_color": "secondary",
+          {
+            "type": "button_cell_view",
+            "content": {
+              "text": "Перейти в настройки",
+              "typeface": "button2",
+              "style": "default",
+              "type": "accept",
+              "actions": [
+                {
+                  "type": "deep_link",
+                  "deep_link": "sberbankonline://pfm/open-financeschart"
+                }
+              ],
               "margins": {
-                "top": "1x"
+                "left": "10x",
+                "top": "5x",
+                "right": "10x",
+                "bottom": "5x"
               }
+            },
+            "paddings": {
+              "left": "4x",
+              "top": "8x",
+              "right": "4x",
+              "bottom": "8x"
             }
           }
-        },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "999  ₽",
-            "typeface": "body1",
-            "text_color": "default"
-          },
-          "margins": {
-            "left": "4x"
-          }
-        },
-        "vertical_gravity": "center",
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        }
-      },
-      {
-        "type": "left_right_cell_view",
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "url",
-              "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/1.png"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
-            },
-            "tint_color": "solid_brand"
-          },
-          "icon_vertical_gravity": "top",
-          "texts": {
-            "title": {
-              "text": "Бенз за углом",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 3
-            },
-            "subtitle": {
-              "text": "Платёж был 11 февраля",
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "margins": {
-                "top": "1x"
-              }
-            }
-          }
-        },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "3 005 ₽",
-            "typeface": "body1",
-            "text_color": "default"
-          },
-          "margins": {
-            "left": "4x"
-          }
-        },
-        "vertical_gravity": "center",
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        }
-      },
-      {
-        "type": "left_right_cell_view",
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "url",
-              "url": "https://pfm-stat.online.sberbank.ru/PFM/logos3/d161700b-5fac-4a42-b76e-3c38e1788255.png"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
-            },
-            "tint_color": "solid_brand"
-          },
-          "icon_vertical_gravity": "top",
-          "texts": {
-            "title": {
-              "text": "Яндекс.Такси",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 3
-            },
-            "subtitle": {
-              "text": "Платёж был 15 февраля",
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "margins": {
-                "top": "1x"
-              }
-            }
-          }
-        },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "244 ₽",
-            "typeface": "body1",
-            "text_color": "default"
-          },
-          "margins": {
-            "left": "4x"
-          }
-        },
-        "vertical_gravity": "center",
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        }
-      },
-      {
-        "type": "left_right_cell_view",
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "url",
-              "url": "https://pfm-stat.online.sberbank.ru/PFM/logos3/d161700b-5fac-4a42-b76e-3c38e1788255.png"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
-            },
-            "tint_color": "solid_brand",
-            "rounded_corners": {
-              "type": "string",
-              "enum": [ "circle"]
-            }
-          },
-          "icon_vertical_gravity": "top",
-          "texts": {
-            "title": {
-              "text": "Яндекс.Такси",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 3
-            },
-            "subtitle": {
-              "text": "Платёж был 15 февраля",
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "margins": {
-                "top": "1x"
-              }
-            }
-          }
-        },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "244 ₽",
-            "typeface": "body1",
-            "text_color": "default"
-          },
-          "margins": {
-            "left": "4x"
-          }
-        },
-        "vertical_gravity": "center",
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        }
-      },
-      {
-        "type": "left_right_cell_view",
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "url",
-              "url": "https://pfm-stat.online.sberbank.ru/PFM/logos3/5e97d24b-1ace-4a52-ae96-a0d431e0c59d.png"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
-            },
-            "tint_color": "solid_brand"
-          },
-          "icon_vertical_gravity": "top",
-          "texts": {
-            "title": {
-              "text": "YM NETFLIX MOSCOW RUS",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 3
-            },
-            "subtitle": {
-              "text": "Платёж был 25 февраля",
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "margins": {
-                "top": "1x"
-              }
-            }
-          }
-        },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "999 ₽",
-            "typeface": "body1",
-            "text_color": "default"
-          },
-          "margins": {
-            "left": "4x"
-          }
-        },
-        "vertical_gravity": "center",
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        }
-      },
-      {
-        "type": "left_right_cell_view",
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "url",
-              "url": "https://pfm.stat.online.sberbank.ru/PFM/logos/1512959.jpg"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
-            },
-            "tint_color": "solid_brand"
-          },
-          "icon_vertical_gravity": "top",
-          "texts": {
-            "title": {
-              "text": "Автодор",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 3
-            },
-            "subtitle": {
-              "text": "Платёж был 10 февраля",
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "margins": {
-                "top": "1x"
-              }
-            }
-          }
-        },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "2  005  ₽",
-            "typeface": "body1",
-            "text_color": "default"
-          },
-          "margins": {
-            "left": "4x"
-          }
-        },
-        "vertical_gravity": "center"
+        ]
       }
-    ]
-  }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "paddings": {
+          "top": "10x",
+          "left": "8x",
+          "right": "8x",
+          "bottom": "10x"
+        },
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "2x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Всего",
+                  "typeface": "title1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "77 377,36 ₽",
+                "typeface": "title1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              },
+              "vertical_gravity": "center"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "2x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "С кредитной картой",
+                  "typeface": "title1",
+                  "text_color": "secondary",
+                  "max_lines": 1
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "366 877,36 ₽",
+                "typeface": "title1",
+                "text_color": "secondary"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "vertical_gravity": "center"
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "paddings": {
+          "top": "4x",
+          "bottom": "4x",
+          "left": "4x"
+        },
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/150.png",
+                  "placeholder": "digital_banknotes"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Карты и платёжные счета",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "На 4 счетах",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "61 306,20 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/152.png",
+                  "placeholder": "digital_banknotes"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Кредитная карта",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "289 500 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/23.png",
+                  "placeholder": "digital_banknotes"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Накопления",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "В 6 продуктах",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "14 398,66 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/153.png",
+                  "placeholder": "case_diagram"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Инвестиции",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "В 1 продукте",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "1 672,50 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "vertical_gravity": "center"
+          }
+        ]
+      }
+    }
+  ]
 }
