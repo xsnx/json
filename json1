@@ -44,9 +44,9 @@
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "До 26 марта",
+                  "text": "Оплатите завтра",
                   "typeface": "footnote1",
-                  "text_color": "secondary",
+                  "text_color": "warning",
                   "margins": {
                     "top": "1x"
                   }
@@ -56,7 +56,7 @@
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "111 ₽",
+                "text": "1 111 ₽",
                 "typeface": "body1",
                 "text_color": "default"
               },
