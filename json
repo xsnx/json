@@ -1,3 +1,5 @@
+{
+  "items": [
     {
       "card": {
         "type": "list_card",
@@ -42,9 +44,9 @@
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "До 26 марта",
+                  "text": "Просрочен",
                   "typeface": "footnote1",
-                  "text_color": "brand",
+                  "text_color": "critical",
                   "margins": {
                     "top": "1x"
                   }
@@ -54,7 +56,60 @@
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "43330₽",
+                "text": "1 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/152.png",
+                  "placeholder": "digital_banknotes"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Обязательный платёж по кредитной карте",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "1 ₽",
                 "typeface": "body1",
                 "text_color": "default"
               },
@@ -67,3 +122,5 @@
         ]
       }
     }
+  ]
+}
