@@ -186,9 +186,7 @@
                   }
                 },
                 "caption": {
-                  "text": [
-                    " Не хватает 458 844,83 ₽"
-                  ],
+                  "text": "Не хватает 458 844,83 ₽",
                   "typeface": "footnote1",
                   "max_lines": 1,
                   "text_color": "critical",
@@ -264,9 +262,7 @@
                   }
                 },
                 "caption": {
-                  "text": [
-                    " Не хватает 358,25 ₽"
-                  ],
+                  "text": "Не хватает 358,25 ₽",
                   "typeface": "footnote1",
                   "max_lines": 1,
                   "text_color": "critical",
