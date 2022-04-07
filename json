@@ -1,6 +1,11 @@
 {
   "items": [
     {
+      "bubble": {
+        "text": "Вот что нужно заплатить в ближайшее время. Похоже, загрузились не все данные по кредитам. Зайдите позже или посмотрите в приложении"
+      }
+    },
+    {
       "card": {
         "type": "list_card",
         "paddings": {
@@ -53,21 +58,13 @@
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "Просрочен",
-                  "typeface": "footnote1",
-                  "text_color": "critical",
-                  "margins": {
-                    "top": "1x"
-                  }
                 }
               }
             },
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "1 ₽",
+                "text": "0 ₽",
                 "typeface": "body1",
                 "text_color": "default"
               },
@@ -169,7 +166,9 @@
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": " Не хватает 458 903,65 ₽",
+                  "text": [
+                    " Не хватает 458 844,83 ₽"
+                  ],
                   "typeface": "footnote1",
                   "text_color": "critical",
                   "margins": {
@@ -189,6 +188,12 @@
                 "left": "4x"
               }
             },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483778"
+              }
+            ],
             "vertical_gravity": "center",
             "divider": {
               "style": "default",
@@ -230,7 +235,9 @@
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": " Не хватает 458 903,65 ₽",
+                  "text": [
+                    " Не хватает 358,25 ₽"
+                  ],
                   "typeface": "footnote1",
                   "text_color": "critical",
                   "margins": {
@@ -242,7 +249,7 @@
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "458 903,65 ₽",
+                "text": "458,65 ₽",
                 "typeface": "body1",
                 "text_color": "default"
               },
@@ -250,6 +257,12 @@
                 "left": "4x"
               }
             },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483778"
+              }
+            ],
             "vertical_gravity": "center",
             "divider": {
               "style": "default",
@@ -291,68 +304,7 @@
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": " Не хватает 423 564,24 ₽",
-                  "typeface": "footnote1",
-                  "text_color": "critical",
-                  "margins": {
-                    "top": "1x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "423 564,24 ₽",
-                "typeface": "body1",
-                "text_color": "default"
-              },
-              "margins": {
-                "left": "4x"
-              }
-            },
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
-                  "placeholder": "wallet"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Приобретение готового жилья",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": " Не хватает 423 564,24 ₽",
+                  "text": "Просрочен",
                   "typeface": "footnote1",
                   "text_color": "critical",
                   "margins": {
@@ -372,6 +324,79 @@
                 "left": "4x"
               }
             },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483778"
+              }
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
+                  "placeholder": "wallet"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Приобретение готового жилья",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "11 марта",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "423 564,24 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483778"
+              }
+            ],
             "vertical_gravity": "center"
           }
         ]
