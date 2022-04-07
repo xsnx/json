@@ -72,6 +72,12 @@
                 "left": "4x"
               }
             },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "sberbankonline://credit-card-debt/"
+              }
+            ],
             "vertical_gravity": "center",
             "divider": {
               "style": "default",
@@ -125,6 +131,12 @@
                 "left": "4x"
               }
             },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "sberbankonline://credit-card-debt/"
+              }
+            ],
             "vertical_gravity": "center",
             "divider": {
               "style": "default",
@@ -166,10 +178,19 @@
                   "max_lines": 3
                 },
                 "subtitle": {
+                  "text": " с карты **75",
+                  "typeface": "footnote1",
+                  "text_color": "critical",
+                  "margins": {
+                    "top": "1x"
+                  }
+                },
+                "caption": {
                   "text": [
                     " Не хватает 458 844,83 ₽"
                   ],
                   "typeface": "footnote1",
+                  "max_lines": 1,
                   "text_color": "critical",
                   "margins": {
                     "top": "1x"
@@ -235,10 +256,19 @@
                   "max_lines": 3
                 },
                 "subtitle": {
+                  "text": " со счета **29",
+                  "typeface": "footnote1",
+                  "text_color": "critical",
+                  "margins": {
+                    "top": "1x"
+                  }
+                },
+                "caption": {
                   "text": [
                     " Не хватает 358,25 ₽"
                   ],
                   "typeface": "footnote1",
+                  "max_lines": 1,
                   "text_color": "critical",
                   "margins": {
                     "top": "1x"
