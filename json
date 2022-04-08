@@ -58,72 +58,21 @@
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Просрочен",
+                  "typeface": "footnote1",
+                  "text_color": "critical",
+                  "margins": {
+                    "top": "1x"
+                  }
                 }
               }
             },
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "0 ₽",
-                "typeface": "body1",
-                "text_color": "default"
-              },
-              "margins": {
-                "left": "4x"
-              }
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "sberbankonline://credit-card-debt/"
-              }
-            ],
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/152.png",
-                  "placeholder": "digital_banknotes"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Обязательный платёж по кредитной карте",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                }
-              }
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "1 ₽",
+                "text": "1 000 ₽",
                 "typeface": "body1",
                 "text_color": "default"
               },
@@ -178,7 +127,7 @@
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": " с карты **75",
+                  "text": "Просрочен с карты **4275",
                   "typeface": "footnote1",
                   "text_color": "critical",
                   "margins": {
@@ -254,7 +203,7 @@
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": " со счета **29",
+                  "text": "Просрочен со счета **6629",
                   "typeface": "footnote1",
                   "text_color": "critical",
                   "margins": {
@@ -397,7 +346,7 @@
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "11 марта",
+                  "text": "Списание 11 марта",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
