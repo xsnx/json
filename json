@@ -1,5 +1,5 @@
 {
-  "items": [
+"items": [
       {
         "bubble": {
           "text": "Вот что нужно заплатить в ближайшее время:"
@@ -60,9 +60,9 @@
                     "max_lines": 3
                   },
                   "subtitle": {
-                    "text": "До 15 марта",
+                    "text": "Просрочен",
                     "typeface": "footnote1",
-                    "text_color": "secondary",
+                    "text_color": "critical",
                     "margins": {
                       "top": "1x"
                     }
