@@ -1,448 +1,229 @@
 {
-"items": [
-    {
-      "bubble": {
-        "text": "Вот что нужно заплатить в ближайшее время. Похоже, загрузились не все данные по кредитам. Зайдите позже или посмотрите в приложении"
+"items ": [
+      {
+        "bubble ": {
+          "text ": "Вот что нужно заплатить в ближайшее время. Похоже, загрузились не все данные по кредитам. Зайдите позже или посмотрите в приложении "
+        }
+      },
+      {
+        "card ": {
+          "type ": "list_card ",
+          "paddings ": {
+            "top ": "4x ",
+            "bottom ": "4x ",
+            "left ": "4x "
+          },
+          "cells ": [
+            {
+              "type ": "text_cell_view ",
+              "paddings ": {
+                "left ": "8x "
+              },
+              "content ": {
+                "text ": "Ближайшие платежи ",
+                "typeface ": "headline3 ",
+                "text_color ": "default "
+              }
+            },
+            {
+              "type ": "left_right_cell_view ",
+              "paddings ": {
+                "left ": "8x ",
+                "top ": "8x ",
+                "right ": "8x ",
+                "bottom ": "8x "
+              },
+              "left ": {
+                "type ": "simple_left_view ",
+                "icon ": {
+                  "address ": {
+                    "type ": "url ",
+                    "url ": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png ",
+                    "placeholder ": "wallet "
+                  },
+                  "size ": {
+                    "width ": "medium ",
+                    "height ": "medium "
+                  },
+                  "margins ": {
+                    "right ": "6x "
+                  },
+                  "tint_color ": "solid_brand ",
+                  "rounded_corners ": "circle "
+                },
+                "icon_vertical_gravity ": "top ",
+                "texts ": {
+                  "title ": {
+                    "text ": "Приобретение просрочки ",
+                    "typeface ": "body1 ",
+                    "text_color ": "default ",
+                    "max_lines ": 3
+                  },
+                  "subtitle ": {
+                    "text ": "Просрочен ",
+                    "typeface ": "footnote1 ",
+                    "text_color ": "critical ",
+                    "margins ": {
+                      "top ": "1x "
+                    }
+                  }
+                }
+              },
+              "right ": {
+                "type ": "detail_right_view ",
+                "detail ": {
+                  "text ": "1 000,94 ₽ ",
+                  "typeface ": "body1 ",
+                  "text_color ": "default "
+                },
+                "margins ": {
+                  "left ": "4x "
+                }
+              },
+              "actions ": [
+                {
+                  "type ": "deep_link ",
+                  "deep_link ": "sberbankonline://loan/loan-details?loanId=2477909483778 "
+                }
+              ],
+              "vertical_gravity ": "center ",
+              "divider ": {
+                "style ": "default ",
+                "size ": "d5 "
+              }
+            },
+            {
+              "type ": "left_right_cell_view ",
+              "paddings ": {
+                "left ": "8x ",
+                "top ": "8x ",
+                "right ": "8x ",
+                "bottom ": "8x "
+              },
+              "left ": {
+                "type ": "simple_left_view ",
+                "icon ": {
+                  "address ": {
+                    "type ": "url ",
+                    "url ": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png ",
+                    "placeholder ": "wallet "
+                  },
+                  "size ": {
+                    "width ": "medium ",
+                    "height ": "medium "
+                  },
+                  "margins ": {
+                    "right ": "6x "
+                  },
+                  "tint_color ": "solid_brand ",
+                  "rounded_corners ": "circle "
+                },
+                "icon_vertical_gravity ": "top ",
+                "texts ": {
+                  "title ": {
+                    "text ": "Кредит за сахар ",
+                    "typeface ": "body1 ",
+                    "text_color ": "default ",
+                    "max_lines ": 3
+                  },
+                  "subtitle ": {
+                    "text ": "Списание завтра ",
+                    "typeface ": "footnote1 ",
+                    "text_color ": "warning ",
+                    "margins ": {
+                      "top ": "1x "
+                    }
+                  }
+                }
+              },
+              "right ": {
+                "type ": "detail_right_view ",
+                "detail ": {
+                  "text ": "5 666,66 ₽ ",
+                  "typeface ": "body1 ",
+                  "text_color ": "default "
+                },
+                "margins ": {
+                  "left ": "4x "
+                }
+              },
+              "actions ": [
+                {
+                  "type ": "deep_link ",
+                  "deep_link ": "sberbankonline://loan/loan-details?loanId=2477909483778 "
+                }
+              ],
+              "vertical_gravity ": "center ",
+              "divider ": {
+                "style ": "default ",
+                "size ": "d5 "
+              }
+            },
+            {
+              "type ": "left_right_cell_view ",
+              "paddings ": {
+                "left ": "8x ",
+                "top ": "8x ",
+                "right ": "8x ",
+                "bottom ": "8x "
+              },
+              "left ": {
+                "type ": "simple_left_view ",
+                "icon ": {
+                  "address ": {
+                    "type ": "url ",
+                    "url ": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png ",
+                    "placeholder ": "wallet "
+                  },
+                  "size ": {
+                    "width ": "medium ",
+                    "height ": "medium "
+                  },
+                  "margins ": {
+                    "right ": "6x "
+                  },
+                  "tint_color ": "solid_brand ",
+                  "rounded_corners ": "circle "
+                },
+                "icon_vertical_gravity ": "top ",
+                "texts ": {
+                  "title ": {
+                    "text ": "Ипотека ",
+                    "typeface ": "body1 ",
+                    "text_color ": "default ",
+                    "max_lines ": 3
+                  },
+                  "subtitle ": {
+                    "text ": "Списание 13 марта ",
+                    "typeface ": "footnote1 ",
+                    "text_color ": "secondary ",
+                    "margins ": {
+                      "top ": "1x "
+                    }
+                  }
+                }
+              },
+              "right ": {
+                "type ": "detail_right_view ",
+                "detail ": {
+                  "text ": "30 333,22 ₽ ",
+                  "typeface ": "body1 ",
+                  "text_color ": "default "
+                },
+                "margins ": {
+                  "left ": "4x "
+                }
+              },
+              "actions ": [
+                {
+                  "type ": "deep_link ",
+                  "deep_link ": "sberbankonline://loan/loan-details?loanId=2477909483778 "
+                }
+              ],
+              "vertical_gravity ": "center "
+            }
+          ]
+        }
       }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "paddings": {
-          "top": "4x",
-          "bottom": "4x",
-          "left": "4x"
-        },
-        "cells": [
-          {
-            "type": "text_cell_view",
-            "paddings": {
-              "left": "8x"
-            },
-            "content": {
-              "text": "Ближайшие платежи",
-              "typeface": "headline3",
-              "text_color": "default"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/152.png",
-                  "placeholder": "digital_banknotes"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Обязательный платёж по кредитной карте",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "Просрочен",
-                  "typeface": "footnote1",
-                  "text_color": "critical",
-                  "margins": {
-                    "top": "1x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "1 100 ₽",
-                "typeface": "body1",
-                "text_color": "default"
-              },
-              "margins": {
-                "left": "4x"
-              }
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "sberbankonline://credit-card-debt/"
-              }
-            ],
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/152.png",
-                  "placeholder": "digital_banknotes"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Обязательный платёж по кредитной карте",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "До 15 марта",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "100 ₽",
-                "typeface": "body1",
-                "text_color": "default"
-              },
-              "margins": {
-                "left": "4x"
-              }
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "sberbankonline://credit-card-debt/"
-              }
-            ],
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
-                  "placeholder": "wallet"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Приобретение готового жилья",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "Просрочен с карты **4275",
-                  "typeface": "footnote1",
-                  "text_color": "critical",
-                  "margins": {
-                    "top": "1x"
-                  }
-                },
-                "caption": {
-                  "text": "Не хватает 458 844,83 ₽",
-                  "typeface": "footnote1",
-                  "max_lines": 1,
-                  "text_color": "critical",
-                  "margins": {
-                    "top": "1x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "458 903,65 ₽",
-                "typeface": "body1",
-                "text_color": "default"
-              },
-              "margins": {
-                "left": "4x"
-              }
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483778"
-              }
-            ],
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
-                  "placeholder": "wallet"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Приобретение готового жилья",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "Просрочен со счета **6629",
-                  "typeface": "footnote1",
-                  "text_color": "critical",
-                  "margins": {
-                    "top": "1x"
-                  }
-                },
-                "caption": {
-                  "text": "Не хватает 358,25 ₽",
-                  "typeface": "footnote1",
-                  "max_lines": 1,
-                  "text_color": "critical",
-                  "margins": {
-                    "top": "1x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "458,65 ₽",
-                "typeface": "body1",
-                "text_color": "default"
-              },
-              "margins": {
-                "left": "4x"
-              }
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483778"
-              }
-            ],
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
-                  "placeholder": "wallet"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Приобретение готового жилья",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "Просрочен",
-                  "typeface": "footnote1",
-                  "text_color": "critical",
-                  "margins": {
-                    "top": "1x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "423 564,24 ₽",
-                "typeface": "body1",
-                "text_color": "default"
-              },
-              "margins": {
-                "left": "4x"
-              }
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483778"
-              }
-            ],
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
-                  "placeholder": "wallet"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Приобретение готового жилья",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "Списание 11 марта",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "423 564,24 ₽",
-                "typeface": "body1",
-                "text_color": "default"
-              },
-              "margins": {
-                "left": "4x"
-              }
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483778"
-              }
-            ],
-            "vertical_gravity": "center"
-          }
-        ]
-      }
-    }
-  ]
+    ]
 }
