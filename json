@@ -73,7 +73,7 @@
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "777,65 ₽",
+                "text": "777,65 ₽",
                 "typeface": "body1",
                 "text_color": "default"
               },
@@ -137,7 +137,7 @@
                   }
                 },
                 "caption": {
-                  "text": "Не хватает 66 777,65 ₽",
+                  "text": "Не хватает 66 777,65 ₽",
                   "typeface": "footnote1",
                   "max_lines": 1,
                   "text_color": "critical",
@@ -150,7 +150,7 @@
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "77 777,65 ₽",
+                "text": "77 777,65 ₽",
                 "typeface": "body1",
                 "text_color": "default"
               },
@@ -218,7 +218,7 @@
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "7 777,65 ₽",
+                "text": "7 777,65 ₽",
                 "typeface": "body1",
                 "text_color": "default"
               },
@@ -280,13 +280,22 @@
                   "margins": {
                     "top": "1x"
                   }
+                },
+                "caption": {
+                  "text": "Не хватает 3 777,65 ₽",
+                  "typeface": "footnote1",
+                  "max_lines": 1,
+                  "text_color": "critical",
+                  "margins": {
+                    "top": "1x"
+                  }
                 }
               }
             },
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "6 777,65 ₽",
+                "text": "6 777,65 ₽",
                 "typeface": "body1",
                 "text_color": "default"
               },
@@ -354,7 +363,7 @@
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "777,65 ₽",
+                "text": "777,65 ₽",
                 "typeface": "body1",
                 "text_color": "default"
               },
