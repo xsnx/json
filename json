@@ -62,7 +62,6 @@
                 "subtitle": {
                   "text": "Есть просрочка с карты Visa **6699 и ещё 2",
                   "typeface": "footnote1",
-                  "max_lines": 2,
                   "text_color": "critical",
                   "margins": {
                     "top": "1x"
@@ -130,7 +129,6 @@
                 "subtitle": {
                   "text": "Есть просрочка со счета **6196 и ещё 2",
                   "typeface": "footnote1",
-                  "max_lines": 2,
                   "text_color": "critical",
                   "margins": {
                     "top": "1x"
@@ -207,7 +205,6 @@
                 "subtitle": {
                   "text": "Списание сегодня с карты МИР **6501 и ещё 3",
                   "typeface": "footnote1",
-                  "max_lines": 2,
                   "text_color": "warning",
                   "margins": {
                     "top": "1x"
@@ -275,7 +272,6 @@
                 "subtitle": {
                   "text": "Списание завтра с карты МИР **6501 и ещё 3",
                   "typeface": "footnote1",
-                  "max_lines": 2,
                   "text_color": "warning",
                   "margins": {
                     "top": "1x"
@@ -352,7 +348,6 @@
                 "subtitle": {
                   "text": "Списание 3 марта с карты Visa **6699 и ещё 2",
                   "typeface": "footnote1",
-                  "max_lines": 2,
                   "text_color": "secondary",
                   "margins": {
                     "top": "1x"
