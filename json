@@ -1,305 +1,296 @@
 {
 "items": [
-      {
-        "bubble": {
-          "text": "Вот что нужно заплатить в ближайшее время:"
-        }
-      },
-      {
-        "card": {
-          "type": "list_card",
-          "paddings": {
-            "top": "4x",
-            "bottom": "4x",
-            "left": "4x"
-          },
-          "cells": [
-            {
-              "type": "text_cell_view",
-              "paddings": {
-                "left": "8x"
-              },
-              "content": {
-                "text": "Ближайшие платежи",
-                "typeface": "headline3",
-                "text_color": "default"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "8x",
-                "top": "8x",
-                "right": "8x",
-                "bottom": "8x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon": {
-                  "address": {
-                    "type": "url",
-                    "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
-                    "placeholder": "wallet"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "right": "6x"
-                  },
-                  "tint_color": "solid_brand",
-                  "rounded_corners": "circle"
-                },
-                "icon_vertical_gravity": "top",
-                "texts": {
-                  "title": {
-                    "text": "За просроченный сахар",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 3
-                  },
-                  "subtitle": {
-                    "text": "Просрочен с карты **6699",
-                    "typeface": "footnote1",
-                    "text_color": "critical",
-                    "margins": {
-                      "top": "1x"
-                    }
-                  }
-                }
-              },
-              "right": {
-                "type": "detail_right_view",
-                "detail": {
-                  "text": "777,65 ₽",
-                  "typeface": "body1",
-                  "text_color": "default"
-                },
-                "margins": {
-                  "left": "4x"
-                }
-              },
-              "actions": [
-                {
-                  "type": "deep_link",
-                  "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483779"
-                }
-              ],
-              "vertical_gravity": "center",
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "8x",
-                "top": "8x",
-                "right": "8x",
-                "bottom": "8x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon": {
-                  "address": {
-                    "type": "url",
-                    "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
-                    "placeholder": "wallet"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "right": "6x"
-                  },
-                  "tint_color": "solid_brand",
-                  "rounded_corners": "circle"
-                },
-                "icon_vertical_gravity": "top",
-                "texts": {
-                  "title": {
-                    "text": "Приобретение готового жилья",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 3
-                  },
-                  "subtitle": {
-                    "text": "Списание сегодня с карты **6501",
-                    "typeface": "footnote1",
-                    "text_color": "warning",
-                    "margins": {
-                      "top": "1x"
-                    }
-                  }
-                }
-              },
-              "right": {
-                "type": "detail_right_view",
-                "detail": {
-                  "text": "7 777,65 ₽",
-                  "typeface": "body1",
-                  "text_color": "default"
-                },
-                "margins": {
-                  "left": "4x"
-                }
-              },
-              "actions": [
-                {
-                  "type": "deep_link",
-                  "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483774"
-                }
-              ],
-              "vertical_gravity": "center",
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "8x",
-                "top": "8x",
-                "right": "8x",
-                "bottom": "8x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon": {
-                  "address": {
-                    "type": "url",
-                    "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
-                    "placeholder": "wallet"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "right": "6x"
-                  },
-                  "tint_color": "solid_brand",
-                  "rounded_corners": "circle"
-                },
-                "icon_vertical_gravity": "top",
-                "texts": {
-                  "title": {
-                    "text": "Ипотека",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 3
-                  },
-                  "subtitle": {
-                    "text": "Списание завтра с карты **6501",
-                    "typeface": "footnote1",
-                    "text_color": "warning",
-                    "margins": {
-                      "top": "1x"
-                    }
-                  },
-                  "caption": {
-                    "text": "Не хватает 1 777,65 ₽",
-                    "typeface": "footnote1",
-                    "max_lines": 1,
-                    "text_color": "critical",
-                    "margins": {
-                      "top": "1x"
-                    }
-                  }
-                }
-              },
-              "right": {
-                "type": "detail_right_view",
-                "detail": {
-                  "text": "6 777,65 ₽",
-                  "typeface": "body1",
-                  "text_color": "default"
-                },
-                "margins": {
-                  "left": "4x"
-                }
-              },
-              "actions": [
-                {
-                  "type": "deep_link",
-                  "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483778"
-                }
-              ],
-              "vertical_gravity": "center",
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "8x",
-                "top": "8x",
-                "right": "8x",
-                "bottom": "8x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon": {
-                  "address": {
-                    "type": "url",
-                    "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
-                    "placeholder": "wallet"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "right": "6x"
-                  },
-                  "tint_color": "solid_brand",
-                  "rounded_corners": "circle"
-                },
-                "icon_vertical_gravity": "top",
-                "texts": {
-                  "title": {
-                    "text": "За сахар",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 3
-                  },
-                  "subtitle": {
-                    "text": "Списание 3 марта с карты **6699",
-                    "typeface": "footnote1",
-                    "text_color": "secondary",
-                    "margins": {
-                      "top": "1x"
-                    }
-                  }
-                }
-              },
-              "right": {
-                "type": "detail_right_view",
-                "detail": {
-                  "text": "777,65 ₽",
-                  "typeface": "body1",
-                  "text_color": "default"
-                },
-                "margins": {
-                  "left": "4x"
-                }
-              },
-              "actions": [
-                {
-                  "type": "deep_link",
-                  "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483779"
-                }
-              ],
-              "vertical_gravity": "center"
-            }
-          ]
-        }
+    {
+      "bubble": {
+        "text": "Вот что нужно заплатить в ближайшее время:"
       }
-    ]
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "paddings": {
+          "top": "4x",
+          "bottom": "4x",
+          "left": "4x"
+        },
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "paddings": {
+              "left": "8x"
+            },
+            "content": {
+              "text": "Ближайшие платежи",
+              "typeface": "headline3",
+              "text_color": "default"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
+                  "placeholder": "wallet"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "За просроченный сахар",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Есть просрочка с карты Visa **6699 и ещё 2",
+                  "typeface": "footnote1",
+                  "text_color": "critical",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "777,65 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483779"
+              }
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/4.png",
+                  "placeholder": "wallet"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Ипотека",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Списание сегодня с карты МИР **6501 и ещё 3",
+                  "typeface": "footnote1",
+                  "text_color": "warning",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "7 777,65 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483774"
+              }
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/4.png",
+                  "placeholder": "wallet"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Ипотека",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Списание завтра с карты МИР **6501 и ещё 3",
+                  "typeface": "footnote1",
+                  "text_color": "warning",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "6 777,65 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483778"
+              }
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
+                  "placeholder": "wallet"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "За сахар",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Списание 3 марта с карты Visa **6699 и ещё 2",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "777,65 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483779"
+              }
+            ],
+            "vertical_gravity": "center"
+          }
+        ]
+      }
     }
+  ]
+}
