@@ -57,6 +57,7 @@
                 "subtitle": {
                   "text": "Спишется сегодня с МИР **6501 и ещё двух",
                   "typeface": "footnote1",
+                  "max_lines": 2,
                   "text_color": "secondary",
                   "margins": {
                     "top": "1x"
@@ -124,6 +125,7 @@
                 "subtitle": {
                   "text": "Спишется завтра",
                   "typeface": "footnote1",
+                  "max_lines": 2,
                   "text_color": "secondary",
                   "margins": {
                     "top": "1x"
@@ -191,6 +193,7 @@
                 "subtitle": {
                   "text": "Спишется завтра с МИР **6501 и ещё двух",
                   "typeface": "footnote1",
+                  "max_lines": 2,
                   "text_color": "secondary",
                   "margins": {
                     "top": "1x"
@@ -258,6 +261,7 @@
                 "subtitle": {
                   "text": "Спишется 3 марта с Visa **6699 и ещё одного",
                   "typeface": "footnote1",
+                  "max_lines": 2,
                   "text_color": "secondary",
                   "margins": {
                     "top": "1x"
@@ -325,13 +329,14 @@
                 "subtitle": {
                   "text": "Спишется 3 марта с Visa **6699 и ещё одного",
                   "typeface": "footnote1",
+                  "max_lines": 2,
                   "text_color": "secondary",
                   "margins": {
                     "top": "1x"
                   }
                 },
                 "caption": {
-                  "text": "Есть просрочка",
+                  "text": "Не хватает 75 777,65 ₽ \nЕсть просрочка",
                   "typeface": "footnote1",
                   "max_lines": 2,
                   "text_color": "warning",
@@ -344,7 +349,7 @@
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "777,65 ₽",
+                "text": "77 777,65 ₽",
                 "typeface": "body1",
                 "text_color": "default"
               },
