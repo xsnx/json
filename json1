@@ -21,13 +21,20 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "Сколько могу вернуть",
+                  "text": "Через работодателя",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 2
                 }
               }
             },
+            "actions": [
+              {
+                "text": "Через работодателя",
+                "type": "text",
+                "should_send_to_backend": true
+              }
+            ],
             "vertical_gravity": "center",
             "divider": {
               "style": "default",
@@ -46,13 +53,52 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "Как оформить вычет за лечение",
+                  "text": "Через налоговую",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 2
                 }
               }
             },
+            "actions": [
+              {
+                "text": "Через налоговую",
+                "type": "text",
+                "should_send_to_backend": true
+              }
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Через Сбер решения",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 2
+                }
+              }
+            },
+            "actions": [
+              {
+                "text": "Через Сбер решения",
+                "type": "text",
+                "should_send_to_backend": true
+              }
+            ],
             "vertical_gravity": "center"
           }
         ]
@@ -60,4 +106,3 @@
     }
   ]
 }
-
