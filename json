@@ -1,387 +1,387 @@
 {
   "items": [
     {
-      "card": {
-        "type": "list_card",
-        "paddings": {
-          "top": "4x",
-          "bottom": "4x",
-          "left": "4x"
+      "card ": {
+        "type ": "list_card ",
+        "paddings ": {
+          "top ": "4x ",
+          "bottom ": "4x ",
+          "left ": "4x "
         },
-        "cells": [
+        "cells ": [
           {
-            "type": "text_cell_view",
-            "paddings": {
-              "left": "8x"
+            "type ": "text_cell_view ",
+            "paddings ": {
+              "left ": "8x "
             },
-            "content": {
-              "text": "Ближайшие 5 платежей",
-              "typeface": "headline3",
-              "text_color": "default"
+            "content ": {
+              "text ": "Ближайшие 5 платежей ",
+              "typeface ": "headline3 ",
+              "text_color ": "default "
             }
           },
           {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
+            "type ": "left_right_cell_view ",
+            "paddings ": {
+              "left ": "8x ",
+              "top ": "8x ",
+              "right ": "8x ",
+              "bottom ": "8x "
             },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/4.png",
-                  "placeholder": "wallet"
+            "left ": {
+              "type ": "simple_left_view ",
+              "icon ": {
+                "address ": {
+                  "type ": "url ",
+                  "url ": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/4.png ",
+                  "placeholder ": "wallet "
                 },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
+                "size ": {
+                  "width ": "medium ",
+                  "height ": "medium "
                 },
-                "margins": {
-                  "right": "6x"
+                "margins ": {
+                  "right ": "6x "
                 },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
+                "tint_color ": "solid_brand ",
+                "rounded_corners ": "circle "
               },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Ипотека",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
+              "icon_vertical_gravity ": "top ",
+              "texts ": {
+                "title ": {
+                  "text ": "Ипотека ",
+                  "typeface ": "body1 ",
+                  "text_color ": "default ",
+                  "max_lines ": 3
                 },
-                "subtitle": {
-                  "text": "Спишется сегодня с МИР **6501 и ещё двух",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
+                "subtitle ": {
+                  "text ": "Спишется сегодня с МИР **6501 и ещё двух ",
+                  "typeface ": "footnote1 ",
+                  "max_lines ": 2,
+                  "text_color ": "secondary ",
+                  "margins ": {
+                    "top ": "1x "
                   }
                 }
               }
             },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "7 777,65 ₽",
-                "typeface": "body1",
-                "text_color": "default"
+            "right ": {
+              "type ": "detail_right_view ",
+              "detail ": {
+                "text ": "7 777,65 ₽ ",
+                "typeface ": "body1 ",
+                "text_color ": "default "
               },
-              "margins": {
-                "left": "4x"
+              "margins ": {
+                "left ": "4x "
               }
             },
-            "actions": [
+            "actions ": [
               {
-                "type": "deep_link",
-                "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483774"
+                "type ": "deep_link ",
+                "deep_link ": "sberbankonline://loan/loan-details?loanId=2477909483774 "
               }
             ],
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
+            "vertical_gravity ": "center ",
+            "divider ": {
+              "style ": "default ",
+              "size ": "d5 "
             }
           },
           {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
+            "type ": "left_right_cell_view ",
+            "paddings ": {
+              "left ": "8x ",
+              "top ": "8x ",
+              "right ": "8x ",
+              "bottom ": "8x "
             },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
-                  "placeholder": "wallet"
+            "left ": {
+              "type ": "simple_left_view ",
+              "icon ": {
+                "address ": {
+                  "type ": "url ",
+                  "url ": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png ",
+                  "placeholder ": "wallet "
                 },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
+                "size ": {
+                  "width ": "medium ",
+                  "height ": "medium "
                 },
-                "margins": {
-                  "right": "6x"
+                "margins ": {
+                  "right ": "6x "
                 },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
+                "tint_color ": "solid_brand ",
+                "rounded_corners ": "circle "
               },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "За сахар",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
+              "icon_vertical_gravity ": "top ",
+              "texts ": {
+                "title ": {
+                  "text ": "За сахар ",
+                  "typeface ": "body1 ",
+                  "text_color ": "default ",
+                  "max_lines ": 3
                 },
-                "subtitle": {
-                  "text": "Спишется завтра с **6196",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
+                "subtitle ": {
+                  "text ": "Спишется завтра с **6196 ",
+                  "typeface ": "footnote1 ",
+                  "max_lines ": 2,
+                  "text_color ": "secondary ",
+                  "margins ": {
+                    "top ": "1x "
                   }
                 },
-                "caption": {
-                  "text": "Не хватает 6 777,77 ₽",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "warning",
-                  "margins": {
-                    "top": "1x"
+                "caption ": {
+                  "text ": "Не хватает 6 777,77 ₽ ",
+                  "typeface ": "footnote1 ",
+                  "max_lines ": 2,
+                  "text_color ": "warning ",
+                  "margins ": {
+                    "top ": "1x "
                   }
                 }
               }
             },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "7 777,77 ₽",
-                "typeface": "body1",
-                "text_color": "default"
+            "right ": {
+              "type ": "detail_right_view ",
+              "detail ": {
+                "text ": "7 777,77 ₽ ",
+                "typeface ": "body1 ",
+                "text_color ": "default "
               },
-              "margins": {
-                "left": "4x"
+              "margins ": {
+                "left ": "4x "
               }
             },
-            "actions": [
+            "actions ": [
               {
-                "type": "deep_link",
-                "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483779"
+                "type ": "deep_link ",
+                "deep_link ": "sberbankonline://loan/loan-details?loanId=2477909483779 "
               }
             ],
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
+            "vertical_gravity ": "center ",
+            "divider ": {
+              "style ": "default ",
+              "size ": "d5 "
             }
           },
           {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
+            "type ": "left_right_cell_view ",
+            "paddings ": {
+              "left ": "8x ",
+              "top ": "8x ",
+              "right ": "8x ",
+              "bottom ": "8x "
             },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
-                  "placeholder": "wallet"
+            "left ": {
+              "type ": "simple_left_view ",
+              "icon ": {
+                "address ": {
+                  "type ": "url ",
+                  "url ": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png ",
+                  "placeholder ": "wallet "
                 },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
+                "size ": {
+                  "width ": "medium ",
+                  "height ": "medium "
                 },
-                "margins": {
-                  "right": "6x"
+                "margins ": {
+                  "right ": "6x "
                 },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
+                "tint_color ": "solid_brand ",
+                "rounded_corners ": "circle "
               },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "За просроченный сахар",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
+              "icon_vertical_gravity ": "top ",
+              "texts ": {
+                "title ": {
+                  "text ": "За просроченный сахар ",
+                  "typeface ": "body1 ",
+                  "text_color ": "default ",
+                  "max_lines ": 3
                 },
-                "subtitle": {
-                  "text": "Спишется 3 марта с Visa **6699 и ещё одного",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
+                "subtitle ": {
+                  "text ": "Спишется 3 марта с Visa **6699 и ещё одного ",
+                  "typeface ": "footnote1 ",
+                  "max_lines ": 2,
+                  "text_color ": "secondary ",
+                  "margins ": {
+                    "top ": "1x "
                   }
                 },
-                "caption": {
-                  "text": "Есть просрочка",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "warning",
-                  "margins": {
-                    "top": "1x"
+                "caption ": {
+                  "text ": "Есть просрочка ",
+                  "typeface ": "footnote1 ",
+                  "max_lines ": 2,
+                  "text_color ": "warning ",
+                  "margins ": {
+                    "top ": "1x "
                   }
                 }
               }
             },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "777,65 ₽",
-                "typeface": "body1",
-                "text_color": "default"
+            "right ": {
+              "type ": "detail_right_view ",
+              "detail ": {
+                "text ": "777,65 ₽ ",
+                "typeface ": "body1 ",
+                "text_color ": "default "
               },
-              "margins": {
-                "left": "4x"
+              "margins ": {
+                "left ": "4x "
               }
             },
-            "actions": [
+            "actions ": [
               {
-                "type": "deep_link",
-                "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483779"
+                "type ": "deep_link ",
+                "deep_link ": "sberbankonline://loan/loan-details?loanId=2477909483779 "
               }
             ],
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
+            "vertical_gravity ": "center ",
+            "divider ": {
+              "style ": "default ",
+              "size ": "d5 "
             }
           },
           {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
+            "type ": "left_right_cell_view ",
+            "paddings ": {
+              "left ": "8x ",
+              "top ": "8x ",
+              "right ": "8x ",
+              "bottom ": "8x "
             },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
-                  "placeholder": "wallet"
+            "left ": {
+              "type ": "simple_left_view ",
+              "icon ": {
+                "address ": {
+                  "type ": "url ",
+                  "url ": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png ",
+                  "placeholder ": "wallet "
                 },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
+                "size ": {
+                  "width ": "medium ",
+                  "height ": "medium "
                 },
-                "margins": {
-                  "right": "6x"
+                "margins ": {
+                  "right ": "6x "
                 },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
+                "tint_color ": "solid_brand ",
+                "rounded_corners ": "circle "
               },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Просроченный счёт",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
+              "icon_vertical_gravity ": "top ",
+              "texts ": {
+                "title ": {
+                  "text ": "Просроченный счёт ",
+                  "typeface ": "body1 ",
+                  "text_color ": "default ",
+                  "max_lines ": 3
                 },
-                "subtitle": {
-                  "text": "Спишется 4 марта с **6196 и ещё одного",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
+                "subtitle ": {
+                  "text ": "Спишется 4 марта с **6196 и ещё девяти ",
+                  "typeface ": "footnote1 ",
+                  "max_lines ": 2,
+                  "text_color ": "secondary ",
+                  "margins ": {
+                    "top ": "1x "
                   }
                 },
-                "caption": {
-                  "text": "Не хватает 66 777,65 ₽ \nЕсть просрочка",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "warning",
-                  "margins": {
-                    "top": "1x"
+                "caption ": {
+                  "text ": "Не хватает 58 777,65 ₽ \nЕсть просрочка ",
+                  "typeface ": "footnote1 ",
+                  "max_lines ": 2,
+                  "text_color ": "warning ",
+                  "margins ": {
+                    "top ": "1x "
                   }
                 }
               }
             },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "77 777,65 ₽",
-                "typeface": "body1",
-                "text_color": "default"
+            "right ": {
+              "type ": "detail_right_view ",
+              "detail ": {
+                "text ": "77 777,65 ₽ ",
+                "typeface ": "body1 ",
+                "text_color ": "default "
               },
-              "margins": {
-                "left": "4x"
+              "margins ": {
+                "left ": "4x "
               }
             },
-            "actions": [
+            "actions ": [
               {
-                "type": "deep_link",
-                "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483779"
+                "type ": "deep_link ",
+                "deep_link ": "sberbankonline://loan/loan-details?loanId=2477909483779 "
               }
             ],
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
+            "vertical_gravity ": "center ",
+            "divider ": {
+              "style ": "default ",
+              "size ": "d5 "
             }
           },
           {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
+            "type ": "left_right_cell_view ",
+            "paddings ": {
+              "left ": "8x ",
+              "top ": "8x ",
+              "right ": "8x ",
+              "bottom ": "8x "
             },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
-                  "placeholder": "wallet"
+            "left ": {
+              "type ": "simple_left_view ",
+              "icon ": {
+                "address ": {
+                  "type ": "url ",
+                  "url ": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png ",
+                  "placeholder ": "wallet "
                 },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
+                "size ": {
+                  "width ": "medium ",
+                  "height ": "medium "
                 },
-                "margins": {
-                  "right": "6x"
+                "margins ": {
+                  "right ": "6x "
                 },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
+                "tint_color ": "solid_brand ",
+                "rounded_corners ": "circle "
               },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Приобретение мечты",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
+              "icon_vertical_gravity ": "top ",
+              "texts ": {
+                "title ": {
+                  "text ": "Приобретение мечты ",
+                  "typeface ": "body1 ",
+                  "text_color ": "default ",
+                  "max_lines ": 3
                 },
-                "subtitle": {
-                  "text": "Спишется 25 марта",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
+                "subtitle ": {
+                  "text ": "Спишется 25 марта ",
+                  "typeface ": "footnote1 ",
+                  "max_lines ": 2,
+                  "text_color ": "secondary ",
+                  "margins ": {
+                    "top ": "1x "
                   }
                 }
               }
             },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "1 000,94 ₽",
-                "typeface": "body1",
-                "text_color": "default"
+            "right ": {
+              "type ": "detail_right_view ",
+              "detail ": {
+                "text ": "1 000,94 ₽ ",
+                "typeface ": "body1 ",
+                "text_color ": "default "
               },
-              "margins": {
-                "left": "4x"
+              "margins ": {
+                "left ": "4x "
               }
             },
-            "actions": [
+            "actions ": [
               {
-                "type": "deep_link",
-                "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483778"
+                "type ": "deep_link ",
+                "deep_link ": "sberbankonline://loan/loan-details?loanId=2477909483778 "
               }
             ],
-            "vertical_gravity": "center"
+            "vertical_gravity ": "center "
           }
         ]
       }
