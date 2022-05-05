@@ -55,7 +55,7 @@
                                 "max_lines": 3
                               },
                               "subtitle": {
-                                "text": "Спишется сегодня с МИР **6501 и ещё двух",
+                                "text": "Спишется сегодня с Visa **1234 и ещё трёх",
                                 "typeface": "footnote1",
                                 "max_lines": 2,
                                 "text_color": "secondary",
@@ -259,7 +259,7 @@
                                 "max_lines": 3
                               },
                               "subtitle": {
-                                "text": "Спишется 3 марта с Visa **6699 и ещё одного",
+                                "text": "Спишется 5 марта с Visa **6699 и ещё одного",
                                 "typeface": "footnote1",
                                 "max_lines": 2,
                                 "text_color": "secondary",
