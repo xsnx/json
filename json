@@ -123,7 +123,7 @@
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "Спишется 5 марта, не выбран счет погашения",
+                  "text": "Спишется 5 марта",
                   "typeface": "footnote1",
                   "max_lines": 2,
                   "text_color": "secondary",
@@ -132,7 +132,7 @@
                   }
                 },
                 "caption": {
-                  "text": "Есть просрочка",
+                  "text": "Не выбран счет погашения \nЕсть просрочка",
                   "typeface": "footnote1",
                   "max_lines": 2,
                   "text_color": "warning",
