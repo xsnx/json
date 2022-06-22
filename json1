@@ -1,7 +1,7 @@
 {
-  "items": [
+  "items ": [
     {
-      "card": {
+      "card ": {
         "type ": "list_card ",
         "paddings ": {
           "top ": "10x ",
@@ -90,7 +90,7 @@
             "right ": {
               "type ": "detail_right_view ",
               "detail ": {
-                "text ": "18",
+                "text ": "2 000,50 бонусы ",
                 "typeface ": "title1 ",
                 "text_color ": "secondary "
               },
@@ -104,62 +104,62 @@
       }
     },
     {
-      "card": {
-        "type": "list_card",
-        "paddings": {
-          "top": "4x",
-          "bottom": "4x",
-          "left": "4x"
+      "card ": {
+        "type ": "list_card ",
+        "paddings ": {
+          "top ": "4x ",
+          "bottom ": "4x ",
+          "left ": "4x "
         },
-        "cells": [
+        "cells ": [
           {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
+            "type ": "left_right_cell_view ",
+            "paddings ": {
+              "left ": "8x ",
+              "top ": "8x ",
+              "right ": "8x ",
+              "bottom ": "8x "
             },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/152.png",
-                  "placeholder": "digital_banknotes"
+            "left ": {
+              "type ": "simple_left_view ",
+              "icon ": {
+                "address ": {
+                  "type ": "url ",
+                  "url ": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/152.png ",
+                  "placeholder ": "digital_banknotes "
                 },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
+                "size ": {
+                  "width ": "medium ",
+                  "height ": "medium "
                 },
-                "margins": {
-                  "right": "6x"
+                "margins ": {
+                  "right ": "6x "
                 },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
+                "tint_color ": "solid_brand ",
+                "rounded_corners ": "circle "
               },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Кредитная карта",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
+              "icon_vertical_gravity ": "top ",
+              "texts ": {
+                "title ": {
+                  "text ": "Кредитная карта ",
+                  "typeface ": "body1 ",
+                  "text_color ": "default ",
+                  "max_lines ": 3
                 }
               }
             },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "289 500 ₽",
-                "typeface": "body1",
-                "text_color": "default"
+            "right ": {
+              "type ": "detail_right_view ",
+              "detail ": {
+                "text ": "289 500 ₽ ",
+                "typeface ": "body1 ",
+                "text_color ": "default "
               },
-              "margins": {
-                "left": "4x"
+              "margins ": {
+                "left ": "4x "
               }
             },
-            "vertical_gravity": "center"
+            "vertical_gravity ": "center "
           }
         ]
       }
