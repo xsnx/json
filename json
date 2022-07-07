@@ -4,114 +4,22 @@
       "card": {
         "type": "list_card",
         "paddings": {
-          "top": "10x",
-          "left": "8x",
-          "right": "8x",
-          "bottom": "10x"
-        },
-        "cells": [
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "top": "2x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Всего",
-                  "typeface": "title1",
-                  "text_color": "default",
-                  "max_lines": 1
-                }
-              }
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "0 ₽",
-                "typeface": "title1",
-                "text_color": "default"
-              },
-              "margins": {
-                "left": "4x"
-              },
-              "vertical_gravity": "center"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "top": "2x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "С кредитной картой",
-                  "typeface": "title1",
-                  "text_color": "secondary",
-                  "max_lines": 1
-                }
-              }
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "289 500 ₽",
-                "typeface": "title1",
-                "text_color": "secondary"
-              },
-              "margins": {
-                "left": "4x"
-              }
-            },
-            "vertical_gravity": "center"
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "top": "2x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Спасибо",
-                  "typeface": "title1",
-                  "text_color": "secondary",
-                  "max_lines": 1
-                }
-              }
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "9 500 балов",
-                "typeface": "title1",
-                "text_color": "secondary"
-              },
-              "margins": {
-                "left": "4x"
-              }
-            },
-            "vertical_gravity": "center"
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "paddings": {
           "top": "4x",
           "bottom": "4x",
           "left": "4x"
         },
         "cells": [
+          {
+            "type": "text_cell_view",
+            "paddings": {
+              "left": "8x"
+            },
+            "content": {
+              "text": "Ближайшие 5 платежей",
+              "typeface": "headline3",
+              "text_color": "default"
+            }
+          },
           {
             "type": "left_right_cell_view",
             "paddings": {
@@ -125,8 +33,8 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/152.png",
-                  "placeholder": "digital_banknotes"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
+                  "placeholder": "wallet"
                 },
                 "size": {
                   "width": "medium",
@@ -141,17 +49,35 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "Кредитная карта",
+                  "text": "Доверительный кредит",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Спишется 6 июля с Visa ••2430 и ещё одного",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                },
+                "caption": {
+                  "text": "Не хватает 172 173,67 ₽ \nЕсть просрочка",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "warning",
+                  "margins": {
+                    "top": "1x"
+                  }
                 }
               }
             },
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "289 500 ₽",
+                "text": "303 165,30 ₽",
                 "typeface": "body1",
                 "text_color": "default"
               },
@@ -159,6 +85,293 @@
                 "left": "4x"
               }
             },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "sberbankonline://loan/loan-details?loanId=3122079081267"
+              }
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
+                  "placeholder": "wallet"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Потребительский кредит",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Спишется 7 июля",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                },
+                "caption": {
+                  "text": "Не выбран счет погашения",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "warning",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "2 216,81 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "sberbankonline://loan/loan-details?loanId=4035254990208"
+              }
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
+                  "placeholder": "wallet"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Потребительский кредит",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Спишется 10 июля",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "129 233,65 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "sberbankonline://loan/loan-details?loanId=2946214988688"
+              }
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
+                  "placeholder": "wallet"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Потребительский кредит",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Спишется 10 июля",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "6 730,88 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "sberbankonline://loan/loan-details?loanId=2946586324272"
+              }
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
+                  "placeholder": "wallet"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Потребительский кредит",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Спишется 10 июля",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "6 986,16 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "sberbankonline://loan/loan-details?loanId=3373635299564"
+              }
+            ],
             "vertical_gravity": "center"
           }
         ]
