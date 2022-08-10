@@ -362,11 +362,13 @@
         "cells": [
           {
             "type": "text_cell_view",
+            "paddings": {
+              "left": "8x"
+            },
             "content": {
-              "text": "Расходы в марте",
+              "text": "Расходы в феврале",
               "typeface": "headline3",
-              "text_color": "default",
-              "max_lines": 2
+              "text_color": "default"
             }
           },
           {
@@ -398,13 +400,13 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "1000 ₽",
+                  "text": "0 ₽",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "На 5000р больше, чем в июле",
+                  "text": "На 5000р больше, чем в феврале",
                   "typeface": "footnote1",
                   "max_lines": 2,
                   "text_color": "secondary",
@@ -414,15 +416,21 @@
                 }
               }
             },
-            "vertical_gravity": "center"
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
           },
           {
             "type": "text_cell_view",
+            "paddings": {
+              "left": "8x"
+            },
             "content": {
-              "text": "Доходы в марте",
+              "text": "Доходы в феврале",
               "typeface": "headline3",
-              "text_color": "default",
-              "max_lines": 2
+              "text_color": "default"
             }
           },
           {
@@ -454,10 +462,19 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "1000 ₽",
+                  "text": "3 000 ₽",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "На 5000р больше, чем в феврале",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
                 }
               }
             },
