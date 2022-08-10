@@ -4,49 +4,6 @@
       "card": {
         "type": "list_card",
         "paddings": {
-          "top": "10x",
-          "left": "8x",
-          "right": "8x",
-          "bottom": "10x"
-        },
-        "cells": [
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "top": "2x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Средств к кошелке, без кредитных",
-                  "typeface": "title1",
-                  "text_color": "default",
-                  "max_lines": 1
-                }
-              }
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "78 949,86 ₽",
-                "typeface": "title1",
-                "text_color": "default"
-              },
-              "margins": {
-                "left": "4x"
-              },
-              "vertical_gravity": "center"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "paddings": {
           "top": "4x",
           "bottom": "4x",
           "left": "4x"
@@ -81,7 +38,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "78 949,86 ₽",
+                  "text": "61 306,20 ₽",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
@@ -389,6 +346,87 @@
                 "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483774"
               }
             ],
+            "vertical_gravity": "center"
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "paddings": {
+          "top": "10x",
+          "left": "8x",
+          "right": "8x",
+          "bottom": "10x"
+        },
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Расходы в марта",
+              "typeface": "headline3",
+              "text_color": "default",
+              "max_lines": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "paddings": {
+          "top": "4x",
+          "bottom": "4x",
+          "left": "4x"
+        },
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/152.png",
+                  "placeholder": "digital_banknotes"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "0 ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Расходы в марта",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
             "vertical_gravity": "center"
           }
         ]
