@@ -355,10 +355,9 @@
       "card": {
         "type": "list_card",
         "paddings": {
-          "top": "10x",
-          "left": "8x",
-          "right": "8x",
-          "bottom": "10x"
+          "top": "4x",
+          "bottom": "4x",
+          "left": "4x"
         },
         "cells": [
           {
@@ -369,19 +368,7 @@
               "text_color": "default",
               "max_lines": 2
             }
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "paddings": {
-          "top": "4x",
-          "bottom": "4x",
-          "left": "4x"
-        },
-        "cells": [
+          },
           {
             "type": "left_right_cell_view",
             "paddings": {
@@ -411,13 +398,13 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "0 ₽",
+                  "text": "1000 ₽",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "Расходы в марта",
+                  "text": "Расходы в марте",
                   "typeface": "footnote1",
                   "max_lines": 2,
                   "text_color": "secondary",
