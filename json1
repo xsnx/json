@@ -363,7 +363,7 @@
           {
             "type": "text_cell_view",
             "content": {
-              "text": "Расходы в марта",
+              "text": "Расходы в марте",
               "typeface": "headline3",
               "text_color": "default",
               "max_lines": 2
@@ -404,13 +404,60 @@
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "Расходы в марте",
+                  "text": "На 5000р больше, чем в июле",
                   "typeface": "footnote1",
                   "max_lines": 2,
                   "text_color": "secondary",
                   "margins": {
                     "top": "1x"
                   }
+                }
+              }
+            },
+            "vertical_gravity": "center"
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Доходы в марте",
+              "typeface": "headline3",
+              "text_color": "default",
+              "max_lines": 2
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/152.png",
+                  "placeholder": "digital_banknotes"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "1000 ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
                 }
               }
             },
