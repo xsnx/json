@@ -3,109 +3,59 @@
     {
       "card": {
         "type": "list_card",
-        "paddings": {
-          "top": "4x",
-          "bottom": "4x",
-          "left": "4x"
-        },
         "cells": [
           {
             "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
             "left": {
               "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/150.png",
-                  "placeholder": "digital_banknotes"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
-              },
-              "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "61 306,20 ₽",
+                  "text": "Почему-то пока не могу посмотреть, сколько у тебя денег, но ты можешь сделать это самостоятельно в приложении",
                   "typeface": "body1",
                   "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "Средств к кошелке, без кредитных",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
+                  "max_lines": 0
                 }
+              },
+              "margins": {
+                "left": "10x",
+                "top": "5x",
+                "right": "10x",
+                "bottom": "5x"
               }
             },
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
+            "paddings": {
+              "left": "6x",
+              "top": "4x",
+              "right": "6x",
+              "bottom": "2x"
             }
           },
           {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/203.png",
-                  "placeholder": "star_light"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": 2000.5,
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "Балов СберСпасибо",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
+            "type": "button_cell_view",
+            "content": {
+              "text": "Узнать общую сумму",
+              "typeface": "button2",
+              "style": "default",
+              "type": "accept",
+              "actions": [
+                {
+                  "type": "deep_link",
+                  "deep_link": "sberbankonline://pfm/open-financeschart"
                 }
+              ],
+              "margins": {
+                "left": "10x",
+                "top": "5x",
+                "right": "10x",
+                "bottom": "5x"
               }
             },
-            "vertical_gravity": "center"
+            "paddings": {
+              "left": "4x",
+              "top": "8x",
+              "right": "4x",
+              "bottom": "8x"
+            }
           }
         ]
       }
@@ -155,26 +105,6 @@
                 }
               }
             },
-            "actions": [
-              {
-                "text": "Мои ближайшие платежи",
-                "type": "text",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "fin_advisor"
-                  },
-                  "parameters": {
-                    "scenario": "pfm_my_obligations"
-                  }
-                }
-              }
-            ],
             "vertical_gravity": "center"
           }
         ]
