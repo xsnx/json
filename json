@@ -3,58 +3,31 @@
     {
       "card": {
         "type": "list_card",
+        "paddings": {
+          "top": "10x",
+          "left": "8x",
+          "right": "8x",
+          "bottom": "10x"
+        },
         "cells": [
           {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Почему-то пока не могу посмотреть, сколько у тебя денег, но ты можешь сделать это самостоятельно в приложении",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0
-                }
-              },
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
-              }
-            },
-            "paddings": {
-              "left": "6x",
-              "top": "4x",
-              "right": "6x",
-              "bottom": "2x"
+            "type": "text_cell_view",
+            "content": {
+              "text": "Расходы с 11.01.2021 по 16.02.2021",
+              "typeface": "headline3",
+              "text_color": "default",
+              "max_lines": 2
             }
           },
           {
-            "type": "button_cell_view",
+            "type": "text_cell_view",
             "content": {
-              "text": "Узнать общую сумму",
-              "typeface": "button2",
-              "style": "default",
-              "type": "accept",
-              "actions": [
-                {
-                  "type": "deep_link",
-                  "deep_link": "sberbankonline://pfm/open-financeschart"
-                }
-              ],
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
-              }
+              "text": "5 256 ₽",
+              "typeface": "headline1",
+              "text_color": "default"
             },
             "paddings": {
-              "left": "4x",
-              "top": "8x",
-              "right": "4x",
-              "bottom": "8x"
+              "top": "6x"
             }
           }
         ]
@@ -70,17 +43,6 @@
         },
         "cells": [
           {
-            "type": "text_cell_view",
-            "paddings": {
-              "left": "8x"
-            },
-            "content": {
-              "text": "Ближайшие 3 платежа",
-              "typeface": "headline3",
-              "text_color": "default"
-            }
-          },
-          {
             "type": "left_right_cell_view",
             "paddings": {
               "left": "8x",
@@ -93,8 +55,8 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
-                  "placeholder": "wallet"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/1.png",
+                  "placeholder": "car"
                 },
                 "size": {
                   "width": "medium",
@@ -109,35 +71,17 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "За просроченный сахар",
+                  "text": "Автомобиль",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "Спишется 3 марта с Visa ••6699 и ещё одного",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
-                },
-                "caption": {
-                  "text": "Есть просрочка",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "warning",
-                  "margins": {
-                    "top": "1x"
-                  }
                 }
               }
             },
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "777,65 ₽",
+                "text": "2 628 ₽",
                 "typeface": "body1",
                 "text_color": "default"
               },
@@ -147,228 +91,7 @@
             },
             "actions": [
               {
-                "type": "deep_link",
-                "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483779"
-              }
-            ],
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
-                  "placeholder": "wallet"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Просроченный счёт",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "Спишется 4 марта с ••6003 и других",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
-                },
-                "caption": {
-                  "text": "Не хватает 56 777,65 ₽ \nЕсть просрочка",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "warning",
-                  "margins": {
-                    "top": "1x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "77 777,65 ₽",
-                "typeface": "body1",
-                "text_color": "default"
-              },
-              "margins": {
-                "left": "4x"
-              }
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483779"
-              }
-            ],
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/4.png",
-                  "placeholder": "wallet"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Ипотека",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "Спишется сегодня с МИР ••6501 и ещё двух",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "7 777,65 ₽",
-                "typeface": "body1",
-                "text_color": "default"
-              },
-              "margins": {
-                "left": "4x"
-              }
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483774"
-              }
-            ],
-            "vertical_gravity": "center"
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "paddings": {
-          "top": "4x",
-          "bottom": "4x",
-          "left": "4x"
-        },
-        "cells": [
-          {
-            "type": "text_cell_view",
-            "paddings": {
-              "left": "8x"
-            },
-            "content": {
-              "text": "Расходы в марте",
-              "typeface": "headline3",
-              "text_color": "default"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/152.png",
-                  "placeholder": "digital_banknotes"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "0 ₽",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "На 4 028,40 ₽ меньше, чем в феврале",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
-                }
-              }
-            },
-            "actions": [
-              {
-                "text": "Расходы",
+                "text": "Самые большие операции в категории автомобиль с 11.01.2021 по 16.02.2021",
                 "type": "text",
                 "should_send_to_backend": false
               },
@@ -381,7 +104,12 @@
                     "systemName": "fin_advisor"
                   },
                   "parameters": {
-                    "scenario": "pfm_my_expenses"
+                    "scenario": "pfm_operations_history",
+                    "from": "11.01.2021",
+                    "to": "16.02.2021",
+                    "period_name": "interval",
+                    "category": "1",
+                    "sort_by": "amount"
                   }
                 }
               }
@@ -390,17 +118,6 @@
             "divider": {
               "style": "default",
               "size": "d5"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "paddings": {
-              "left": "8x"
-            },
-            "content": {
-              "text": "Доходы в марте",
-              "typeface": "headline3",
-              "text_color": "default"
             }
           },
           {
@@ -416,8 +133,8 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/152.png",
-                  "placeholder": "digital_banknotes"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/22.png",
+                  "placeholder": "photo"
                 },
                 "size": {
                   "width": "medium",
@@ -432,16 +149,27 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "3 000 ₽",
+                  "text": "Искусство",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
                 }
               }
             },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "2 628 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
             "actions": [
               {
-                "text": "Доходы",
+                "text": "Самые большие операции в категории искусство с 11.01.2021 по 16.02.2021",
                 "type": "text",
                 "should_send_to_backend": false
               },
@@ -454,7 +182,12 @@
                     "systemName": "fin_advisor"
                   },
                   "parameters": {
-                    "scenario": "pfm_my_income"
+                    "scenario": "pfm_operations_history",
+                    "from": "11.01.2021",
+                    "to": "16.02.2021",
+                    "period_name": "interval",
+                    "category": "22",
+                    "sort_by": "amount"
                   }
                 }
               }
