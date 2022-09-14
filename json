@@ -21,9 +21,6 @@
             }
           },
           {
-            "type": "disclosure_right_view"
-          },
-          {
             "type": "left_right_cell_view",
             "paddings": {
               "left": "8x",
