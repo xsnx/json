@@ -75,7 +75,7 @@
               }
             },
             "right": {
-              "type": "detail_right_view",
+
               "detail": {
                 "text": "777,65 ₽",
                 "typeface": "body1",
@@ -83,7 +83,9 @@
               },
               "margins": {
                 "left": "4x"
-              }
+              },
+
+              "type": "disclosure_right_view"
             },
             "actions": [
               {
