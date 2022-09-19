@@ -75,7 +75,7 @@
               }
             },
             "right": {
-
+              "type": "detail_right_view",
               "detail": {
                 "text": "777,65 ₽",
                 "typeface": "body1",
@@ -83,9 +83,7 @@
               },
               "margins": {
                 "left": "4x"
-              },
-
-              "type": "disclosure_right_view"
+              }
             },
             "actions": [
               {
@@ -245,62 +243,56 @@
     },
     {
       "card": {
+        "type": "list_card",
         "cells": [
           {
+            "type": "left_right_cell_view",
             "left": {
+              "type": "simple_left_view",
               "icon": {
+                "tint_color": "solid_brand",
                 "address": {
-                  "identificator": "student_hat",
-                  "type": "local"
+                  "type": "local",
+                  "identificator": "other"
                 },
                 "size": {
                   "width": "medium",
                   "height": "medium"
                 },
                 "margins": {
-                  "bottom": "5x",
                   "left": "8x",
+                  "top": "5x",
                   "right": "6x",
-                  "top": "5x"
-                },
-                "tint_color": "solid_brand"
+                  "bottom": "5x"
+                }
               },
-              "icon_vertical_gravity": "center",
               "title": {
-                "text": "Узнать об условиях",
+                "text": "card_data.caption",
                 "typeface": "body1",
                 "text_color": "default",
+                "max_lines": 1,
                 "margins": {
-                  "bottom": "9x",
-                  "left": "0x",
-                  "right": "0x",
-                  "top": "9x"
-                },
-                "max_lines": 1
-              },
-              "type": "simple_left_view"
+                  "top": "9x",
+                  "bottom": "9x"
+                }
+              }
             },
             "right": {
+              "type": "disclosure_right_view",
               "margins": {
-                "bottom": "8x",
-                "left": "0x",
+                "top": "8x",
                 "right": "4x",
-                "top": "8x"
-              },
-              "type": "disclosure_right_view"
+                "bottom": "8x"
+              }
             },
             "actions": [
               {
-                "deep_link": "https://sberbank.ru/v/r/?p=CSVcR",
-                "type": "deep_link"
+                "type": "deep_link",
+                "deep_link": "link "
               }
-            ],
-            "type": "left_right_cell_view"
+            ]
           }
-        ],
-        "background_color": "card_background",
-        "can_be_disabled": false,
-        "type": "list_card"
+        ]
       }
     }
   ]
