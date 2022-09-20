@@ -76,7 +76,7 @@
             },
             "right": {
               "type": "right_cell_array_view",
-              "orientation": "vertical",
+              "orientation": "horizontal",
               "items": [
                 {
                   "type": "detail_right_view",
