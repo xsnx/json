@@ -10,6 +10,144 @@
         },
         "cells": [
           {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/150.png",
+                  "placeholder": "digital_banknotes"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "61 306,20 ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Средств к кошелке, без кредитных",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "orientation": "horizontal",
+              "items": [
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "top": "8x",
+                    "right": "4x",
+                    "bottom": "8x"
+                  }
+                }
+              ]
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/spasibo.png",
+                  "placeholder": "color_spasibo"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": 2000.5,
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Баллов СберСпасибо",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "orientation": "horizontal",
+              "items": [
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "top": "8x",
+                    "right": "4x",
+                    "bottom": "8x"
+                  }
+                }
+              ]
+            },
+            "vertical_gravity": "center"
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "paddings": {
+          "top": "4x",
+          "bottom": "4x",
+          "left": "4x"
+        },
+        "cells": [
+          {
             "type": "text_cell_view",
             "paddings": {
               "left": "8x"
@@ -78,46 +216,6 @@
               "type": "right_cell_array_view",
               "orientation": "horizontal",
               "items": [
-                {
-                  "type": "round_button_cell_view",
-                  "margins": {
-                    "bottom": "2x"
-                  },
-                  "content": {
-                    "icon_address": {
-                      "type": "local",
-                      "identificator": "sber"
-                    },
-                    "icon_tint": "solid_black",
-                    "background_color": "solid_white",
-                    "actions": [
-                      {
-                        "type": "text",
-                        "text": "текст"
-                      }
-                    ]
-                  }
-                },
-                {
-                  "type": "round_button_cell_view",
-                  "margins": {
-                    "bottom": "2x"
-                  },
-                  "content": {
-                    "icon_address": {
-                      "type": "local",
-                      "identificator": "spasibo"
-                    },
-                    "icon_tint": "solid_black",
-                    "background_color": "solid_white",
-                    "actions": [
-                      {
-                        "type": "text",
-                        "text": "текст"
-                      }
-                    ]
-                  }
-                },
                 {
                   "type": "detail_right_view",
                   "detail": {
@@ -206,15 +304,29 @@
               }
             },
             "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "77 777,65 ₽",
-                "typeface": "body1",
-                "text_color": "default"
-              },
-              "margins": {
-                "left": "4x"
-              }
+              "type": "right_cell_array_view",
+              "orientation": "horizontal",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "text": "77 777,65 ₽",
+                    "typeface": "body1",
+                    "text_color": "default"
+                  },
+                  "margins": {
+                    "left": "4x"
+                  }
+                },
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "top": "8x",
+                    "right": "4x",
+                    "bottom": "8x"
+                  }
+                }
+              ]
             },
             "actions": [
               {
@@ -274,15 +386,29 @@
               }
             },
             "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "7 777,65 ₽",
-                "typeface": "body1",
-                "text_color": "default"
-              },
-              "margins": {
-                "left": "4x"
-              }
+              "type": "right_cell_array_view",
+              "orientation": "horizontal",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "text": "7 777,65 ₽",
+                    "typeface": "body1",
+                    "text_color": "default"
+                  },
+                  "margins": {
+                    "left": "4x"
+                  }
+                },
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "top": "8x",
+                    "right": "4x",
+                    "bottom": "8x"
+                  }
+                }
+              ]
             },
             "actions": [
               {
@@ -298,53 +424,190 @@
     {
       "card": {
         "type": "list_card",
+        "paddings": {
+          "top": "4x",
+          "bottom": "4x",
+          "left": "4x"
+        },
         "cells": [
           {
+            "type": "text_cell_view",
+            "paddings": {
+              "left": "8x"
+            },
+            "content": {
+              "text": "Расходы в марте",
+              "typeface": "headline3",
+              "text_color": "default"
+            }
+          },
+          {
             "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
             "left": {
               "type": "simple_left_view",
               "icon": {
-                "tint_color": "solid_brand",
                 "address": {
-                  "type": "local",
-                  "identificator": "other"
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/munis.png",
+                  "placeholder": "wallet"
                 },
                 "size": {
                   "width": "medium",
                   "height": "medium"
                 },
                 "margins": {
-                  "left": "8x",
-                  "top": "5x",
-                  "right": "6x",
-                  "bottom": "5x"
-                }
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
               },
-              "title": {
-                "text": "card_data.caption",
-                "typeface": "body1",
-                "text_color": "default",
-                "max_lines": 1,
-                "margins": {
-                  "top": "9x",
-                  "bottom": "9x"
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "0 ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "На 4 028,40 ₽ меньше, чем в феврале",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
                 }
               }
             },
             "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
+              "type": "right_cell_array_view",
+              "orientation": "horizontal",
+              "items": [
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "top": "8x",
+                    "right": "4x",
+                    "bottom": "8x"
+                  }
+                }
+              ]
             },
             "actions": [
               {
-                "type": "deep_link",
-                "deep_link": "link "
+                "text": "Расходы",
+                "type": "text",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "fin_advisor"
+                  },
+                  "parameters": {
+                    "scenario": "pfm_my_expenses"
+                  }
+                }
               }
-            ]
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "paddings": {
+              "left": "8x"
+            },
+            "content": {
+              "text": "Доходы в марте",
+              "typeface": "headline3",
+              "text_color": "default"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/plus.png",
+                  "placeholder": "wallet"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "3 000 ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "orientation": "horizontal",
+              "items": [
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "top": "8x",
+                    "right": "4x",
+                    "bottom": "8x"
+                  }
+                }
+              ]
+            },
+            "actions": [
+              {
+                "text": "Доходы",
+                "type": "text",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "fin_advisor"
+                  },
+                  "parameters": {
+                    "scenario": "pfm_my_income"
+                  }
+                }
+              }
+            ],
+            "vertical_gravity": "center"
           }
         ]
       }
