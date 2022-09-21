@@ -520,11 +520,7 @@
                 }
               }
             ],
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
+            "vertical_gravity": "center"
           },
           {
             "type": "text_cell_view",
