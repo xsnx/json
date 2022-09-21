@@ -216,25 +216,6 @@
               "type": "right_cell_array_view",
               "orientation": "horizontal",
               "items": [
-                {
-                  "type": "detail_right_view",
-                  "detail": {
-                    "text": "777,65 ₽",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  },
-                  "margins": {
-                    "left": "4x"
-                  }
-                },
-                {
-                  "type": "disclosure_right_view",
-                  "margins": {
-                    "top": "8x",
-                    "right": "4x",
-                    "bottom": "8x"
-                  }
-                }
               ]
             },
             "actions": [
