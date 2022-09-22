@@ -38,7 +38,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "61 306,20 ₽",
+                  "text": "61 306,20 ₽",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
@@ -55,19 +55,31 @@
               }
             },
             "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "disclosure_right_view",
-                  "margins": {
-                    "top": "8x",
-                    "right": "4x",
-                    "bottom": "8x"
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "text": "Всего средств",
+                "type": "text",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "fin_advisor"
+                  },
+                  "parameters": {
+                    "intent": "pfm_total_finance"
                   }
                 }
-              ]
-            },
+              }
+            ],
             "vertical_gravity": "center",
             "divider": {
               "style": "default",
@@ -120,19 +132,31 @@
               }
             },
             "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "disclosure_right_view",
-                  "margins": {
-                    "top": "8x",
-                    "right": "4x",
-                    "bottom": "8x"
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "text": "Куда использовать бонусы",
+                "type": "text",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "What_can_I_do_with_SPASIBO_bonuses"
+                  },
+                  "parameters": {
+                    "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"
                   }
                 }
-              ]
-            },
+              }
+            ],
             "vertical_gravity": "center"
           }
         ]
@@ -213,10 +237,15 @@
               }
             },
             "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-              ]
+              "type": "detail_right_view",
+              "detail": {
+                "text": "777,65 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
             },
             "actions": [
               {
@@ -274,7 +303,7 @@
                   }
                 },
                 "caption": {
-                  "text": "Не хватает 56 777,65 ₽ \nЕсть просрочка",
+                  "text": "Не хватает 56 777,65 ₽ \nЕсть просрочка",
                   "typeface": "footnote1",
                   "max_lines": 2,
                   "text_color": "warning",
@@ -285,29 +314,15 @@
               }
             },
             "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "detail_right_view",
-                  "detail": {
-                    "text": "77 777,65 ₽",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  },
-                  "margins": {
-                    "left": "4x"
-                  }
-                },
-                {
-                  "type": "disclosure_right_view",
-                  "margins": {
-                    "top": "8x",
-                    "right": "4x",
-                    "bottom": "8x"
-                  }
-                }
-              ]
+              "type": "detail_right_view",
+              "detail": {
+                "text": "77 777,65 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
             },
             "actions": [
               {
@@ -367,29 +382,15 @@
               }
             },
             "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "detail_right_view",
-                  "detail": {
-                    "text": "7 777,65 ₽",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  },
-                  "margins": {
-                    "left": "4x"
-                  }
-                },
-                {
-                  "type": "disclosure_right_view",
-                  "margins": {
-                    "top": "8x",
-                    "right": "4x",
-                    "bottom": "8x"
-                  }
-                }
-              ]
+              "type": "detail_right_view",
+              "detail": {
+                "text": "7 777,65 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
             },
             "actions": [
               {
@@ -451,13 +452,13 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "0 ₽",
+                  "text": "0 ₽",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "На 4 028,40 ₽ меньше, чем в феврале",
+                  "text": "На 4 028,40 ₽ меньше, чем в феврале",
                   "typeface": "footnote1",
                   "max_lines": 2,
                   "text_color": "secondary",
@@ -468,18 +469,10 @@
               }
             },
             "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "disclosure_right_view",
-                  "margins": {
-                    "top": "8x",
-                    "right": "4x",
-                    "bottom": "8x"
-                  }
-                }
-              ]
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
             },
             "actions": [
               {
@@ -496,12 +489,16 @@
                     "systemName": "fin_advisor"
                   },
                   "parameters": {
-                    "scenario": "pfm_my_expenses"
+                    "intent": "pfm_my_expenses"
                   }
                 }
               }
             ],
-            "vertical_gravity": "center"
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
           },
           {
             "type": "text_cell_view",
@@ -543,7 +540,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "3 000 ₽",
+                  "text": "3 000 ₽",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
@@ -551,18 +548,10 @@
               }
             },
             "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "disclosure_right_view",
-                  "margins": {
-                    "top": "8x",
-                    "right": "4x",
-                    "bottom": "8x"
-                  }
-                }
-              ]
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
             },
             "actions": [
               {
@@ -579,7 +568,7 @@
                     "systemName": "fin_advisor"
                   },
                   "parameters": {
-                    "scenario": "pfm_my_income"
+                    "intent": "pfm_my_income"
                   }
                 }
               }
