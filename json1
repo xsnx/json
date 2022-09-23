@@ -55,10 +55,16 @@
               }
             },
             "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "right": "5x"
-              }
+              "type": "right_cell_array_view",
+              "orientation": "horizontal",
+              "items": [
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "right": "3x"
+                  }
+                }
+              ]
             },
             "actions": [
               {
@@ -132,10 +138,16 @@
               }
             },
             "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "right": "5x"
-              }
+              "type": "right_cell_array_view",
+              "orientation": "horizontal",
+              "items": [
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "right": "3x"
+                  }
+                }
+              ]
             },
             "actions": [
               {
@@ -237,10 +249,27 @@
               }
             },
             "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "right": "5x"
-              }
+              "type": "right_cell_array_view",
+              "orientation": "horizontal",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "text": "777,65 ₽",
+                    "typeface": "body1",
+                    "text_color": "default"
+                  },
+                  "margins": {
+                    "left": "4x"
+                  }
+                },
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "right": "3x"
+                  }
+                }
+              ]
             },
             "actions": [
               {
@@ -309,10 +338,27 @@
               }
             },
             "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "right": "5x"
-              }
+              "type": "right_cell_array_view",
+              "orientation": "horizontal",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "text": "77 777,65 ₽",
+                    "typeface": "body1",
+                    "text_color": "default"
+                  },
+                  "margins": {
+                    "left": "4x"
+                  }
+                },
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "right": "3x"
+                  }
+                }
+              ]
             },
             "actions": [
               {
@@ -372,10 +418,27 @@
               }
             },
             "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "right": "5x"
-              }
+              "type": "right_cell_array_view",
+              "orientation": "horizontal",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "text": "7 777,65 ₽",
+                    "typeface": "body1",
+                    "text_color": "default"
+                  },
+                  "margins": {
+                    "left": "4x"
+                  }
+                },
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "right": "3x"
+                  }
+                }
+              ]
             },
             "actions": [
               {
@@ -454,10 +517,16 @@
               }
             },
             "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "right": "5x"
-              }
+              "type": "right_cell_array_view",
+              "orientation": "horizontal",
+              "items": [
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "right": "3x"
+                  }
+                }
+              ]
             },
             "actions": [
               {
@@ -533,10 +602,16 @@
               }
             },
             "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "right": "5x"
-              }
+              "type": "right_cell_array_view",
+              "orientation": "horizontal",
+              "items": [
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "right": "3x"
+                  }
+                }
+              ]
             },
             "actions": [
               {
