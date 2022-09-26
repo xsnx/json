@@ -10,6 +10,17 @@
         },
         "cells": [
           {
+            "type": "text_cell_view",
+            "paddings": {
+              "left": "8x"
+            },
+            "content": {
+              "text": "Всего",
+              "typeface": "headline3",
+              "text_color": "default"
+            }
+          },
+          {
             "type": "left_right_cell_view",
             "paddings": {
               "left": "8x",
