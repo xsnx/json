@@ -19,32 +19,16 @@
             },
             "left": {
               "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/150.png",
-                  "placeholder": "digital_banknotes"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
-              },
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "61 306,20 ₽",
+                  "text": "7 операций",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "Средств к кошелке, без кредитных",
+                  "text": "В марте",
                   "typeface": "footnote1",
                   "max_lines": 2,
                   "text_color": "secondary",
@@ -73,7 +57,7 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/203.png",
+                  "url": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg",
                   "placeholder": "star_light"
                 },
                 "size": {
@@ -89,13 +73,13 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": 2000.5,
+                  "text": "Caviar House Airport P Frankfurt Deu",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "Балов СберСпасибо",
+                  "text": "Рестораны и кафе",
                   "typeface": "footnote1",
                   "max_lines": 2,
                   "text_color": "secondary",
@@ -105,128 +89,60 @@
                 }
               }
             },
-            "vertical_gravity": "center"
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "paddings": {
-          "top": "4x",
-          "bottom": "4x",
-          "left": "4x"
-        },
-        "cells": [
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Похоже, у вас нет обязательных платежей",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                }
-              }
-            },
-            "vertical_gravity": "center"
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "paddings": {
-          "top": "4x",
-          "bottom": "4x",
-          "left": "4x"
-        },
-        "cells": [
-          {
-            "type": "text_cell_view",
-            "paddings": {
-              "left": "8x"
-            },
-            "content": {
-              "text": "Расходы в марте",
-              "typeface": "headline3",
-              "text_color": "default"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/152.png",
-                  "placeholder": "digital_banknotes"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "0 ₽",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "На 4 028,40 ₽ меньше, чем в феврале",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "secondary",
+            "right": {
+              "type": "right_cell_array_view",
+              "orientation": "horizontal",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "text": "100 ₽",
+                    "typeface": "body1",
+                    "text_color": "default"
+                  },
                   "margins": {
-                    "top": "1x"
+                    "left": "4x"
+                  },
+                  "info_and_icon": {
+                    "info": {
+                      "text": "1 марта, 10:22:53",
+                      "typeface": "footnote1",
+                      "text_color": "secondary",
+                      "max_lines": 1
+                    }
+                  }
+                },
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "right": "5x"
                   }
                 }
-              }
+              ]
             },
             "actions": [
               {
-                "text": "Расходы",
-                "type": "text",
-                "should_send_to_backend": false
-              },
-              {
                 "type": "server_action",
                 "message_name": "RUN_APP",
+                "intent": "run_app",
                 "server_action": {
                   "action_id": "run_app",
                   "app_info": {
                     "systemName": "fin_advisor"
                   },
                   "parameters": {
-                    "scenario": "pfm_my_expenses"
+                    "intent": "pfm_merchant_expenses",
+                    "originalOperationName": "PEKARNYA PAPAN MOSCOW RUS",
+                    "merchant": "Caviar House Airport P Frankfurt Deu",
+                    "from": "01.03.2021",
+                    "to": "01.03.2021",
+                    "period_name": "month",
+                    "imgURl": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg"
                   }
                 }
+              },
+              {
+                "should_send_to_backend": false
               }
             ],
             "vertical_gravity": "center",
@@ -236,14 +152,110 @@
             }
           },
           {
-            "type": "text_cell_view",
+            "type": "left_right_cell_view",
             "paddings": {
-              "left": "8x"
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
             },
-            "content": {
-              "text": "Доходы в марте",
-              "typeface": "headline3",
-              "text_color": "default"
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Caviar House Airport P Frankfurt Deu",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Рестораны и кафе",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "orientation": "horizontal",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "text": "100 ₽",
+                    "typeface": "body1",
+                    "text_color": "default"
+                  },
+                  "margins": {
+                    "left": "4x"
+                  },
+                  "info_and_icon": {
+                    "info": {
+                      "text": "1 марта, 10:22:53",
+                      "typeface": "footnote1",
+                      "text_color": "secondary",
+                      "max_lines": 1
+                    }
+                  }
+                },
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "right": "5x"
+                  }
+                }
+              ]
+            },
+            "actions": [
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "intent": "run_app",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "fin_advisor"
+                  },
+                  "parameters": {
+                    "intent": "pfm_merchant_expenses",
+                    "originalOperationName": "PEKARNYA PAPAN MOSCOW RUS",
+                    "merchant": "Caviar House Airport P Frankfurt Deu",
+                    "from": "01.03.2021",
+                    "to": "01.03.2021",
+                    "period_name": "month",
+                    "imgURl": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg"
+                  }
+                }
+              },
+              {
+                "should_send_to_backend": false
+              }
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
             }
           },
           {
@@ -259,8 +271,8 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/152.png",
-                  "placeholder": "digital_banknotes"
+                  "url": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg",
+                  "placeholder": "star_light"
                 },
                 "size": {
                   "width": "medium",
@@ -275,31 +287,460 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "3 000 ₽",
+                  "text": "Caviar House Airport P Frankfurt Deu",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Рестораны и кафе",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
                 }
               }
             },
+            "right": {
+              "type": "right_cell_array_view",
+              "orientation": "horizontal",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "text": "1 000 ₽",
+                    "typeface": "body1",
+                    "text_color": "default"
+                  },
+                  "margins": {
+                    "left": "4x"
+                  },
+                  "info_and_icon": {
+                    "info": {
+                      "text": "1 марта, 10:21:15",
+                      "typeface": "footnote1",
+                      "text_color": "secondary",
+                      "max_lines": 1
+                    }
+                  }
+                },
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "right": "5x"
+                  }
+                }
+              ]
+            },
             "actions": [
-              {
-                "text": "Доходы",
-                "type": "text",
-                "should_send_to_backend": false
-              },
               {
                 "type": "server_action",
                 "message_name": "RUN_APP",
+                "intent": "run_app",
                 "server_action": {
                   "action_id": "run_app",
                   "app_info": {
                     "systemName": "fin_advisor"
                   },
                   "parameters": {
-                    "scenario": "pfm_my_income"
+                    "intent": "pfm_merchant_expenses",
+                    "originalOperationName": "PEKARNYA PAPAN MOSCOW RUS",
+                    "merchant": "Caviar House Airport P Frankfurt Deu",
+                    "from": "01.03.2021",
+                    "to": "01.03.2021",
+                    "period_name": "month",
+                    "imgURl": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg"
                   }
                 }
+              },
+              {
+                "should_send_to_backend": false
+              }
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Caviar House Airport P Frankfurt Deu",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Рестораны и кафе",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "orientation": "horizontal",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "text": "1 000 ₽",
+                    "typeface": "body1",
+                    "text_color": "default"
+                  },
+                  "margins": {
+                    "left": "4x"
+                  },
+                  "info_and_icon": {
+                    "info": {
+                      "text": "1 марта, 10:21:15",
+                      "typeface": "footnote1",
+                      "text_color": "secondary",
+                      "max_lines": 1
+                    }
+                  }
+                },
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "right": "5x"
+                  }
+                }
+              ]
+            },
+            "actions": [
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "intent": "run_app",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "fin_advisor"
+                  },
+                  "parameters": {
+                    "intent": "pfm_merchant_expenses",
+                    "originalOperationName": "PEKARNYA PAPAN MOSCOW RUS",
+                    "merchant": "Caviar House Airport P Frankfurt Deu",
+                    "from": "01.03.2021",
+                    "to": "01.03.2021",
+                    "period_name": "month",
+                    "imgURl": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg"
+                  }
+                }
+              },
+              {
+                "should_send_to_backend": false
+              }
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Caviar House Airport P Frankfurt Deu",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Рестораны и кафе",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "orientation": "horizontal",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "text": "65 000 ₽",
+                    "typeface": "body1",
+                    "text_color": "default"
+                  },
+                  "margins": {
+                    "left": "4x"
+                  },
+                  "info_and_icon": {
+                    "info": {
+                      "text": "1 марта, 10:21:03",
+                      "typeface": "footnote1",
+                      "text_color": "secondary",
+                      "max_lines": 1
+                    }
+                  }
+                },
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "right": "5x"
+                  }
+                }
+              ]
+            },
+            "actions": [
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "intent": "run_app",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "fin_advisor"
+                  },
+                  "parameters": {
+                    "intent": "pfm_merchant_expenses",
+                    "originalOperationName": "PEKARNYA PAPAN MOSCOW RUS",
+                    "merchant": "Caviar House Airport P Frankfurt Deu",
+                    "from": "01.03.2021",
+                    "to": "01.03.2021",
+                    "period_name": "month",
+                    "imgURl": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg"
+                  }
+                }
+              },
+              {
+                "should_send_to_backend": false
+              }
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Caviar House Airport P Frankfurt Deu",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Рестораны и кафе",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "orientation": "horizontal",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "text": "590 ₽",
+                    "typeface": "body1",
+                    "text_color": "default"
+                  },
+                  "margins": {
+                    "left": "4x"
+                  },
+                  "info_and_icon": {
+                    "info": {
+                      "text": "1 марта, 10:19:01",
+                      "typeface": "footnote1",
+                      "text_color": "secondary",
+                      "max_lines": 1
+                    }
+                  }
+                },
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "right": "5x"
+                  }
+                }
+              ]
+            },
+            "actions": [
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "intent": "run_app",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "fin_advisor"
+                  },
+                  "parameters": {
+                    "intent": "pfm_merchant_expenses",
+                    "originalOperationName": "PEKARNYA PAPAN MOSCOW RUS",
+                    "merchant": "Caviar House Airport P Frankfurt Deu",
+                    "from": "01.03.2021",
+                    "to": "01.03.2021",
+                    "period_name": "month",
+                    "imgURl": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg"
+                  }
+                }
+              },
+              {
+                "should_send_to_backend": false
+              }
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/101.png",
+                  "placeholder": "list"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Загрузить ещё",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "type": "server_action",
+                "message_name": "SERVER_ACTION",
+                "server_action": {
+                  "action_id": "get_operations_more",
+                  "unique_key": "messageId"
+                }
+              },
+              {
+                "text": "Показать больше операций",
+                "type": "text",
+                "should_send_to_backend": false
               }
             ],
             "vertical_gravity": "center"
