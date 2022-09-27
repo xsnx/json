@@ -226,7 +226,7 @@
               "text": "Задолженность по кредитной карте",
               "typeface": "button2",
               "style": "default",
-              "type": "disabled",
+              "type": "negative",
               "actions": [
                 {
                   "type": "deep_link",
