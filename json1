@@ -35,7 +35,7 @@
             "content": {
               "text": "Задолженность по кредитной карте",
               "typeface": "button2",
-              "style": "default",
+              "style": "transparent",
               "type": "accept",
               "actions": [
                 {
