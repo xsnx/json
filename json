@@ -220,7 +220,7 @@
             "content": {
               "text": "Задолженность по кредитной карте",
               "typeface": "button2",
-              "style": "transparent",
+              "style": "secondary",
               "type": "disabled",
               "actions": [
                 {
