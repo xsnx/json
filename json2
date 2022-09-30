@@ -35,19 +35,12 @@
             "content": {
               "text": "Задолженность по кредитной карте",
               "style": "secondary",
-              "rounded_corners": "rounded",
               "actions": [
                 {
                   "type": "deep_link",
                   "deep_link": "sberbankonline://credit-card-debt/"
                 }
-              ],
-              "paddings": {
-                "left": "4x",
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
+              ]
             },
             "paddings": {
               "left": "4x",
