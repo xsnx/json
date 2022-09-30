@@ -7,20 +7,22 @@
           {
             "type": "left_right_cell_view",
             "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Ближайшие платежи не загрузились. Если у тебя есть кредит, посмотри по-старинке в разделе «Кредиты» на главном экране. А инфа по кредитке — в разделе «Задолженность»",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0
-                }
+              "type": "plasma_button_cell_view",
+              "content": {
+                "text": "Задолженность по кредитной карте",
+                "style": "secondary",
+                "actions": [
+                  {
+                    "type": "deep_link",
+                    "deep_link": "sberbankonline://credit-card-debt/"
+                  }
+                ]
               },
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
+              "paddings": {
+                "left": "4x",
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
               }
             },
             "paddings": {
@@ -28,25 +30,6 @@
               "top": "4x",
               "right": "6x",
               "bottom": "2x"
-            }
-          },
-          {
-            "type": "plasma_button_cell_view",
-            "content": {
-              "text": "Задолженность по кредитной карте",
-              "style": "secondary",
-              "actions": [
-                {
-                  "type": "deep_link",
-                  "deep_link": "sberbankonline://credit-card-debt/"
-                }
-              ]
-            },
-            "paddings": {
-              "left": "4x",
-              "top": "8x",
-              "right": "4x",
-              "bottom": "8x"
             }
           }
         ]
