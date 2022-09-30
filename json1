@@ -31,12 +31,11 @@
             }
           },
           {
-            "type": "button_cell_view",
+            "type": "plasma_button_cell_view",
             "content": {
               "text": "Задолженность по кредитной карте",
               "typeface": "button2",
               "style": "secondary",
-              "type": "accept",
               "actions": [
                 {
                   "type": "deep_link",
