@@ -465,7 +465,7 @@
               "text": "Посмотреть все платежи",
               "typeface": "button2",
               "style": "transparent",
-              "type": "disabled",
+              "type": "accept",
               "actions": [
                 {
                   "type": "deep_link",
@@ -525,7 +525,7 @@
               "text": "Узнать общую сумму",
               "typeface": "button2",
               "style": "transparent",
-              "type": "disabled",
+              "type": "accept",
               "actions": [
                 {
                   "type": "deep_link",
