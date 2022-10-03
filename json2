@@ -101,7 +101,7 @@
               "text": "button1 по кредитной карте",
               "typeface": "button1",
               "style": "default",
-              "type": "disabled",
+              "type": "accept",
               "actions": [
                 {
                   "type": "deep_link",
@@ -234,7 +234,7 @@
               "text": "title1 по кредитной карте",
               "typeface": "title1",
               "style": "default",
-              "type": "disabled",
+              "type": "accept",
               "actions": [
                 {
                   "type": "deep_link",
