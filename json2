@@ -38,9 +38,9 @@
           {
             "type": "button_cell_view",
             "content": {
-              "text": "Задолженность по кредитной карте",
+              "text": "transparent по кредитной карте",
               "typeface": "button2",
-              "style": "secondary",
+              "style": "transparent",
               "type": "accept",
               "actions": [
                 {
@@ -98,7 +98,7 @@
           {
             "type": "button_cell_view",
             "content": {
-              "text": "Задолженность по кредитной карте",
+              "text": "secondary по кредитной карте",
               "typeface": "button2",
               "style": "secondary",
               "type": "disabled",
@@ -231,9 +231,9 @@
           {
             "type": "button_cell_view",
             "content": {
-              "text": "Задолженность по кредитной карте",
+              "text": "default по кредитной карте",
               "typeface": "button2",
-              "style": "secondary",
+              "style": "default",
               "type": "disabled",
               "actions": [
                 {
