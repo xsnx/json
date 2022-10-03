@@ -458,6 +458,33 @@
               }
             ],
             "vertical_gravity": "center"
+          },
+          {
+            "type": "button_cell_view",
+            "content": {
+              "text": "Посмотреть все платежи",
+              "typeface": "button2",
+              "style": "default",
+              "type": "disabled",
+              "actions": [
+                {
+                  "type": "deep_link",
+                  "deep_link": "sberbankonline://alf/expenses"
+                }
+              ],
+              "margins": {
+                "left": "10x",
+                "top": "5x",
+                "right": "10x",
+                "bottom": "5x"
+              }
+            },
+            "paddings": {
+              "left": "4x",
+              "top": "8x",
+              "right": "4x",
+              "bottom": "8x"
+            }
           }
         ]
       }
