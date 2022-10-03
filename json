@@ -16,7 +16,7 @@
             },
             "content": {
               "text": "Всего",
-              "typeface": "headline1",
+              "typeface": "headline3",
               "text_color": "default"
             }
           },
@@ -50,7 +50,7 @@
               "texts": {
                 "title": {
                   "text": "61 306,20 ₽",
-                  "typeface": "body1",
+                  "typeface": "headline1",
                   "text_color": "default",
                   "max_lines": 3
                 },
