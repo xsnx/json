@@ -464,7 +464,7 @@
             "content": {
               "text": "Посмотреть все платежи",
               "typeface": "button2",
-              "style": "default",
+              "style": "transparent",
               "type": "disabled",
               "actions": [
                 {
@@ -524,7 +524,7 @@
             "content": {
               "text": "Узнать общую сумму",
               "typeface": "button2",
-              "style": "default",
+              "style": "transparent",
               "type": "disabled",
               "actions": [
                 {
