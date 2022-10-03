@@ -38,9 +38,9 @@
           {
             "type": "button_cell_view",
             "content": {
-              "text": "transparent по кредитной карте",
-              "typeface": "button2",
-              "style": "transparent",
+              "text": "paragraphText2 по кредитной карте",
+              "typeface": "paragraphText2",
+              "style": "default",
               "type": "accept",
               "actions": [
                 {
@@ -98,9 +98,9 @@
           {
             "type": "button_cell_view",
             "content": {
-              "text": "secondary по кредитной карте",
-              "typeface": "button2",
-              "style": "secondary",
+              "text": "button1 по кредитной карте",
+              "typeface": "button1",
+              "style": "default",
               "type": "disabled",
               "actions": [
                 {
@@ -231,8 +231,8 @@
           {
             "type": "button_cell_view",
             "content": {
-              "text": "default по кредитной карте",
-              "typeface": "button2",
+              "text": "title1 по кредитной карте",
+              "typeface": "title1",
               "style": "default",
               "type": "disabled",
               "actions": [
