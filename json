@@ -50,7 +50,7 @@
               "texts": {
                 "title": {
                   "text": "61 306,20 ₽",
-                  "typeface": "body1",
+                  "typeface": "headline1",
                   "text_color": "default",
                   "max_lines": 3
                 },
@@ -133,7 +133,7 @@
               "texts": {
                 "title": {
                   "text": 2000.5,
-                  "typeface": "body1",
+                  "typeface": "headline1",
                   "text_color": "default",
                   "max_lines": 3
                 },
@@ -458,33 +458,6 @@
               }
             ],
             "vertical_gravity": "center"
-          },
-          {
-            "type": "button_cell_view",
-            "content": {
-              "text": "Посмотреть все платежи",
-              "typeface": "button2",
-              "style": "transparent",
-              "type": "accept",
-              "actions": [
-                {
-                  "type": "deep_link",
-                  "deep_link": "sberbankonline://alf/expenses"
-                }
-              ],
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
-              }
-            },
-            "paddings": {
-              "left": "4x",
-              "top": "8x",
-              "right": "4x",
-              "bottom": "8x"
-            }
           }
         ]
       }
@@ -524,7 +497,7 @@
             "content": {
               "text": "Узнать общую сумму",
               "typeface": "button2",
-              "style": "transparent",
+              "style": "default",
               "type": "accept",
               "actions": [
                 {
