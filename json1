@@ -50,12 +50,12 @@
               "texts": {
                 "title": {
                   "text": "61 306,20 ₽",
-                  "typeface": "body1",
+                  "typeface": "headline1",
                   "text_color": "default",
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "Средств к кошельке, без кредитных",
+                  "text": "Средств в кошельке, без кредитных",
                   "typeface": "footnote1",
                   "max_lines": 2,
                   "text_color": "secondary",
@@ -133,7 +133,7 @@
               "texts": {
                 "title": {
                   "text": 2000.5,
-                  "typeface": "body1",
+                  "typeface": "headline1",
                   "text_color": "default",
                   "max_lines": 3
                 },
@@ -457,19 +457,37 @@
                 "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483774"
               }
             ],
-            "vertical_gravity": "center"
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
           },
           {
             "type": "button_cell_view",
             "content": {
               "text": "Посмотреть все платежи",
               "typeface": "button2",
-              "style": "default",
-              "type": "disabled",
+              "style": "transparent",
+              "type": "accept",
               "actions": [
                 {
-                  "type": "deep_link",
-                  "deep_link": "sberbankonline://alf/expenses"
+                  "text": "Мои ближайшие платежи",
+                  "type": "text",
+                  "should_send_to_backend": false
+                },
+                {
+                  "type": "server_action",
+                  "message_name": "RUN_APP",
+                  "server_action": {
+                    "action_id": "run_app",
+                    "app_info": {
+                      "systemName": "fin_advisor"
+                    },
+                    "parameters": {
+                      "intent": "pfm_my_obligations"
+                    }
+                  }
                 }
               ],
               "margins": {
@@ -525,7 +543,7 @@
               "text": "Узнать общую сумму",
               "typeface": "button2",
               "style": "default",
-              "type": "disabled",
+              "type": "accept",
               "actions": [
                 {
                   "type": "deep_link",
