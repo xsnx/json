@@ -457,11 +457,7 @@
                 "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483774"
               }
             ],
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
+            "vertical_gravity": "center"
           },
           {
             "type": "button_cell_view",
@@ -542,7 +538,7 @@
             "content": {
               "text": "Узнать общую сумму",
               "typeface": "button2",
-              "style": "default",
+              "style": "transparent",
               "type": "accept",
               "actions": [
                 {
