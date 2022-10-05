@@ -478,7 +478,7 @@
                 "title": {
                   "text": "Посмотреть все платежи",
                   "typeface": "body1",
-                  "text_color": "default",
+                  "text_color": "brand",
                   "max_lines": 3
                 }
               }
@@ -555,7 +555,7 @@
             "content": {
               "text": "Узнать общую сумму",
               "typeface": "button2",
-              "style": "default",
+              "style": "transparent",
               "type": "accept",
               "actions": [
                 {
