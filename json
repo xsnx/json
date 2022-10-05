@@ -55,7 +55,7 @@
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "Средств к кошельке, без кредитных",
+                  "text": "Средств в кошельке, без кредитных",
                   "typeface": "footnote1",
                   "max_lines": 2,
                   "text_color": "secondary",
@@ -464,58 +464,45 @@
             }
           },
           {
-            "type": "left_right_cell_view",
+            "type": "button_cell_view",
+            "content": {
+              "text": "Посмотреть все платежи",
+              "typeface": "button2",
+              "style": "transparent",
+              "type": "accept",
+              "actions": [
+                {
+                  "text": "Мои ближайшие платежи",
+                  "type": "text",
+                  "should_send_to_backend": false
+                },
+                {
+                  "type": "server_action",
+                  "message_name": "RUN_APP",
+                  "server_action": {
+                    "action_id": "run_app",
+                    "app_info": {
+                      "systemName": "fin_advisor"
+                    },
+                    "parameters": {
+                      "intent": "pfm_my_obligations"
+                    }
+                  }
+                }
+              ],
+              "margins": {
+                "left": "10x",
+                "top": "5x",
+                "right": "10x",
+                "bottom": "5x"
+              }
+            },
             "paddings": {
               "left": "8x",
               "top": "8x",
               "right": "8x",
               "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Посмотреть все платежи",
-                  "typeface": "body1",
-                  "text_color": "brand",
-                  "max_lines": 3
-                }
-              }
-            },
-            "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "disclosure_right_view",
-                  "margins": {
-                    "right": "5x"
-                  }
-                }
-              ]
-            },
-            "actions": [
-              {
-                "text": "Мои ближайшие платежи",
-                "type": "text",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "fin_advisor"
-                  },
-                  "parameters": {
-                    "intent": "pfm_my_obligations"
-                  }
-                }
-              }
-            ],
-            "vertical_gravity": "center"
+            }
           }
         ]
       }
@@ -555,7 +542,7 @@
             "content": {
               "text": "Узнать общую сумму",
               "typeface": "button2",
-              "style": "transparent",
+              "style": "default",
               "type": "accept",
               "actions": [
                 {
