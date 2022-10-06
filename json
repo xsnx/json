@@ -457,7 +457,11 @@
                 "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483774"
               }
             ],
-            "vertical_gravity": "center"
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
           },
           {
             "type": "button_cell_view",
