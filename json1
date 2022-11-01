@@ -132,7 +132,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": 2000.5,
+                  "text": "2 000 ",
                   "typeface": "headline1",
                   "text_color": "default",
                   "max_lines": 3
@@ -285,7 +285,7 @@
             "actions": [
               {
                 "type": "deep_link",
-                "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483779"
+                "deep_link": "sbolonline://loan/loan-details?loanId=2477909483779"
               }
             ],
             "vertical_gravity": "center",
@@ -374,7 +374,7 @@
             "actions": [
               {
                 "type": "deep_link",
-                "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483779"
+                "deep_link": "sbolonline://loan/loan-details?loanId=2477909483779"
               }
             ],
             "vertical_gravity": "center",
@@ -454,7 +454,7 @@
             "actions": [
               {
                 "type": "deep_link",
-                "deep_link": "sberbankonline://loan/loan-details?loanId=2477909483774"
+                "deep_link": "sbolonline://loan/loan-details?loanId=2477909483774"
               }
             ],
             "vertical_gravity": "center",
@@ -498,9 +498,9 @@
               }
             },
             "paddings": {
-              "left": "4x",
+              "left": "8x",
               "top": "8x",
-              "right": "4x",
+              "right": "8x",
               "bottom": "8x"
             }
           }
@@ -510,59 +510,182 @@
     {
       "card": {
         "type": "list_card",
+        "paddings": {
+          "top": "4x",
+          "bottom": "4x",
+          "left": "4x"
+        },
         "cells": [
           {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Не смогла посмотреть твои расходы, но ты можешь найти их в приложении",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0
-                }
-              },
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
-              }
-            },
+            "type": "text_cell_view",
             "paddings": {
-              "left": "6x",
-              "top": "4x",
-              "right": "6x",
-              "bottom": "2x"
+              "left": "8x"
+            },
+            "content": {
+              "text": "Расходы в марте",
+              "typeface": "headline3",
+              "text_color": "default"
             }
           },
           {
-            "type": "button_cell_view",
-            "content": {
-              "text": "Узнать общую сумму",
-              "typeface": "button2",
-              "style": "default",
-              "type": "accept",
-              "actions": [
-                {
-                  "type": "deep_link",
-                  "deep_link": "sberbankonline://alf/expenses"
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/minus.png",
+                  "placeholder": "wallet"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "3 000 ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "На 2 500 ₽ больше, чем за аналогичный период в феврале",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
                 }
-              ],
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
               }
             },
+            "right": {
+              "type": "right_cell_array_view",
+              "orientation": "horizontal",
+              "items": [
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "right": "5x"
+                  }
+                }
+              ]
+            },
+            "actions": [
+              {
+                "text": "Расходы",
+                "type": "text",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "fin_advisor"
+                  },
+                  "parameters": {
+                    "intent": "pfm_my_expenses"
+                  }
+                }
+              }
+            ],
+            "vertical_gravity": "center"
+          },
+          {
+            "type": "text_cell_view",
             "paddings": {
-              "left": "4x",
-              "top": "8x",
-              "right": "4x",
-              "bottom": "8x"
+              "left": "8x"
+            },
+            "content": {
+              "text": "Доходы в марте",
+              "typeface": "headline3",
+              "text_color": "default"
             }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/plus.png",
+                  "placeholder": "wallet"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "3 000 ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "orientation": "horizontal",
+              "items": [
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "right": "5x"
+                  }
+                }
+              ]
+            },
+            "actions": [
+              {
+                "text": "Доходы",
+                "type": "text",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "fin_advisor"
+                  },
+                  "parameters": {
+                    "intent": "pfm_my_income"
+                  }
+                }
+              }
+            ],
+            "vertical_gravity": "center"
           }
         ]
       }
