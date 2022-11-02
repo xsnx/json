@@ -4,10 +4,9 @@
       "card": {
         "type": "list_card",
         "paddings": {
-          "top": "10x",
-          "left": "8x",
-          "right": "8x",
-          "bottom": "10x"
+          "top": "4x",
+          "bottom": "4x",
+          "left": "4x"
         },
         "cells": [
           {
@@ -38,8 +37,8 @@
                   "placeholder": "digital_banknotes"
                 },
                 "size": {
-                  "width": "small",
-                  "height": "small"
+                  "width": "medium",
+                  "height": "medium"
                 },
                 "margins": {
                   "right": "6x"
@@ -56,7 +55,7 @@
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "Средств в кошельке, без кредитных",
+                  "text": "В кошельке, без кредитных",
                   "typeface": "footnote1",
                   "max_lines": 2,
                   "text_color": "secondary",
@@ -121,8 +120,8 @@
                   "placeholder": "spasibo"
                 },
                 "size": {
-                  "width": "small",
-                  "height": "small"
+                  "width": "medium",
+                  "height": "medium"
                 },
                 "margins": {
                   "right": "6x"
@@ -133,13 +132,13 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "2 000 ",
+                  "text": "2 000 бонусов",
                   "typeface": "headline1",
                   "text_color": "default",
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "Бонусы от СберСпасибо",
+                  "text": "СберСпасибо",
                   "typeface": "footnote1",
                   "max_lines": 2,
                   "text_color": "secondary",
@@ -190,10 +189,9 @@
       "card": {
         "type": "list_card",
         "paddings": {
-          "top": "10x",
-          "left": "8x",
-          "right": "8x",
-          "bottom": "10x"
+          "top": "4x",
+          "bottom": "4x",
+          "left": "4x"
         },
         "cells": [
           {
@@ -224,8 +222,8 @@
                   "placeholder": "wallet"
                 },
                 "size": {
-                  "width": "small",
-                  "height": "small"
+                  "width": "medium",
+                  "height": "medium"
                 },
                 "margins": {
                   "right": "6x"
@@ -313,8 +311,8 @@
                   "placeholder": "wallet"
                 },
                 "size": {
-                  "width": "small",
-                  "height": "small"
+                  "width": "medium",
+                  "height": "medium"
                 },
                 "margins": {
                   "right": "6x"
@@ -402,8 +400,8 @@
                   "placeholder": "wallet"
                 },
                 "size": {
-                  "width": "small",
-                  "height": "small"
+                  "width": "medium",
+                  "height": "medium"
                 },
                 "margins": {
                   "right": "6x"
@@ -459,52 +457,7 @@
                 "deep_link": "sbolonline://loan/loan-details?loanId=2477909483774"
               }
             ],
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "button_cell_view",
-            "content": {
-              "text": "Посмотреть все платежи",
-              "typeface": "button2",
-              "style": "transparent",
-              "type": "accept",
-              "actions": [
-                {
-                  "text": "Мои ближайшие платежи",
-                  "type": "text",
-                  "should_send_to_backend": false
-                },
-                {
-                  "type": "server_action",
-                  "message_name": "RUN_APP",
-                  "server_action": {
-                    "action_id": "run_app",
-                    "app_info": {
-                      "systemName": "fin_advisor"
-                    },
-                    "parameters": {
-                      "intent": "pfm_my_obligations"
-                    }
-                  }
-                }
-              ],
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
-              }
-            },
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            }
+            "vertical_gravity": "center"
           }
         ]
       }
@@ -513,10 +466,9 @@
       "card": {
         "type": "list_card",
         "paddings": {
-          "top": "10x",
-          "left": "8x",
-          "right": "8x",
-          "bottom": "10x"
+          "top": "4x",
+          "bottom": "4x",
+          "left": "4x"
         },
         "cells": [
           {
@@ -547,8 +499,8 @@
                   "placeholder": "wallet"
                 },
                 "size": {
-                  "width": "small",
-                  "height": "small"
+                  "width": "medium",
+                  "height": "medium"
                 },
                 "margins": {
                   "right": "6x"
@@ -607,11 +559,7 @@
                 }
               }
             ],
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
+            "vertical_gravity": "center"
           },
           {
             "type": "text_cell_view",
@@ -641,8 +589,8 @@
                   "placeholder": "wallet"
                 },
                 "size": {
-                  "width": "small",
-                  "height": "small"
+                  "width": "medium",
+                  "height": "medium"
                 },
                 "margins": {
                   "right": "6x"
