@@ -190,9 +190,10 @@
       "card": {
         "type": "list_card",
         "paddings": {
-          "top": "4x",
-          "bottom": "4x",
-          "left": "4x"
+          "top": "10x",
+          "left": "8x",
+          "right": "8x",
+          "bottom": "10x"
         },
         "cells": [
           {
@@ -512,9 +513,10 @@
       "card": {
         "type": "list_card",
         "paddings": {
-          "top": "4x",
-          "bottom": "4x",
-          "left": "4x"
+          "top": "10x",
+          "left": "8x",
+          "right": "8x",
+          "bottom": "10x"
         },
         "cells": [
           {

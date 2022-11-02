@@ -4,9 +4,10 @@
       "card": {
         "type": "list_card",
         "paddings": {
-          "top": "4x",
-          "bottom": "4x",
-          "left": "4x"
+          "top": "10x",
+          "left": "8x",
+          "right": "8x",
+          "bottom": "10x"
         },
         "cells": [
           {
@@ -37,8 +38,8 @@
                   "placeholder": "digital_banknotes"
                 },
                 "size": {
-                  "width": "medium",
-                  "height": "medium"
+                  "width": "small",
+                  "height": "small"
                 },
                 "margins": {
                   "right": "6x"
@@ -120,8 +121,8 @@
                   "placeholder": "spasibo"
                 },
                 "size": {
-                  "width": "medium",
-                  "height": "medium"
+                  "width": "small",
+                  "height": "small"
                 },
                 "margins": {
                   "right": "6x"
@@ -138,7 +139,7 @@
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "Баллов СберСпасибо",
+                  "text": "Бонусы от СберСпасибо",
                   "typeface": "footnote1",
                   "max_lines": 2,
                   "text_color": "secondary",
@@ -189,9 +190,10 @@
       "card": {
         "type": "list_card",
         "paddings": {
-          "top": "4x",
-          "bottom": "4x",
-          "left": "4x"
+          "top": "10x",
+          "left": "8x",
+          "right": "8x",
+          "bottom": "10x"
         },
         "cells": [
           {
@@ -222,8 +224,8 @@
                   "placeholder": "wallet"
                 },
                 "size": {
-                  "width": "medium",
-                  "height": "medium"
+                  "width": "small",
+                  "height": "small"
                 },
                 "margins": {
                   "right": "6x"
@@ -311,8 +313,8 @@
                   "placeholder": "wallet"
                 },
                 "size": {
-                  "width": "medium",
-                  "height": "medium"
+                  "width": "small",
+                  "height": "small"
                 },
                 "margins": {
                   "right": "6x"
@@ -400,8 +402,8 @@
                   "placeholder": "wallet"
                 },
                 "size": {
-                  "width": "medium",
-                  "height": "medium"
+                  "width": "small",
+                  "height": "small"
                 },
                 "margins": {
                   "right": "6x"
@@ -457,52 +459,7 @@
                 "deep_link": "sbolonline://loan/loan-details?loanId=2477909483774"
               }
             ],
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "button_cell_view",
-            "content": {
-              "text": "Посмотреть все платежи",
-              "typeface": "button2",
-              "style": "transparent",
-              "type": "accept",
-              "actions": [
-                {
-                  "text": "Мои ближайшие платежи",
-                  "type": "text",
-                  "should_send_to_backend": false
-                },
-                {
-                  "type": "server_action",
-                  "message_name": "RUN_APP",
-                  "server_action": {
-                    "action_id": "run_app",
-                    "app_info": {
-                      "systemName": "fin_advisor"
-                    },
-                    "parameters": {
-                      "intent": "pfm_my_obligations"
-                    }
-                  }
-                }
-              ],
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
-              }
-            },
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            }
+            "vertical_gravity": "center"
           }
         ]
       }
@@ -511,9 +468,10 @@
       "card": {
         "type": "list_card",
         "paddings": {
-          "top": "4x",
-          "bottom": "4x",
-          "left": "4x"
+          "top": "10x",
+          "left": "8x",
+          "right": "8x",
+          "bottom": "10x"
         },
         "cells": [
           {
@@ -544,8 +502,8 @@
                   "placeholder": "wallet"
                 },
                 "size": {
-                  "width": "medium",
-                  "height": "medium"
+                  "width": "small",
+                  "height": "small"
                 },
                 "margins": {
                   "right": "6x"
@@ -604,7 +562,11 @@
                 }
               }
             ],
-            "vertical_gravity": "center"
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
           },
           {
             "type": "text_cell_view",
@@ -634,8 +596,8 @@
                   "placeholder": "wallet"
                 },
                 "size": {
-                  "width": "medium",
-                  "height": "medium"
+                  "width": "small",
+                  "height": "small"
                 },
                 "margins": {
                   "right": "6x"
