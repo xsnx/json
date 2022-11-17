@@ -4,22 +4,84 @@
       "card": {
         "type": "list_card",
         "paddings": {
+          "top": "10x",
+          "left": "8x",
+          "right": "8x",
+          "bottom": "10x"
+        },
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "2x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Всего",
+                  "typeface": "title1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "78 949,86 ₽",
+                "typeface": "title1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              },
+              "vertical_gravity": "center"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "2x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "С кредитной картой",
+                  "typeface": "title1",
+                  "text_color": "secondary",
+                  "max_lines": 1
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "368 449,86 ₽",
+                "typeface": "title1",
+                "text_color": "secondary"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "vertical_gravity": "center"
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "paddings": {
           "top": "4x",
           "bottom": "4x",
           "left": "4x"
         },
         "cells": [
-          {
-            "type": "text_cell_view",
-            "paddings": {
-              "left": "8x"
-            },
-            "content": {
-              "text": "Всего",
-              "typeface": "headline3",
-              "text_color": "default"
-            }
-          },
           {
             "type": "left_right_cell_view",
             "paddings": {
@@ -49,13 +111,13 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "61 306,20 ₽",
-                  "typeface": "headline1",
+                  "text": "Карты и платёжные счета",
+                  "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "В кошельке, без кредитных",
+                  "text": "На 2 счетах",
                   "typeface": "footnote1",
                   "max_lines": 2,
                   "text_color": "secondary",
@@ -70,6 +132,17 @@
               "orientation": "horizontal",
               "items": [
                 {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "text": "61 306,20 ₽",
+                    "typeface": "body1",
+                    "text_color": "default"
+                  },
+                  "margins": {
+                    "left": "4x"
+                  }
+                },
+                {
                   "type": "disclosure_right_view",
                   "margins": {
                     "right": "5x"
@@ -79,22 +152,22 @@
             },
             "actions": [
               {
-                "text": "Всего средств",
-                "type": "text",
-                "should_send_to_backend": false
-              },
-              {
                 "type": "server_action",
                 "message_name": "RUN_APP",
                 "server_action": {
                   "action_id": "run_app",
                   "app_info": {
-                    "systemName": "fin_advisor"
+                    "systemName": "card_balance"
                   },
                   "parameters": {
-                    "intent": "pfm_total_finance"
+                    "intent": "card_balance"
                   }
                 }
+              },
+              {
+                "text": "Баланс карты",
+                "type": "text",
+                "should_send_to_backend": false
               }
             ],
             "vertical_gravity": "center",
@@ -116,8 +189,8 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/spasibo.png",
-                  "placeholder": "spasibo"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/152.png",
+                  "placeholder": "digital_banknotes"
                 },
                 "size": {
                   "width": "medium",
@@ -132,130 +205,10 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "2 000 бонусов",
-                  "typeface": "headline1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "СберСпасибо",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "disclosure_right_view",
-                  "margins": {
-                    "right": "5x"
-                  }
-                }
-              ]
-            },
-            "actions": [
-              {
-                "text": "Куда использовать бонусы",
-                "type": "text",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "What_can_I_do_with_SPASIBO_bonuses"
-                  },
-                  "parameters": {
-                    "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"
-                  }
-                }
-              }
-            ],
-            "vertical_gravity": "center"
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "paddings": {
-          "top": "4x",
-          "bottom": "4x",
-          "left": "4x"
-        },
-        "cells": [
-          {
-            "type": "text_cell_view",
-            "paddings": {
-              "left": "8x"
-            },
-            "content": {
-              "text": "Ближайшие 3 платежа",
-              "typeface": "headline3",
-              "text_color": "default"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
-                  "placeholder": "wallet"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "За просроченный сахар",
+                  "text": "Кредитная карта",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "Спишется 3 марта с Visa ••6699 и ещё одного",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
-                },
-                "caption": {
-                  "text": "Есть просрочка",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "warning",
-                  "margins": {
-                    "top": "1x"
-                  }
                 }
               }
             },
@@ -266,7 +219,7 @@
                 {
                   "type": "detail_right_view",
                   "detail": {
-                    "text": "777,65 ₽",
+                    "text": "289 500 ₽",
                     "typeface": "body1",
                     "text_color": "default"
                   },
@@ -285,7 +238,7 @@
             "actions": [
               {
                 "type": "deep_link",
-                "deep_link": "sbolonline://loan/loan-details?loanId=2477909483779"
+                "deep_link": "android-app://ru.sberbankmobile_alpha/creditCardDebt/creditCardDebt/"
               }
             ],
             "vertical_gravity": "center",
@@ -307,8 +260,8 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
-                  "placeholder": "wallet"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/23.png",
+                  "placeholder": "digital_banknotes"
                 },
                 "size": {
                   "width": "medium",
@@ -323,25 +276,16 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "Просроченный счёт",
+                  "text": "Накопления",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "Спишется 4 марта с ••6003 и других",
+                  "text": "В 6 продуктах",
                   "typeface": "footnote1",
                   "max_lines": 2,
                   "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
-                },
-                "caption": {
-                  "text": "Не хватает 56 777,65 ₽ \nЕсть просрочка",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "warning",
                   "margins": {
                     "top": "1x"
                   }
@@ -349,34 +293,16 @@
               }
             },
             "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "detail_right_view",
-                  "detail": {
-                    "text": "77 777,65 ₽",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  },
-                  "margins": {
-                    "left": "4x"
-                  }
-                },
-                {
-                  "type": "disclosure_right_view",
-                  "margins": {
-                    "right": "5x"
-                  }
-                }
-              ]
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "sbolonline://loan/loan-details?loanId=2477909483779"
+              "type": "detail_right_view",
+              "detail": {
+                "text": "14 398,66 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
               }
-            ],
+            },
             "vertical_gravity": "center",
             "divider": {
               "style": "default",
@@ -396,8 +322,8 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/4.png",
-                  "placeholder": "wallet"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/153.png",
+                  "placeholder": "case_diagram"
                 },
                 "size": {
                   "width": "medium",
@@ -412,13 +338,13 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "Ипотека",
+                  "text": "Инвестиции",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "Спишется сегодня с МИР ••6501 и ещё двух",
+                  "text": "В 2 продуктах",
                   "typeface": "footnote1",
                   "max_lines": 2,
                   "text_color": "secondary",
@@ -429,57 +355,20 @@
               }
             },
             "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "detail_right_view",
-                  "detail": {
-                    "text": "7 777,65 ₽",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  },
-                  "margins": {
-                    "left": "4x"
-                  }
-                },
-                {
-                  "type": "disclosure_right_view",
-                  "margins": {
-                    "right": "5x"
-                  }
-                }
-              ]
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "sbolonline://loan/loan-details?loanId=2477909483774"
+              "type": "detail_right_view",
+              "detail": {
+                "text": "1 672,50 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
               }
-            ],
-            "vertical_gravity": "center"
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "paddings": {
-          "top": "4x",
-          "bottom": "4x",
-          "left": "4x"
-        },
-        "cells": [
-          {
-            "type": "text_cell_view",
-            "paddings": {
-              "left": "8x"
             },
-            "content": {
-              "text": "Расходы в марте",
-              "typeface": "headline3",
-              "text_color": "default"
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
             }
           },
           {
@@ -495,8 +384,8 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/minus.png",
-                  "placeholder": "wallet"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/154.png",
+                  "placeholder": "digital_banknotes"
                 },
                 "size": {
                   "width": "medium",
@@ -511,13 +400,13 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "3 000 ₽",
+                  "text": "Активы вне сбера",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "На 2 500 ₽ больше, чем за аналогичный период в феврале",
+                  "text": "В 1 продукте",
                   "typeface": "footnote1",
                   "max_lines": 2,
                   "text_color": "secondary",
@@ -528,118 +417,16 @@
               }
             },
             "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "disclosure_right_view",
-                  "margins": {
-                    "right": "5x"
-                  }
-                }
-              ]
-            },
-            "actions": [
-              {
-                "text": "Расходы",
-                "type": "text",
-                "should_send_to_backend": false
+              "type": "detail_right_view",
+              "detail": {
+                "text": "1 572,50 ₽",
+                "typeface": "body1",
+                "text_color": "default"
               },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "fin_advisor"
-                  },
-                  "parameters": {
-                    "intent": "pfm_my_expenses"
-                  }
-                }
-              }
-            ],
-            "vertical_gravity": "center"
-          },
-          {
-            "type": "text_cell_view",
-            "paddings": {
-              "left": "8x"
-            },
-            "content": {
-              "text": "Доходы в марте",
-              "typeface": "headline3",
-              "text_color": "default"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/plus.png",
-                  "placeholder": "wallet"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "3 000 ₽",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                }
+              "margins": {
+                "left": "4x"
               }
             },
-            "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "disclosure_right_view",
-                  "margins": {
-                    "right": "5x"
-                  }
-                }
-              ]
-            },
-            "actions": [
-              {
-                "text": "Доходы",
-                "type": "text",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "fin_advisor"
-                  },
-                  "parameters": {
-                    "intent": "pfm_my_income"
-                  }
-                }
-              }
-            ],
             "vertical_gravity": "center"
           }
         ]
