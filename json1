@@ -203,7 +203,7 @@
               "bottom": "5x"
             },
             "top_text": {
-              "text": "",
+              "text": "Не забудьте порадовать вашего кота, если такой имеется",
               "typeface": "footnote1",
               "text_color": "default",
               "max_lines": 2
