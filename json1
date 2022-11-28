@@ -193,7 +193,7 @@
               "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/prost.gif",
               "size": {
                 "width": "medium",
-                "aspect_ratio": 0.63
+                "aspect_ratio": 0.73
               }
             },
             "margins": {
@@ -206,7 +206,7 @@
               "text": "Не забудьте порадовать вашего кота, если такой имеется",
               "typeface": "footnote1",
               "text_color": "default",
-              "max_lines": 2
+              "max_lines": 3
             }
           }
         ]
