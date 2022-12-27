@@ -1,216 +1,67 @@
 {
   "items": [
-    {
-      "card": {
-        "type": "list_card",
-        "paddings": {
-          "top": "10x",
-          "left": "8x",
-          "right": "8x",
-          "bottom": "10x"
-        },
-        "cells": [
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Расходы в феврале",
-              "typeface": "headline3",
-              "text_color": "default"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "5 256 ₽",
-              "typeface": "headline1",
-              "text_color": "default"
-            },
-            "paddings": {
-              "top": "6x"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "paddings": {
-          "top": "4x",
-          "bottom": "4x"
-        },
-        "cells": [
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/1.png"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
+    [
+      {
+        "card": {
+          "type": "list_card",
+          "cells": [
+            {
+              "type": "left_right_cell_view",
+              "left": {
+                "type": "simple_left_view",
+                "texts": {
+                  "title": {
+                    "text": "Не получилось посмотреть данные по кредитной карте. Если она у вас есть, загляните в раздел «Задолженность» или спросите меня позже",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0
+                  }
                 },
                 "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Автомобиль",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "1 операция",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
+                  "left": "10x",
+                  "top": "5x",
+                  "right": "10x",
+                  "bottom": "5x"
                 }
+              },
+              "paddings": {
+                "left": "6x",
+                "top": "4x",
+                "right": "6x",
+                "bottom": "2x"
               }
             },
-            "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "detail_right_view",
-                  "detail": {
-                    "text": "2 628 ₽",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  },
-                  "margins": {
-                    "left": "4x"
+            {
+              "type": "button_cell_view",
+              "content": {
+                "text": "Задолженность по кредитной карте",
+                "typeface": "button2",
+                "style": "default",
+                "type": "accept",
+                "actions": [
+                  {
+                    "type": "deep_link",
+                    "deep_link": "android-app://ru.sberbankmobile_alpha/creditCardDebt/creditCardDebt/"
                   }
-                },
-                {
-                  "type": "disclosure_right_view",
-                  "margins": {
-                    "right": "5x"
-                  }
-                }
-              ]
-            },
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/22.png"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
+                ],
                 "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand"
+                  "left": "10x",
+                  "top": "5x",
+                  "right": "10x",
+                  "bottom": "5x"
+                }
               },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Искусство",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "1 операция",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
-                }
+              "paddings": {
+                "left": "4x",
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
               }
-            },
-            "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "detail_right_view",
-                  "detail": {
-                    "text": "2 628 ₽",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  },
-                  "margins": {
-                    "left": "4x"
-                  }
-                },
-                {
-                  "type": "disclosure_right_view",
-                  "margins": {
-                    "right": "5x"
-                  }
-                }
-              ]
-            },
-            "vertical_gravity": "center"
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "gallery_card",
-        "items": [
-          {
-            "type": "media_gallery_item",
-            "image": {
-              "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/prost.gif",
-              "size": {
-                "width": "medium",
-                "aspect_ratio": 0.73
-              }
-            },
-            "margins": {
-              "top": "4x",
-              "left": "6x",
-              "right": "6x",
-              "bottom": "5x"
-            },
-            "top_text": {
-              "text": "Не забудьте порадовать вашего кота, если такой имеется",
-              "typeface": "footnote1",
-              "text_color": "default",
-              "max_lines": 3
             }
-          }
-        ]
+          ]
+        }
       }
-    }
-  ]
+    ]
+  ],
+  "pronounceText": "*Вот что нужно заплатить. Не получилось посмотреть данные по кредитной карте. Если она у вас есть, загляните в раздел «Задолженность» или спросите меня позже."
 }
