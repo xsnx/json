@@ -211,7 +211,7 @@
                 {
                   "type": "detail_right_view",
                   "detail": {
-                    "text": "На 10 ₽\nбольше",
+                    "text": "На 10 ₽ больше",
                     "typeface": "body1",
                     "text_color": "default"
                   },
