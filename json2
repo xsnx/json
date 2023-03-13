@@ -9,39 +9,6 @@
       "card": {
         "type": "list_card",
         "paddings": {
-          "top": "10x",
-          "left": "8x",
-          "right": "8x",
-          "bottom": "10x"
-        },
-        "cells": [
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Расходы в этом месяце",
-              "typeface": "headline3",
-              "text_color": "default",
-              "max_lines": 2
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "299 ₽",
-              "typeface": "headline1",
-              "text_color": "default"
-            },
-            "paddings": {
-              "top": "6x"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "paddings": {
           "top": "4x",
           "bottom": "4x",
           "left": "4x"
