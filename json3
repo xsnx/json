@@ -122,6 +122,30 @@
               "right": "8x",
               "bottom": "8x"
             }
+          },
+          {
+            "type": "button_cell_view",
+            "content": {
+              "text": "anyText",
+              "typeface": "body2",
+              "style": "transparent",
+              "type": "disabled",
+              "margins": {
+                "left": "2x",
+                "top": "2x",
+                "right": "2x",
+                "bottom": "2x"
+              },
+              "log_id": "custom_log_id",
+              "version": 2,
+              "style_v2": "clear"
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "6x",
+              "right": "8x",
+              "bottom": "8x"
+            }
           }
         ]
       }
