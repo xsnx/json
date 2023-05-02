@@ -3,59 +3,187 @@
     {
       "card": {
         "type": "list_card",
+        "can_be_disabled": true,
         "cells": [
           {
             "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            },
             "left": {
               "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Вы можете узнать, какие сервисы списывают деньги с ваших карт и запретить лишние по ссылке ниже в разделе «Куда привязаны ваши счета и карты». Чтобы остановить списания, выберите сервис и следуйте инструкциям",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0
+              "title": {
+                "text": "Переводы без комиссии",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 1,
+                "margins": {
+                  "top": "9x",
+                  "bottom": "9x"
+                },
+                "subtitle": {
+                  "text": "Управлять подпиской",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
                 }
-              },
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
               }
             },
-            "paddings": {
-              "left": "6x",
-              "top": "4x",
-              "right": "6x",
-              "bottom": "2x"
-            }
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Переводы без комиссии"
+              }
+            ]
           },
           {
-            "type": "button_cell_view",
-            "content": {
-              "text": "Узнать куда привязаны карты",
-              "typeface": "button2",
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x"
+            },
+            "divider": {
               "style": "default",
-              "type": "accept",
-              "actions": [
-                {
-                  "type": "deep_link",
-                  "deep_link": "android-app://ru.sberbankmobile_alpha/profile"
+              "size": "d3"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "title": {
+                "text": "СберПрайм или СберПрайм+",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 1,
+                "margins": {
+                  "top": "9x",
+                  "bottom": "9x"
                 }
-              ],
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
+              },
+              "subtitle": {
+                "text": "Управлять подпиской",
+                "typeface": "footnote1",
+                "max_lines": 2,
+                "text_color": "secondary",
+                "margins": {
+                  "top": "1x"
+                }
               }
             },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Отключить Сберпрайм"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
             "paddings": {
-              "left": "4x",
-              "top": "8x",
-              "right": "4x",
-              "bottom": "8x"
-            }
+              "left": "8x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "title": {
+                "text": "Внешние сервисы",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 1,
+                "margins": {
+                  "top": "9x",
+                  "bottom": "9x"
+                }
+              },
+              "subtitle": {
+                "text": "Узнать, какие сервисы списывают деньги с карты и запретить лишние",
+                "typeface": "footnote1",
+                "max_lines": 2,
+                "text_color": "secondary",
+                "margins": {
+                  "top": "1x"
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Внешние сервисы"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "title": {
+                "text": "Платные услуги",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 1,
+                "margins": {
+                  "top": "9x",
+                  "bottom": "9x"
+                }
+              },
+              "subtitle": {
+                "text": "Узнать, какие платные услуги Сбера подключены",
+                "typeface": "footnote1",
+                "max_lines": 2,
+                "text_color": "secondary",
+                "margins": {
+                  "top": "1x"
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Платные услуги"
+              }
+            ]
           }
         ]
       }

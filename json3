@@ -128,7 +128,6 @@
             "content": {
               "text": "anyText",
               "typeface": "body2",
-              "style": "transparent",
               "type": "disabled",
               "margins": {
                 "left": "2x",
