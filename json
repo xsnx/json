@@ -148,6 +148,55 @@
           {
             "type": "left_right_cell_view",
             "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Внешние сервисы 11",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Узнать, какие сервисы списывают деньги с карты и запретить лишние",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "orientation": "horizontal",
+              "items": [
+                {
+                  "type": "disclosure_right_view"
+                }
+              ]
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Внешние сервисы"
+              }
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
               "left": "8x"
             },
             "left": {
