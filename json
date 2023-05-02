@@ -62,23 +62,25 @@
             },
             "left": {
               "type": "simple_left_view",
-              "title": {
-                "text": "СберПрайм или СберПрайм+",
-                "typeface": "body1",
-                "text_color": "default",
-                "max_lines": 1,
-                "margins": {
-                  "top": "9x",
-                  "bottom": "9x"
-                }
-              },
-              "subtitle": {
-                "text": "Управлять подпиской",
-                "typeface": "footnote1",
-                "max_lines": 2,
-                "text_color": "secondary",
-                "margins": {
-                  "top": "1x"
+              "texts": {
+                "title": {
+                  "text": "СберПрайм или СберПрайм+",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1,
+                  "margins": {
+                    "top": "9x",
+                    "bottom": "9x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Управлять подпиской",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
                 }
               }
             },
