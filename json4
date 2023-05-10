@@ -3,141 +3,8 @@
     {
       "card": {
         "type": "list_card",
-        "cells": [
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Вот твои деньги. Но, может, и не все — для некоторых активов не хватает твоего согласия в настройках приложения",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0
-                }
-              },
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
-              }
-            },
-            "paddings": {
-              "left": "6x",
-              "top": "4x",
-              "right": "6x",
-              "bottom": "2x"
-            }
-          },
-          {
-            "type": "button_cell_view",
-            "content": {
-              "text": "Перейти в настройки",
-              "typeface": "button2",
-              "style": "default",
-              "type": "accept",
-              "actions": [
-                {
-                  "type": "deep_link",
-                  "deep_link": "sberbankonline://pfm/open-financeschart"
-                }
-              ],
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
-              }
-            },
-            "paddings": {
-              "left": "4x",
-              "top": "8x",
-              "right": "4x",
-              "bottom": "8x"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
         "paddings": {
-          "top": "10x",
-          "left": "8x",
-          "right": "8x",
-          "bottom": "10x"
-        },
-        "cells": [
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "top": "2x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Всего",
-                  "typeface": "title1",
-                  "text_color": "default",
-                  "max_lines": 1
-                }
-              }
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "77 377,36 ₽",
-                "typeface": "title1",
-                "text_color": "default"
-              },
-              "margins": {
-                "left": "4x"
-              },
-              "vertical_gravity": "center"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "top": "2x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "С кредитной картой",
-                  "typeface": "title1",
-                  "text_color": "secondary",
-                  "max_lines": 1
-                }
-              }
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "366 877,36 ₽",
-                "typeface": "title1",
-                "text_color": "secondary"
-              },
-              "margins": {
-                "left": "4x"
-              }
-            },
-            "vertical_gravity": "center"
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "paddings": {
-          "top": "4x",
+          "top": "8x",
           "bottom": "4x",
           "left": "4x"
         },
@@ -155,8 +22,8 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/150.png",
-                  "placeholder": "digital_banknotes"
+                  "url": "https://cms-res.online.sberbank.ru/MERCHANT/e231a239-b593-431d-9994-15d28f2ae48b.png",
+                  "placeholder": "car"
                 },
                 "size": {
                   "width": "medium",
@@ -171,14 +38,15 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "Карты и платёжные счета",
+                  "text": "100 ₽",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "На 4 счетах",
+                  "text": "Mobile",
                   "typeface": "footnote1",
+                  "max_lines": 2,
                   "text_color": "secondary",
                   "margins": {
                     "top": "1x"
@@ -189,12 +57,20 @@
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "61 306,20 ₽",
+                "text": "Одна операция",
                 "typeface": "body1",
                 "text_color": "default"
               },
               "margins": {
                 "left": "4x"
+              },
+              "info_and_icon": {
+                "info": {
+                  "text": "за последнюю неделю",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 1
+                }
               }
             },
             "vertical_gravity": "center",
@@ -213,86 +89,18 @@
             },
             "left": {
               "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/152.png",
-                  "placeholder": "digital_banknotes"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
-              },
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "Кредитная карта",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                }
-              }
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "289 500 ₽",
-                "typeface": "body1",
-                "text_color": "default"
-              },
-              "margins": {
-                "left": "4x"
-              }
-            },
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/23.png",
-                  "placeholder": "digital_banknotes"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Накопления",
+                  "text": "Mobile",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "В 6 продуктах",
+                  "text": "Автомобиль",
                   "typeface": "footnote1",
+                  "max_lines": 2,
                   "text_color": "secondary",
                   "margins": {
                     "top": "1x"
@@ -303,73 +111,20 @@
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "14 398,66 ₽",
+                "text": "100 ₽",
                 "typeface": "body1",
                 "text_color": "default"
               },
               "margins": {
                 "left": "4x"
-              }
-            },
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/153.png",
-                  "placeholder": "case_diagram"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
               },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Инвестиции",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "В 1 продукте",
+              "info_and_icon": {
+                "info": {
+                  "text": "1 марта, 10:22",
                   "typeface": "footnote1",
                   "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
+                  "max_lines": 1
                 }
-              }
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "1 672,50 ₽",
-                "typeface": "body1",
-                "text_color": "default"
-              },
-              "margins": {
-                "left": "4x"
               }
             },
             "vertical_gravity": "center"
