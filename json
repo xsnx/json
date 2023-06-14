@@ -83,7 +83,7 @@
                 "should_send_to_backend": false
               }
             ],
-            "vertical_gravity": "center"
+            "vertical_gravity": "top"
           },
           {
             "type": "left_right_cell_view",
@@ -122,11 +122,7 @@
                 }
               ]
             },
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
+            "vertical_gravity": "center"
           },
           {
             "type": "left_right_cell_view",
@@ -196,11 +192,7 @@
                 }
               }
             },
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
+            "vertical_gravity": "center"
           }
         ]
       }
