@@ -99,9 +99,9 @@
               "texts": {
                 "title": {
                   "text": "3 625 ₽",
-                  "typeface": "body1",
+                  "typeface": "headline1",
                   "text_color": "default",
-                  "max_lines": 3
+                  "max_lines": 2
                 }
               }
             },
@@ -112,7 +112,7 @@
                 {
                   "type": "detail_right_view",
                   "detail": {
-                    "text": "2 платежа",
+                    "text": "3 платежа",
                     "typeface": "body1",
                     "text_color": "secondary"
                   },
@@ -158,7 +158,44 @@
             "vertical_gravity": "center",
             "divider": {
               "style": "default",
-              "size": "d5"
+              "size": "d1"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "100 ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "info_and_icon": {
+                "info": {
+                  "text": "1 марта, 10:22",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 1
+                }
+              }
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d1"
             }
           },
           {
