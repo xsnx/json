@@ -106,23 +106,13 @@
               }
             },
             "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "detail_right_view",
-                  "detail": {
-                    "text": "3 платежа",
-                    "typeface": "body1",
-                    "text_color": "secondary"
-                  },
-                  "margins": {
-                    "left": "4x"
-                  }
-                }
-              ]
-            },
-            "vertical_gravity": "center"
+              "type": "detail_right_view",
+              "detail": {
+                "text": "3 платежа",
+                "typeface": "body1",
+                "text_color": "secondary"
+              }
+            }
           },
           {
             "type": "left_right_cell_view",
