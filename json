@@ -3,7 +3,11 @@
     {
       "card": {
         "type": "list_card",
-        "can_be_disabled": true,
+        "paddings": {
+          "top": "8x",
+          "bottom": "4x",
+          "left": "4x"
+        },
         "cells": [
           {
             "type": "left_right_cell_view",
@@ -15,15 +19,32 @@
             },
             "left": {
               "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://cms-res.online.sberbank.ru/MERCHANT/e231a239-b593-431d-9994-15d28f2ae48b.png",
+                  "placeholder": "car"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "Переводы без комиссии",
+                  "text": "100 ₽",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "Управлять подпиской",
+                  "text": "Mobile",
                   "typeface": "footnote1",
                   "max_lines": 2,
                   "text_color": "secondary",
@@ -34,20 +55,24 @@
               }
             },
             "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "disclosure_right_view"
+              "type": "detail_right_view",
+              "detail": {
+                "text": "Одна операция",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              },
+              "info_and_icon": {
+                "info": {
+                  "text": "за последнюю неделю",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 1
                 }
-              ]
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Переводы без комиссии"
               }
-            ],
+            },
             "vertical_gravity": "center",
             "divider": {
               "style": "default",
@@ -64,15 +89,16 @@
             },
             "left": {
               "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "СберПрайм или СберПрайм+",
+                  "text": "Mobile",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "Управлять подпиской",
+                  "text": "Автомобиль",
                   "typeface": "footnote1",
                   "max_lines": 2,
                   "text_color": "secondary",
@@ -83,123 +109,25 @@
               }
             },
             "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "disclosure_right_view"
-                }
-              ]
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Отключить Сберпрайм"
-              }
-            ],
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Платные услуги",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "Узнать, какие платные услуги Сбера подключены",
+              "type": "detail_right_view",
+              "detail": {
+                "text": "100 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              },
+              "info_and_icon": {
+                "info": {
+                  "text": "1 марта, 10:22",
                   "typeface": "footnote1",
-                  "max_lines": 2,
                   "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
+                  "max_lines": 1
                 }
               }
             },
-            "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "disclosure_right_view"
-                }
-              ]
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Платные услуги"
-              }
-            ],
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Внешние сервисы",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "Узнать, какие сервисы списывают деньги с карты и запретить лишние",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "disclosure_right_view"
-                }
-              ]
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Внешние сервисы"
-              }
-            ],
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
+            "vertical_gravity": "center"
           }
         ]
       }
