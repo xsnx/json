@@ -22,7 +22,7 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://cms-res.online.sberbank.ru/MERCHANT/c1bb4159-9987-4fac-8f75-77d70bfd9ff6.png",
+                  "url": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg",
                   "placeholder": "star_light"
                 },
                 "size": {
@@ -132,7 +132,7 @@
             "vertical_gravity": "center",
             "divider": {
               "style": "default",
-              "size": "d5"
+              "size": "d1"
             }
           },
           {
@@ -169,7 +169,7 @@
             "vertical_gravity": "center",
             "divider": {
               "style": "default",
-              "size": "d5"
+              "size": "d1"
             }
           },
           {
@@ -206,7 +206,7 @@
             "vertical_gravity": "center",
             "divider": {
               "style": "default",
-              "size": "d5"
+              "size": "d1"
             }
           },
           {
@@ -243,7 +243,7 @@
             "vertical_gravity": "center",
             "divider": {
               "style": "default",
-              "size": "d5"
+              "size": "d1"
             }
           },
           {
@@ -280,7 +280,7 @@
             "vertical_gravity": "center",
             "divider": {
               "style": "default",
-              "size": "d5"
+              "size": "d1"
             }
           },
           {
