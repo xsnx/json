@@ -22,7 +22,7 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://cms-res.online.sberbank.ru/MERCHANT/c1bb4159-9987-4fac-8f75-77d70bfd9ff6.png",
+                  "url": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg",
                   "placeholder": "star_light"
                 },
                 "size": {
@@ -56,7 +56,7 @@
                   "text": "Рестораны и кафе",
                   "typeface": "footnote1",
                   "max_lines": 2,
-                  "text_color": "warning",
+                  "text_color": "secondary",
                   "margins": {
                     "top": "1x"
                   }
@@ -79,7 +79,7 @@
               "texts": {
                 "title": {
                   "text": "69 490 ₽",
-                  "typeface": "body1",
+                  "typeface": "headline1",
                   "text_color": "default",
                   "max_lines": 3
                 }
@@ -89,6 +89,39 @@
               "type": "detail_right_view",
               "detail": {
                 "text": "8 платежей",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "vertical_gravity": "center"
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "65 000 ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "1 февраля, 10:21",
                 "typeface": "body1",
                 "text_color": "default"
               },
@@ -115,11 +148,22 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "65 000 ₽",
+                  "text": "1 000 ₽",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
                 }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "1 февраля, 10:21",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
               }
             },
             "vertical_gravity": "center",
@@ -148,30 +192,15 @@
                 }
               }
             },
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "1 000 ₽",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                }
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "1 февраля, 10:21",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
               }
             },
             "vertical_gravity": "center",
@@ -200,6 +229,17 @@
                 }
               }
             },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "1 февраля, 09:51",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
             "vertical_gravity": "center",
             "divider": {
               "style": "default",
@@ -226,6 +266,17 @@
                 }
               }
             },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "1 февраля, 09:51",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
             "vertical_gravity": "center",
             "divider": {
               "style": "default",
@@ -250,6 +301,17 @@
                   "text_color": "default",
                   "max_lines": 3
                 }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "1 февраля, 10:19",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
               }
             },
             "vertical_gravity": "center"
