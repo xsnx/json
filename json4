@@ -22,54 +22,35 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://cms-res.online.sberbank.ru/MERCHANT/e231a239-b593-431d-9994-15d28f2ae48b.png",
-                  "placeholder": "car"
+                  "url": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg",
+                  "placeholder": "star_light"
                 },
                 "size": {
-                  "width": "medium",
-                  "height": "medium"
+                  "width": "xlarge",
+                  "height": "xlarge"
                 },
                 "margins": {
                   "right": "6x"
                 },
                 "tint_color": "solid_brand",
-                "rounded_corners": "circle"
+                "rounded_corners": "rounded"
               },
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "100 ₽",
+                  "text": "В прошлом месяце",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
                 },
-                "subtitle": {
-                  "text": "Mobile",
+                "caption": {
+                  "text": "Рестораны и кафе",
                   "typeface": "footnote1",
                   "max_lines": 2,
-                  "text_color": "secondary",
+                  "text_color": "warning",
                   "margins": {
                     "top": "1x"
                   }
-                }
-              }
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "Одна операция",
-                "typeface": "body1",
-                "text_color": "default"
-              },
-              "margins": {
-                "left": "4x"
-              },
-              "info_and_icon": {
-                "info": {
-                  "text": "за последнюю неделю",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 1
                 }
               }
             },
@@ -92,41 +73,228 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "Mobile",
+                  "text": "None",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
+                }
+              }
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "65 000 ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "1 000 ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "1 000 ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "950 ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "750 ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "590 ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "vertical_gravity": "center"
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/101.png",
+                  "placeholder": "list"
                 },
-                "subtitle": {
-                  "text": "Автомобиль",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Загрузить ещё",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
                 }
               }
             },
             "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "100 ₽",
-                "typeface": "body1",
-                "text_color": "default"
-              },
+              "type": "disclosure_right_view",
               "margins": {
-                "left": "4x"
-              },
-              "info_and_icon": {
-                "info": {
-                  "text": "1 марта, 10:22",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 1
-                }
+                "right": "5x"
               }
             },
+            "actions": [
+              {
+                "type": "server_action",
+                "message_name": "SERVER_ACTION",
+                "server_action": {
+                  "action_id": "get_merchant_expenses_more",
+                  "key": "local_testing_1^pfm_merchant_expenses"
+                }
+              },
+              {
+                "text": "Показать больше операций",
+                "type": "text",
+                "should_send_to_backend": false
+              }
+            ],
             "vertical_gravity": "center"
           }
         ]

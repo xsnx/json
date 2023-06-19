@@ -63,26 +63,6 @@
                 }
               }
             },
-            "actions": [
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "card_balance"
-                  },
-                  "parameters": {
-                    "intent": "card_balance"
-                  }
-                }
-              },
-              {
-                "text": "Баланс карты",
-                "type": "text",
-                "should_send_to_backend": false
-              }
-            ],
             "vertical_gravity": "top"
           },
           {
