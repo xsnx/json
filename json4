@@ -39,7 +39,7 @@
               "texts": {
                 "title": {
                   "text": "В прошлом месяце",
-                  "typeface": "body1",
+                  "typeface": "footnote1",
                   "text_color": "default",
                   "max_lines": 3
                 },
@@ -54,11 +54,7 @@
                 }
               }
             },
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
+            "vertical_gravity": "center"
           },
           {
             "type": "left_right_cell_view",
@@ -73,11 +69,22 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "None",
+                  "text": "69 490 ₽",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
                 }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "8 платежей",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
               }
             },
             "vertical_gravity": "center",
