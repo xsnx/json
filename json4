@@ -38,13 +38,13 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "В прошлом месяце",
+                  "text": "В этом месяце",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "Caviar House Airport P Frankfurt Deu",
+                  "text": "Caviar  House  Airport  P  Frankfurt  Deu",
                   "typeface": "body1",
                   "max_lines": 2,
                   "text_color": "default",
@@ -78,7 +78,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "69 490 ₽",
+                  "text": "69  485,75  ₽",
                   "typeface": "headline1",
                   "text_color": "default",
                   "max_lines": 3
@@ -88,7 +88,7 @@
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "8 платежей",
+                "text": "9 платежей",
                 "typeface": "body1",
                 "text_color": "default"
               },
@@ -111,7 +111,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "65 000 ₽",
+                  "text": "65  000  ₽",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
@@ -121,7 +121,7 @@
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "1 февраля, 10:21",
+                "text": "1 марта, 10:21",
                 "typeface": "body1",
                 "text_color": "default"
               },
@@ -148,7 +148,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "1 000 ₽",
+                  "text": "1  000  ₽",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
@@ -158,7 +158,7 @@
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "1 февраля, 10:21",
+                "text": "1 марта, 10:21",
                 "typeface": "body1",
                 "text_color": "default"
               },
@@ -185,7 +185,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "1 000 ₽",
+                  "text": "1  000  ₽",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
@@ -195,7 +195,7 @@
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "1 февраля, 10:21",
+                "text": "1 марта, 10:21",
                 "typeface": "body1",
                 "text_color": "default"
               },
@@ -222,7 +222,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "950 ₽",
+                  "text": "950  ₽",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
@@ -232,7 +232,7 @@
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "1 февраля, 09:51",
+                "text": "1 марта, 09:51",
                 "typeface": "body1",
                 "text_color": "default"
               },
@@ -259,7 +259,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "750 ₽",
+                  "text": "750  ₽",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
@@ -269,7 +269,7 @@
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "1 февраля, 09:51",
+                "text": "1 марта, 09:51",
                 "typeface": "body1",
                 "text_color": "default"
               },
@@ -296,7 +296,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "590 ₽",
+                  "text": "590  ₽",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
@@ -306,7 +306,7 @@
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "1 февраля, 10:19",
+                "text": "1 марта, 10:19",
                 "typeface": "body1",
                 "text_color": "default"
               },
@@ -364,7 +364,7 @@
                 "message_name": "SERVER_ACTION",
                 "server_action": {
                   "action_id": "get_merchant_expenses_more",
-                  "key": "local_testing_1^pfm_merchant_expenses"
+                  "key": "webdbg_userid_2618003^pfm_merchant_expenses"
                 }
               },
               {
