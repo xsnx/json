@@ -6,114 +6,374 @@
         "paddings": {
           "top": "8x",
           "bottom": "4x",
-          "left": "4x",
-          "right": "4x"
+          "left": "4x"
         },
-        "actions": [
-          {
-            "type": "server_action",
-            "message_name": "RUN_APP",
-            "intent": "run_app",
-            "server_action": {
-              "app_info": {
-                "systemName": "fin_advisor"
-              },
-              "parameters": {
-                "previous_intent": "pfm_my_expenses",
-                "intent": "pfm_get_financial_insight",
-                "from": "01.03.2021",
-                "to": "01.03.2021",
-                "period_name": "month"
-              }
-            }
-          }
-        ],
         "cells": [
           {
-            "type": "text_cell_view",
-            "content": {
-              "text": "2 628 ₽",
-              "typeface": "headline3",
-              "text_color": "default",
-              "max_lines": 0,
-              "margins": {
-                "top": "2x",
-                "bottom": "2x",
-                "left": "2x",
-                "right": "2x"
-              }
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Это самый большой платеж за этот период, в Hyperglobus Pushkino Pushkino Rus 1 марта",
-              "typeface": "footnote1",
-              "text_color": "default",
-              "max_lines": 0,
-              "margins": {
-                "top": "2x",
-                "bottom": "2x",
-                "left": "2x",
-                "right": "2x"
-              }
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Интересный факт",
-              "typeface": "footnote1",
-              "text_color": "tertiary",
-              "max_lines": 0,
-              "margins": {
-                "top": "2x",
-                "bottom": "2x",
-                "left": "2x",
-                "right": "2x"
-              }
-            }
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "text_2",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 0
-            },
+            "type": "left_right_cell_view",
             "paddings": {
               "left": "8x",
-              "top": "6x",
+              "top": "8x",
               "right": "8x",
-              "bottom": "4x"
-            }
-          },
-          {
-            "type": "button_cell_view",
-            "content": {
-              "plasma_button": {
-                "style": "secondary",
-                "text": "Рассчитать с выгодой",
-                "paddings": {
-                  "top": "5x",
-                  "bottom": "5x"
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://cms-res.online.sberbank.ru/MERCHANT/c1bb4159-9987-4fac-8f75-77d70bfd9ff6.png",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "xlarge",
+                  "height": "xlarge"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "rounded"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "В этом месяце",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Caviar  House  Airport  P  Frankfurt  Deu",
+                  "typeface": "body1",
+                  "max_lines": 2,
+                  "text_color": "default",
+                  "margins": {
+                    "top": "1x"
+                  }
+                },
+                "caption": {
+                  "text": "Рестораны и кафе",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
                 }
               }
             },
+            "vertical_gravity": "center"
+          },
+          {
+            "type": "left_right_cell_view",
             "paddings": {
               "left": "8x",
-              "top": "6x",
+              "top": "8x",
               "right": "8x",
               "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "29  489,75  ₽",
+                  "typeface": "headline1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "9 платежей",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "vertical_gravity": "center"
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "65  000  ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "1 марта, 10:21",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d1"
             }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "+40  000,25  ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "1 марта, 10:22",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "1  000  ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "1 марта, 10:21",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "1  000  ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "1 марта, 10:21",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "950  ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "1 марта, 09:51",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "750  ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "1 марта, 09:51",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "vertical_gravity": "center"
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/101.png",
+                  "placeholder": "list"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Загрузить ещё",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "type": "server_action",
+                "message_name": "SERVER_ACTION",
+                "server_action": {
+                  "action_id": "get_merchant_expenses_more",
+                  "key": "webdbg_userid_2618003^pfm_merchant_expenses"
+                }
+              },
+              {
+                "text": "Показать больше операций",
+                "type": "text",
+                "should_send_to_backend": false
+              }
+            ],
+            "vertical_gravity": "center"
           }
         ]
       }
