@@ -78,7 +78,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "69  485,75  ₽",
+                  "text": "29  489,75  ₽",
                   "typeface": "headline1",
                   "text_color": "default",
                   "max_lines": 3
@@ -122,6 +122,43 @@
               "type": "detail_right_view",
               "detail": {
                 "text": "1 марта, 10:21",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "+40  000,25  ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "1 марта, 10:22",
                 "typeface": "body1",
                 "text_color": "default"
               },
@@ -270,43 +307,6 @@
               "type": "detail_right_view",
               "detail": {
                 "text": "1 марта, 09:51",
-                "typeface": "body1",
-                "text_color": "default"
-              },
-              "margins": {
-                "left": "4x"
-              }
-            },
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d1"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "590  ₽",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                }
-              }
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "1 марта, 10:19",
                 "typeface": "body1",
                 "text_color": "default"
               },
