@@ -38,13 +38,13 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "В этом месяце",
+                  "text": "9 операций в этом месяце",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "Caviar  House  Airport  P  Frankfurt  Deu",
+                  "text": "Caviar House Airport P Frankfurt Deu",
                   "typeface": "body1",
                   "max_lines": 2,
                   "text_color": "default",
@@ -78,22 +78,11 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "29  489,75  ₽",
+                  "text": "29 489,75 ₽",
                   "typeface": "headline1",
                   "text_color": "default",
                   "max_lines": 3
                 }
-              }
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "9 платежей",
-                "typeface": "body1",
-                "text_color": "default"
-              },
-              "margins": {
-                "left": "4x"
               }
             },
             "vertical_gravity": "center"
@@ -111,9 +100,9 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "65  000  ₽",
+                  "text": "65 000 ₽",
                   "typeface": "body1",
-                  "text_color": "brand",
+                  "text_color": "default",
                   "max_lines": 3
                 }
               }
@@ -148,9 +137,9 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "+40  000,25  ₽",
+                  "text": "+40 000,25 ₽",
                   "typeface": "body1",
-                  "text_color": "default",
+                  "text_color": "brand",
                   "max_lines": 3
                 }
               }
@@ -185,7 +174,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "1  000  ₽",
+                  "text": "1 000 ₽",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
@@ -222,7 +211,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "1  000  ₽",
+                  "text": "1 000 ₽",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
@@ -259,7 +248,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "950  ₽",
+                  "text": "950 ₽",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
@@ -296,7 +285,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "750  ₽",
+                  "text": "750 ₽",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
