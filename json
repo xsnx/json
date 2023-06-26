@@ -23,7 +23,7 @@
                 "address": {
                   "type": "url",
                   "url": "https://cms-res.online.sberbank.ru/MERCHANT/c1bb4159-9987-4fac-8f75-77d70bfd9ff6.png",
-                  "placeholder": "digital_banknotes"
+                  "placeholder": "star_light"
                 },
                 "size": {
                   "width": "xlarge",
@@ -38,13 +38,13 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "Расходы в мае",
+                  "text": "В этом месяце",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "Яндекс. Маркет",
+                  "text": "Caviar House Airport P Frankfurt Deu",
                   "typeface": "body1",
                   "max_lines": 2,
                   "text_color": "default",
@@ -53,7 +53,7 @@
                   }
                 },
                 "caption": {
-                  "text": "Онлайн-маркеты",
+                  "text": "Рестораны и кафе",
                   "typeface": "footnote1",
                   "max_lines": 2,
                   "text_color": "secondary",
@@ -63,7 +63,7 @@
                 }
               }
             },
-            "vertical_gravity": "top"
+            "vertical_gravity": "center"
           },
           {
             "type": "left_right_cell_view",
@@ -78,21 +78,25 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "3 625 ₽",
+                  "text": "29 489,75 ₽",
                   "typeface": "headline1",
                   "text_color": "default",
-                  "max_lines": 2
+                  "max_lines": 3
                 }
               }
             },
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "3 платежа",
+                "text": "9 операций",
                 "typeface": "body1",
-                "text_color": "secondary"
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
               }
-            }
+            },
+            "vertical_gravity": "center"
           },
           {
             "type": "left_right_cell_view",
@@ -107,7 +111,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "100 ₽",
+                  "text": "65 000 ₽",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
@@ -116,13 +120,13 @@
             },
             "right": {
               "type": "detail_right_view",
-              "info_and_icon": {
-                "info": {
-                  "text": "1 марта, 10:22",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 1
-                }
+              "detail": {
+                "text": "1 марта, 10:21",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
               }
             },
             "vertical_gravity": "center",
@@ -144,22 +148,22 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "100 ₽",
+                  "text": "+40 000,25 ₽",
                   "typeface": "body1",
-                  "text_color": "default",
+                  "text_color": "brand",
                   "max_lines": 3
                 }
               }
             },
             "right": {
               "type": "detail_right_view",
-              "info_and_icon": {
-                "info": {
-                  "text": "1 марта, 10:22",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 1
-                }
+              "detail": {
+                "text": "1 марта, 10:22",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
               }
             },
             "vertical_gravity": "center",
@@ -181,7 +185,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "100 ₽",
+                  "text": "1 000 ₽",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
@@ -190,15 +194,185 @@
             },
             "right": {
               "type": "detail_right_view",
-              "info_and_icon": {
-                "info": {
-                  "text": "1 марта, 10:22",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 1
+              "detail": {
+                "text": "1 марта, 10:21",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "1 000 ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
                 }
               }
             },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "1 марта, 10:21",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "950 ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "1 марта, 09:51",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "750 ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "1 марта, 09:51",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "vertical_gravity": "center"
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/101.png",
+                  "placeholder": "list"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Загрузить ещё",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "type": "server_action",
+                "message_name": "SERVER_ACTION",
+                "server_action": {
+                  "action_id": "get_merchant_expenses_more",
+                  "key": "webdbg_userid_2618003^pfm_merchant_expenses"
+                }
+              },
+              {
+                "text": "Показать больше операций",
+                "type": "text",
+                "should_send_to_backend": false
+              }
+            ],
             "vertical_gravity": "center"
           }
         ]
