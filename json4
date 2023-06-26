@@ -113,7 +113,7 @@
                 "title": {
                   "text": "65  000  ₽",
                   "typeface": "body1",
-                  "text_color": "default",
+                  "text_color": "brand",
                   "max_lines": 3
                 }
               }
