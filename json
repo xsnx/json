@@ -1,196 +1,196 @@
 {
   "items": [
-    {
-      "card": {
-        "type": "list_card",
-        "paddings": {
-          "top": "10x",
-          "left": "8x",
-          "right": "8x",
-          "bottom": "10x"
-        },
-        "cells": [
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Расходы в этом месяце",
-              "typeface": "headline3",
-              "text_color": "default",
-              "max_lines": 2
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "2 628 ₽",
-              "typeface": "headline1",
-              "text_color": "default"
-            },
-            "paddings": {
-              "top": "6x"
-            }
+  {
+    "card": {
+      "type": "list_card",
+      "paddings": {
+        "top": "10x",
+        "left": "8x",
+        "right": "8x",
+        "bottom": "10x"
+      },
+      "cells": [
+        {
+          "type": "text_cell_view",
+          "content": {
+            "text": "Расходы в этом месяце",
+            "typeface": "headline3",
+            "text_color": "default",
+            "max_lines": 2
           }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "paddings": {
-          "top": "8x",
-          "bottom": "4x",
-          "left": "4x"
         },
-        "cells": [
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/4.png",
-                  "placeholder": "digital_banknotes"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Коммунальные платежи, связь, интернет",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "1 операция",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "detail_right_view",
-                  "detail": {
-                    "text": "2 628 ₽",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  },
-                  "margins": {
-                    "left": "4x"
-                  }
-                },
-                {
-                  "type": "disclosure_right_view"
-                }
-              ]
-            },
-            "vertical_gravity": "center"
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "paddings": {
-          "top": "8x",
-          "bottom": "4x",
-          "left": "4x",
-          "right": "4x"
-        },
-        "cells": [
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/insight_lightning.png",
-                  "placeholder": "bolt"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Интересный факт",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                }
-              }
-            }
+        {
+          "type": "text_cell_view",
+          "content": {
+            "text": "2 628 ₽",
+            "typeface": "headline1",
+            "text_color": "default"
           },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "2 628 ₽",
-              "typeface": "headline1",
-              "text_color": "default",
-              "max_lines": 0,
-              "margins": {
-                "top": "2x",
-                "bottom": "2x",
-                "left": "2x",
-                "right": "2x"
-              }
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Это самый большой платеж за этот период, в Hyperglobus Pushkino Pushkino Rus 1 марта",
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "max_lines": 0,
-              "margins": {
-                "top": "2x",
-                "bottom": "2x",
-                "left": "2x",
-                "right": "2x"
-              }
-            }
+          "paddings": {
+            "top": "6x"
           }
-        ]
-      }
+        }
+      ]
     }
-  ]
+  },
+  {
+    "card": {
+      "type": "list_card",
+      "paddings": {
+        "top": "8x",
+        "bottom": "4x",
+        "left": "4x"
+      },
+      "cells": [
+        {
+          "type": "left_right_cell_view",
+          "paddings": {
+            "left": "8x",
+            "top": "8x",
+            "right": "8x",
+            "bottom": "8x"
+          },
+          "left": {
+            "type": "simple_left_view",
+            "icon": {
+              "address": {
+                "type": "url",
+                "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/4.png",
+                "placeholder": "digital_banknotes"
+              },
+              "size": {
+                "width": "medium",
+                "height": "medium"
+              },
+              "margins": {
+                "right": "6x"
+              },
+              "tint_color": "solid_brand",
+              "rounded_corners": "circle"
+            },
+            "icon_vertical_gravity": "top",
+            "texts": {
+              "title": {
+                "text": "Коммунальные платежи, связь, интернет",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 3
+              },
+              "subtitle": {
+                "text": "1 операция",
+                "typeface": "footnote1",
+                "max_lines": 2,
+                "text_color": "secondary",
+                "margins": {
+                  "top": "1x"
+                }
+              }
+            }
+          },
+          "right": {
+            "type": "right_cell_array_view",
+            "orientation": "horizontal",
+            "items": [
+              {
+                "type": "detail_right_view",
+                "detail": {
+                  "text": "2 628 ₽",
+                  "typeface": "body1",
+                  "text_color": "default"
+                },
+                "margins": {
+                  "left": "4x"
+                }
+              },
+              {
+                "type": "disclosure_right_view"
+              }
+            ]
+          },
+          "vertical_gravity": "center"
+        }
+      ]
+    }
+  },
+  {
+    "card": {
+      "type": "list_card",
+      "paddings": {
+        "top": "4x",
+        "bottom": "4x",
+        "left": "2x",
+        "right": "2x"
+      },
+      "cells": [
+        {
+          "type": "left_right_cell_view",
+          "paddings": {
+            "left": "4x",
+            "top": "4x",
+            "right": "4x",
+            "bottom": "4x"
+          },
+          "left": {
+            "type": "simple_left_view",
+            "icon": {
+              "address": {
+                "type": "url",
+                "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/insight_lightning.png",
+                "placeholder": "bolt"
+              },
+              "size": {
+                "width": "medium",
+                "height": "medium"
+              },
+              "margins": {
+                "right": "6x"
+              },
+              "tint_color": "solid_brand",
+              "rounded_corners": "circle"
+            },
+            "icon_vertical_gravity": "top",
+            "texts": {
+              "title": {
+                "text": "Интересный факт",
+                "typeface": "headline3",
+                "text_color": "default",
+                "max_lines": 3
+              }
+            }
+          }
+        },
+        {
+          "type": "text_cell_view",
+          "content": {
+            "text": "2 628 ₽",
+            "typeface": "headline1",
+            "text_color": "default",
+            "max_lines": 0,
+            "margins": {
+              "top": "2x",
+              "bottom": "2x",
+              "left": "4x",
+              "right": "2x"
+            }
+          }
+        },
+        {
+          "type": "text_cell_view",
+          "content": {
+            "text": "Это самый большой платеж за этот период, в Hyperglobus Pushkino Pushkino Rus 1 марта",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "max_lines": 0,
+            "margins": {
+              "top": "2x",
+              "bottom": "4x",
+              "left": "4x",
+              "right": "2x"
+            }
+          }
+        }
+      ]
+    }
+  }
+]
 }
