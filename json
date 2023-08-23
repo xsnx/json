@@ -1,106 +1,108 @@
-[
-  {
-    "bubble": {
-      "text": "О, этого у меня много! Вот факт о твоих финансах за этот и прошлый месяц:"
-    }
-  },
-  {
-    "card": {
-      "type": "list_card",
-      "paddings": {
-        "top": "8x",
-        "bottom": "4x",
-        "left": "4x",
-        "right": "4x"
-      },
-      "actions": [
-        {
-          "type": "server_action",
-          "message_name": "RUN_APP",
-          "intent": "run_app",
-          "server_action": {
-            "app_info": {
-              "systemName": "fin_advisor"
-            },
-            "parameters": {
-              "previous_intent": "pfm_get_expenses",
-              "intent": "pfm_get_financial_insight",
-              "from": "01.02.2021",
-              "to": "01.03.2021",
-              "period_name": "two_months"
-            }
-          }
-        }
-      ],
-      "cells": [
-        {
-          "type": "left_right_cell_view",
-          "paddings": {
-            "left": "2x",
-            "top": "2x",
-            "right": "2x",
-            "bottom": "2x"
-          },
-          "left": {
-            "type": "simple_left_view",
-            "icon": {
-              "address": {
-                "type": "url",
-                "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/insight_lightning.png",
-                "placeholder": "bolt"
+{
+  "items": [
+    {
+      "bubble": {
+        "text": "О, этого у меня много! Вот факт о твоих финансах за этот и прошлый месяц:"
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "paddings": {
+          "top": "8x",
+          "bottom": "4x",
+          "left": "4x",
+          "right": "4x"
+        },
+        "actions": [
+          {
+            "type": "server_action",
+            "message_name": "RUN_APP",
+            "intent": "run_app",
+            "server_action": {
+              "app_info": {
+                "systemName": "fin_advisor"
               },
-              "size": {
-                "width": "medium",
-                "height": "medium"
-              },
-              "margins": {
-                "right": "6x"
-              },
-              "tint_color": "solid_brand",
-              "rounded_corners": "circle"
-            },
-            "icon_vertical_gravity": "top",
-            "texts": {
-              "title": {
-                "text": "Интересный факт",
-                "typeface": "headline3",
-                "text_color": "default",
-                "max_lines": 1
+              "parameters": {
+                "previous_intent": "pfm_get_expenses",
+                "intent": "pfm_get_financial_insight",
+                "from": "01.02.2021",
+                "to": "01.03.2021",
+                "period_name": "two_months"
               }
             }
           }
-        },
-        {
-          "type": "text_cell_view",
-          "content": {
-            "text": "Caviar House Airport P Frankfurt Deu у вас в любимчиках",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 0,
-            "margins": {
-              "top": "2x",
-              "bottom": "2x",
+        ],
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
               "left": "2x",
-              "right": "2x"
+              "top": "2x",
+              "right": "2x",
+              "bottom": "2x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/insight_lightning.png",
+                  "placeholder": "bolt"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Интересный факт",
+                  "typeface": "headline3",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              }
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Caviar House Airport P Frankfurt Deu у вас в любимчиках",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 0,
+              "margins": {
+                "top": "2x",
+                "bottom": "2x",
+                "left": "2x",
+                "right": "2x"
+              }
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "3 покупки на общую сумму 1 786 ₽",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 0,
+              "margins": {
+                "top": "2x",
+                "bottom": "2x",
+                "left": "2x",
+                "right": "2x"
+              }
             }
           }
-        },
-        {
-          "type": "text_cell_view",
-          "content": {
-            "text": "3 покупки на общую сумму 1 786 ₽",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "max_lines": 0,
-            "margins": {
-              "top": "2x",
-              "bottom": "2x",
-              "left": "2x",
-              "right": "2x"
-            }
-          }
-        }
-      ]
+        ]
+      }
     }
-  }
-]
+  ]
+}
