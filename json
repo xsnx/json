@@ -74,7 +74,7 @@
           {
             "type": "text_cell_view",
             "content": {
-              "text": "Ваши самые крупные покупки за период:",
+              "text": "Кастом 3",
               "typeface": "body1",
               "text_color": "default",
               "max_lines": 0,
@@ -89,7 +89,7 @@
           {
             "type": "text_cell_view",
             "content": {
-              "text": "800 ₽ — «Бенз За Углом» 20 февраля\n596 ₽ — «Caviar House Airport P Frankfurt Deu» 1 февраля\n595 ₽ — «Caviar House Airport P Frankfurt Deu» 1 февраля",
+              "text": "Самая частая категория за этот период - целых 3 покупки",
               "typeface": "footnote1",
               "text_color": "secondary",
               "max_lines": 0,
