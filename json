@@ -24,11 +24,11 @@
                 "systemName": "fin_advisor"
               },
               "parameters": {
-                "previous_intent": "pfm_get_expenses",
+                "previous_intent": "pfm_my_expenses",
                 "intent": "pfm_get_financial_insight",
-                "from": "01.02.2021",
+                "from": "01.01.2021",
                 "to": "01.03.2021",
-                "period_name": "two_months"
+                "period_name": "n_months"
               }
             }
           }
@@ -74,7 +74,7 @@
           {
             "type": "text_cell_view",
             "content": {
-              "text": "Caviar House Airport P Frankfurt Deu у вас в любимчиках",
+              "text": "Ваши самые крупные покупки за период:",
               "typeface": "body1",
               "text_color": "default",
               "max_lines": 0,
@@ -89,7 +89,7 @@
           {
             "type": "text_cell_view",
             "content": {
-              "text": "3 покупки на общую сумму 1 786 ₽",
+              "text": "2 121 ₽ — «Баланс» 21 января\n2 000 ₽ — «Инсайт» 1 марта\n1 000 ₽ — «Инсайт» 1 марта",
               "typeface": "footnote1",
               "text_color": "secondary",
               "max_lines": 0,
