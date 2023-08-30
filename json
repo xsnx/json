@@ -1,11 +1,6 @@
 {
   "items": [
     {
-      "bubble": {
-        "text": "О, этого у меня много! Вот факт о твоих финансах за этот и прошлый месяц:"
-      }
-    },
-    {
       "card": {
         "type": "list_card",
         "paddings": {
@@ -14,25 +9,6 @@
           "left": "4x",
           "right": "4x"
         },
-        "actions": [
-          {
-            "type": "server_action",
-            "message_name": "RUN_APP",
-            "intent": "run_app",
-            "server_action": {
-              "app_info": {
-                "systemName": "fin_advisor"
-              },
-              "parameters": {
-                "previous_intent": "pfm_my_expenses",
-                "intent": "pfm_get_financial_insight",
-                "from": "01.01.2021",
-                "to": "01.03.2021",
-                "period_name": "n_months"
-              }
-            }
-          }
-        ],
         "cells": [
           {
             "type": "left_right_cell_view",
@@ -63,7 +39,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "Интересный факт",
+                  "text": "Совет",
                   "typeface": "headline3",
                   "text_color": "default",
                   "max_lines": 1
@@ -74,7 +50,7 @@
           {
             "type": "text_cell_view",
             "content": {
-              "text": "Ваши самые крупные покупки за период:",
+              "text": "18 твоих трат — это «Переводы». ",
               "typeface": "body1",
               "text_color": "default",
               "max_lines": 0,
@@ -89,7 +65,7 @@
           {
             "type": "text_cell_view",
             "content": {
-              "text": "2 121 ₽ — «Баланс» 21 января\n2 000 ₽ — «Инсайт» 1 марта\n1 000 ₽ — «Инсайт» 1 марта",
+              "text": "Раскидай переводы по категориям в Анализе финансов на главном экране. Так не забудешь, куда ушли деньги",
               "typeface": "footnote1",
               "text_color": "secondary",
               "max_lines": 0,
