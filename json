@@ -23,8 +23,8 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/insight_lightning.png",
-                  "placeholder": "bolt"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/recommendation.png",
+                  "placeholder": "info"
                 },
                 "size": {
                   "width": "medium",
