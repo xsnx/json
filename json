@@ -13,6 +13,52 @@
           {
             "type": "left_right_cell_view",
             "paddings": {
+              "top": "8x",
+              "right": "8x",
+              "bottom": "12x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/204.png",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Платеж вне Сбера",
+                  "typeface": "headline3",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Разовый",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "vertical_gravity": "center"
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
               "left": "8x",
               "top": "8x",
               "right": "8x",
@@ -22,7 +68,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "Тест тест",
+                  "text": "Тест тест тест",
                   "typeface": "headline4",
                   "text_color": "default",
                   "max_lines": 3
@@ -72,6 +118,25 @@
               "typeface": "button3",
               "style": "default",
               "type": "disabled",
+              "actions": [
+                {
+                  "type": "server_action",
+                  "message_name": "RUN_APP",
+                  "server_action": {
+                    "action_id": "run_app",
+                    "app_info": {
+                      "systemName": "fin_advisor"
+                    },
+                    "parameters": {
+                      "scenario": "get_or_update_custom_payment",
+                      "subintent": "delete_custom_payment",
+                      "payment_id": "af137bb8aedd45d6ac26d56e57ebe510",
+                      "done": "False",
+                      "deleted": "True"
+                    }
+                  }
+                }
+              ],
               "margins": {
                 "left": "10x",
                 "top": "5x",
