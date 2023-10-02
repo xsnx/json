@@ -4,26 +4,26 @@
       "card": {
         "type": "list_card",
         "paddings": {
-          "top": "4x",
+          "top": "8x",
           "bottom": "4x",
-          "left": "8x",
-          "right": "8x"
+          "left": "4x"
         },
         "cells": [
           {
             "type": "left_right_cell_view",
             "paddings": {
+              "left": "8x",
               "top": "8x",
               "right": "8x",
-              "bottom": "12x"
+              "bottom": "8x"
             },
             "left": {
               "type": "simple_left_view",
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/204.png",
-                  "placeholder": "star_light"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
+                  "placeholder": "wallet"
                 },
                 "size": {
                   "width": "medium",
@@ -38,118 +38,337 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "Платеж вне Сбера",
-                  "typeface": "headline3",
+                  "text": "Похоже, у вас нет обязательных платежей",
+                  "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "Разовый",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
                 }
               }
             },
             "vertical_gravity": "center"
-          },
+          }
+        ]
+      }
+    },
+    {
+      "bubble": {
+        "text": "Другие данные по финансам ты можешь проверить по ссылке.\n Если есть кредитная карта — посмотри платежи в разделе «Задолженность по кредитной карте»"
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
           {
             "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            },
             "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "2x"
+              "left": "0x",
+              "top": "3x",
+              "right": "0x",
+              "bottom": "3x"
             },
             "left": {
               "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Тест тест тест",
-                  "typeface": "headline4",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "Запланировано",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
+              "title": {
+                "text": "Всего средств",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 1,
+                "margins": {
+                  "top": "3x",
+                  "bottom": "3x",
+                  "left": "8x"
                 }
               }
             },
             "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "detail_right_view",
-                  "detail": {
-                    "text": "2 560 ₽",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  },
-                  "margins": {
-                    "left": "4x"
-                  },
-                  "info_and_icon": {
-                    "info": {
-                      "text": "19 сентября",
-                      "typeface": "footnote1",
-                      "text_color": "secondary",
-                      "max_lines": 1
-                    }
-                  }
-                }
-              ]
-            },
-            "vertical_gravity": "center"
-          },
-          {
-            "type": "button_cell_view",
-            "content": {
-              "text": "Удалить",
-              "typeface": "button3",
-              "style": "default",
-              "type": "disabled",
-              "actions": [
-                {
-                  "type": "server_action",
-                  "message_name": "RUN_APP",
-                  "server_action": {
-                    "action_id": "run_app",
-                    "app_info": {
-                      "systemName": "fin_advisor"
-                    },
-                    "parameters": {
-                      "scenario": "get_or_update_custom_payment",
-                      "subintent": "delete_custom_payment",
-                      "payment_id": "af137bb8aedd45d6ac26d56e57ebe510",
-                      "done": "False",
-                      "deleted": "True"
-                    }
-                  }
-                }
-              ],
+              "type": "disclosure_right_view",
               "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
               }
             },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "sbolonline://pfm/open-financeschart"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            },
             "paddings": {
-              "left": "4x",
-              "top": "4x",
-              "right": "4x",
-              "bottom": "4x"
-            }
+              "left": "0x",
+              "top": "3x",
+              "right": "0x",
+              "bottom": "3x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "title": {
+                "text": "Платежи и переводы без комиссии",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 1,
+                "margins": {
+                  "top": "3x",
+                  "bottom": "3x",
+                  "left": "8x"
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "sbolonline://profile/dynamic_tariffication"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            },
+            "paddings": {
+              "left": "0x",
+              "top": "3x",
+              "right": "0x",
+              "bottom": "3x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "title": {
+                "text": "Пакеты услуг",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 1,
+                "margins": {
+                  "top": "3x",
+                  "bottom": "3x",
+                  "left": "8x"
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "sbolonline://sberprime/catalog?internal_source=chatbotP103"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            },
+            "paddings": {
+              "left": "0x",
+              "top": "3x",
+              "right": "0x",
+              "bottom": "3x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "title": {
+                "text": "Автоплатежи и автопереводы",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 1,
+                "margins": {
+                  "top": "3x",
+                  "bottom": "3x",
+                  "left": "8x"
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "sbolonline://payments/create-autopayment"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            },
+            "paddings": {
+              "left": "0x",
+              "top": "3x",
+              "right": "0x",
+              "bottom": "3x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "title": {
+                "text": "История операций",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 1,
+                "margins": {
+                  "top": "3x",
+                  "bottom": "3x",
+                  "left": "8x"
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "sbolonline://history"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            },
+            "paddings": {
+              "left": "0x",
+              "top": "3x",
+              "right": "0x",
+              "bottom": "3x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "title": {
+                "text": "Информация о кредите",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 1,
+                "margins": {
+                  "top": "3x",
+                  "bottom": "3x",
+                  "left": "8x"
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "actions": [
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "My_loans"
+                  },
+                  "parameters": {
+                    "intent": "A02.01652.My_loans"
+                  }
+                }
+              },
+              {
+                "text": "Информация о кредите",
+                "type": "text",
+                "should_send_to_backend": false
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "0x",
+              "top": "3x",
+              "right": "0x",
+              "bottom": "3x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "title": {
+                "text": "СберСпасибо",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 1,
+                "margins": {
+                  "top": "3x",
+                  "bottom": "3x",
+                  "left": "8x"
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "actions": [
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "How_to_check_your_SPASIBO_bonus_balance"
+                  },
+                  "parameters": {
+                    "intent": "A0501.How_to_check_your_SPASIBO_bonus_balance"
+                  }
+                }
+              },
+              {
+                "text": "Баланс бонусов",
+                "type": "text",
+                "should_send_to_backend": false
+              }
+            ]
           }
         ]
       }
