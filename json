@@ -10,6 +10,32 @@
         },
         "cells": [
           {
+            "type": "text_cell_view",
+            "paddings": {
+              "top": "4x",
+              "left": "8x"
+            },
+            "content": {
+              "text": "5 операций",
+              "typeface": "headline3",
+              "text_color": "default"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "paddings": {
+              "top": "1x",
+              "left": "8x",
+              "bottom": "8x"
+            },
+            "content": {
+              "text": "С марта 2021",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 2
+            }
+          },
+          {
             "type": "left_right_cell_view",
             "paddings": {
               "left": "8x",
@@ -22,8 +48,8 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/13.png",
-                  "placeholder": "wallet"
+                  "url": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg",
+                  "placeholder": "star_light"
                 },
                 "size": {
                   "width": "medium",
@@ -38,10 +64,318 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "Похоже, у вас нет обязательных платежей",
+                  "text": "Caviar House Airport P Frankfurt Deu",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Рестораны и кафе",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "100 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              },
+              "info_and_icon": {
+                "info": {
+                  "text": "1 марта, 10:22",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 1
+                }
+              }
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Caviar House Airport P Frankfurt Deu",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Рестораны и кафе",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "100 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              },
+              "info_and_icon": {
+                "info": {
+                  "text": "1 марта, 10:22",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 1
+                }
+              }
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Caviar House Airport P Frankfurt Deu",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Рестораны и кафе",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "1 000 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              },
+              "info_and_icon": {
+                "info": {
+                  "text": "1 марта, 10:21",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 1
+                }
+              }
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Caviar House Airport P Frankfurt Deu",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Рестораны и кафе",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "65 000 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              },
+              "info_and_icon": {
+                "info": {
+                  "text": "1 марта, 10:21",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 1
+                }
+              }
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Caviar House Airport P Frankfurt Deu",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Рестораны и кафе",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "590 ₽",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              },
+              "info_and_icon": {
+                "info": {
+                  "text": "1 марта, 10:19",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 1
                 }
               }
             },
@@ -52,250 +386,51 @@
     },
     {
       "bubble": {
-        "text": "Другие данные по финансам ты можешь проверить по ссылке.\n Если есть кредитная карта — посмотри платежи в разделе «Задолженность по кредитной карте»"
+        "text": "Выберите причину списания, и следуйте инструкциям"
       }
     },
     {
       "card": {
         "type": "list_card",
+        "paddings": {
+          "top": "8x",
+          "bottom": "4x",
+          "left": "4x"
+        },
         "cells": [
           {
             "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d3"
-            },
             "paddings": {
-              "left": "0x",
-              "top": "3x",
-              "right": "0x",
-              "bottom": "3x"
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
             },
             "left": {
               "type": "simple_left_view",
-              "title": {
-                "text": "Всего средств",
-                "typeface": "body1",
-                "text_color": "default",
-                "max_lines": 1,
-                "margins": {
-                  "top": "3x",
-                  "bottom": "3x",
-                  "left": "8x"
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Маркетплейсы",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Озон, Wildberries",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
                 }
               }
             },
             "right": {
               "type": "disclosure_right_view",
               "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "sbolonline://pfm/open-financeschart"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d3"
-            },
-            "paddings": {
-              "left": "0x",
-              "top": "3x",
-              "right": "0x",
-              "bottom": "3x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "title": {
-                "text": "Платежи и переводы без комиссии",
-                "typeface": "body1",
-                "text_color": "default",
-                "max_lines": 1,
-                "margins": {
-                  "top": "3x",
-                  "bottom": "3x",
-                  "left": "8x"
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "sbolonline://profile/dynamic_tariffication"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d3"
-            },
-            "paddings": {
-              "left": "0x",
-              "top": "3x",
-              "right": "0x",
-              "bottom": "3x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "title": {
-                "text": "Пакеты услуг",
-                "typeface": "body1",
-                "text_color": "default",
-                "max_lines": 1,
-                "margins": {
-                  "top": "3x",
-                  "bottom": "3x",
-                  "left": "8x"
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "sbolonline://sberprime/catalog?internal_source=chatbotP103"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d3"
-            },
-            "paddings": {
-              "left": "0x",
-              "top": "3x",
-              "right": "0x",
-              "bottom": "3x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "title": {
-                "text": "Автоплатежи и автопереводы",
-                "typeface": "body1",
-                "text_color": "default",
-                "max_lines": 1,
-                "margins": {
-                  "top": "3x",
-                  "bottom": "3x",
-                  "left": "8x"
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "sbolonline://payments/create-autopayment"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d3"
-            },
-            "paddings": {
-              "left": "0x",
-              "top": "3x",
-              "right": "0x",
-              "bottom": "3x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "title": {
-                "text": "История операций",
-                "typeface": "body1",
-                "text_color": "default",
-                "max_lines": 1,
-                "margins": {
-                  "top": "3x",
-                  "bottom": "3x",
-                  "left": "8x"
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "sbolonline://history"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d3"
-            },
-            "paddings": {
-              "left": "0x",
-              "top": "3x",
-              "right": "0x",
-              "bottom": "3x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "title": {
-                "text": "Информация о кредите",
-                "typeface": "body1",
-                "text_color": "default",
-                "max_lines": 1,
-                "margins": {
-                  "top": "3x",
-                  "bottom": "3x",
-                  "left": "8x"
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
+                "right": "5x"
               }
             },
             "actions": [
@@ -305,48 +440,58 @@
                 "server_action": {
                   "action_id": "run_app",
                   "app_info": {
-                    "systemName": "My_loans"
+                    "systemName": "Run_operator"
                   },
                   "parameters": {
-                    "intent": "A02.01652.My_loans"
+                    "intent": "A0689.Run_operator",
+                    "systemName": "fin_advisor",
+                    "from_intent": "pfm_operations_history",
+                    "pronounceText": "Обратитесь в магазин, который списал деньги. Если вам нужен оператор, проверьте сумму и дату платежа и нажмите на кнопку ниже",
+                    "text": "Обратитесь в магазин, который списал деньги. Если вам нужен оператор, проверьте сумму и дату платежа и нажмите на кнопку ниже",
+                    "time_to_open_chat": 7
                   }
                 }
-              },
-              {
-                "text": "Информация о кредите",
-                "type": "text",
-                "should_send_to_backend": false
               }
-            ]
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
           },
           {
             "type": "left_right_cell_view",
             "paddings": {
-              "left": "0x",
-              "top": "3x",
-              "right": "0x",
-              "bottom": "3x"
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
             },
             "left": {
               "type": "simple_left_view",
-              "title": {
-                "text": "СберСпасибо",
-                "typeface": "body1",
-                "text_color": "default",
-                "max_lines": 1,
-                "margins": {
-                  "top": "3x",
-                  "bottom": "3x",
-                  "left": "8x"
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Подписки",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Кинопоиск, Окко",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
                 }
               }
             },
             "right": {
               "type": "disclosure_right_view",
               "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
+                "right": "5x"
               }
             },
             "actions": [
@@ -356,19 +501,171 @@
                 "server_action": {
                   "action_id": "run_app",
                   "app_info": {
-                    "systemName": "How_to_check_your_SPASIBO_bonus_balance"
+                    "systemName": "fin_advisor"
                   },
                   "parameters": {
-                    "intent": "A0501.How_to_check_your_SPASIBO_bonus_balance"
+                    "intent": "pfm_my_subscriptions"
                   }
                 }
               },
               {
-                "text": "Баланс бонусов",
+                "text": "Подписки",
                 "type": "text",
                 "should_send_to_backend": false
               }
-            ]
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Платные сервисы",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Банковские услуги, подписки",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "type": "server_action",
+                "message_name": "SERVER_ACTION",
+                "app_info": {
+                  "systemName": "fin_advisor"
+                },
+                "server_action": {
+                  "action_id": "why_withdraw",
+                  "text_key": "why_withdraw_get_paid_services"
+                }
+              }
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Банковская карта",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "type": "server_action",
+                "message_name": "SERVER_ACTION",
+                "app_info": {
+                  "systemName": "fin_advisor"
+                },
+                "server_action": {
+                  "action_id": "why_withdraw",
+                  "text_key": "why_withdraw_get_bank_card"
+                }
+              }
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Другое",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "Run_operator"
+                  },
+                  "parameters": {
+                    "intent": "A0689.Run_operator",
+                    "systemName": "fin_advisor",
+                    "from_intent": "pfm_operations_history",
+                    "pronounceText": "Не нашлось ничего подходящего? Обратитесь к оператору по кнопке ниже",
+                    "text": "Не нашлось ничего подходящего? Обратитесь к оператору по кнопке ниже",
+                    "time_to_open_chat": 7
+                  }
+                }
+              }
+            ],
+            "vertical_gravity": "center"
           }
         ]
       }
