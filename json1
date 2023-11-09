@@ -1,6 +1,11 @@
 {
   "items": [
     {
+      "bubble": {
+        "text": "Показал, за что чаще всего списывают деньги. Выберите свой вариант"
+      }
+    },
+    {
       "card": {
         "type": "list_card",
         "paddings": {
@@ -19,40 +24,91 @@
             },
             "left": {
               "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/152_.png",
-                  "placeholder": "digital_banknotes"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
-              },
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "Как не платить за карту",
+                  "text": "Покупки на маркетплейсах",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Ozon, Wildberries и другие",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
                 }
               }
             },
             "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "disclosure_right_view"
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "Run_operator"
+                  },
+                  "parameters": {
+                    "intent": "A0689.Run_operator",
+                    "systemName": "fin_advisor",
+                    "from_intent": "pfm_operations_history",
+                    "pronounceText": "Уточнить детали платежа можно в магазине, который списал деньги. Если нужна помощь оператора, он ответит в чате. Я передал ему суть нашего разговора, и вам не придётся повторять.",
+                    "text": "Уточнить детали платежа можно в магазине, который списал деньги. Если нужна помощь оператора, он ответит в чате. Я передал ему суть нашего разговора, и вам не придётся повторять",
+                    "time_to_open_chat": 15
+                  }
                 }
-              ]
+              }
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Подписки",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Яндекс Плюс, Кинопоиск, Okko",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
             },
             "actions": [
               {
@@ -65,6 +121,120 @@
                   },
                   "parameters": {
                     "intent": "pfm_my_subscriptions"
+                  }
+                }
+              },
+              {
+                "text": "Подписки",
+                "type": "text",
+                "should_send_to_backend": false
+              }
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d0"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Банковские услуги",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "СберПрайм, уведомления",
+                  "typeface": "footnote1",
+                  "max_lines": 2,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "fin_advisor"
+                  },
+                  "parameters": {
+                    "intent": "why_withdraw",
+                    "text_key": "why_withdraw_get_paid_services"
+                  }
+                }
+              }
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d0"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Не знаю, за что списали",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "Run_operator"
+                  },
+                  "parameters": {
+                    "intent": "A0689.Run_operator",
+                    "systemName": "fin_advisor",
+                    "from_intent": "pfm_operations_history",
+                    "pronounceText": "Мы непременно всё выясним! И в этом нам поможет оператор, он ответит в чате. Я передал ему суть нашего разговора, и вам не придётся повторять.",
+                    "text": "Мы непременно всё выясним! И в этом нам поможет оператор, он ответит в чате. Я передал ему суть нашего разговора, и вам не придётся повторять",
+                    "time_to_open_chat": 15
                   }
                 }
               }
