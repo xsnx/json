@@ -133,7 +133,7 @@
             "vertical_gravity": "center",
             "divider": {
               "style": "default",
-              "size": "d4"
+              "size": "d0"
             }
           },
           {
@@ -190,7 +190,7 @@
             "vertical_gravity": "center",
             "divider": {
               "style": "default",
-              "size": "d6"
+              "size": "d0"
             }
           },
           {
