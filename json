@@ -2,73 +2,143 @@
   "items": [
     {
       "bubble": {
-        "text": "Нажмите на кнопку ниже → выберите ненужную подписку → отключить автопродление. Продолжайте переводить бесплатно до окончания оплаченного периода"
+        "text": "Отключить просто!\n\nЕсли у  вас СберПрайм, переходите по  ссылке и  нажмите «Отключить подписку».\n\nА  если СберПрайм+, то  выбирайте «Отключить автопродление»",
+        "markdown": true
       }
     },
-    {
-      "card": {
-        "type": "list_card",
-        "paddings": {
-          "top": "8x",
-          "bottom": "4x",
-          "left": "4x"
-        },
-        "cells": [
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/percent.png",
-                  "placeholder": "percent"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
+    [
+      {
+        "card": {
+          "type": "list_card",
+          "paddings": {
+            "top": "8x",
+            "bottom": "4x",
+            "left": "4x"
+          },
+          "cells": [
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
               },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Перейти к подпискам",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "address": {
+                    "type": "url",
+                    "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/cards_carousel.png",
+                    "placeholder": "cards_carousel"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "right": "6x"
+                  },
+                  "tint_color": "solid_brand",
+                  "rounded_corners": "circle"
+                },
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "Отключить СберПрайм",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  }
                 }
-              }
-            },
-            "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
+              },
+              "right": {
+                "type": "right_cell_array_view",
+                "orientation": "horizontal",
+                "items": [
+                  {
+                    "type": "disclosure_right_view"
+                  }
+                ]
+              },
+              "actions": [
                 {
-                  "type": "disclosure_right_view"
+                  "type": "deep_link",
+                  "deep_link": "sberbankonline://sberprime/catalog?internal_source=audiohelper650"
                 }
-              ]
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "sberbankonline://profile/dynamic_tariffication?internal_source=audiohelper650"
-              }
-            ],
-            "vertical_gravity": "center"
-          }
-        ]
+              ],
+              "vertical_gravity": "center"
+            }
+          ]
+        }
       }
-    }
+    ],
+    [
+      {
+        "card": {
+          "type": "list_card",
+          "paddings": {
+            "top": "8x",
+            "bottom": "4x",
+            "left": "4x"
+          },
+          "cells": [
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "address": {
+                    "type": "url",
+                    "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/cards_carousel.png",
+                    "placeholder": "cards_carousel"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "right": "6x"
+                  },
+                  "tint_color": "solid_brand",
+                  "rounded_corners": "circle"
+                },
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "Отключить СберПрайм+",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  }
+                }
+              },
+              "right": {
+                "type": "right_cell_array_view",
+                "orientation": "horizontal",
+                "items": [
+                  {
+                    "type": "disclosure_right_view"
+                  }
+                ]
+              },
+              "actions": [
+                {
+                  "type": "deep_link",
+                  "deep_link": "sberbankonline://packages/connect?pack=PRIME&internal_source=audiohelper650"
+                }
+              ],
+              "vertical_gravity": "center"
+            }
+          ]
+        }
+      }
+    ]
   ]
 }
