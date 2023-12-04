@@ -1,9 +1,18 @@
 {
   "items": [
     {
+      "bubble": {
+        "text": "Нажмите на кнопку ниже → выберите ненужную подписку → отключить автопродление. Продолжайте переводить бесплатно до окончания оплаченного периода"
+      }
+    },
+    {
       "card": {
         "type": "list_card",
-        "can_be_disabled": false,
+        "paddings": {
+          "top": "8x",
+          "bottom": "4x",
+          "left": "4x"
+        },
         "cells": [
           {
             "type": "left_right_cell_view",
@@ -15,21 +24,29 @@
             },
             "left": {
               "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/percent.png",
+                  "placeholder": "percent"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "Интернет-магазины и подписки",
+                  "text": "Перейти к подпискам",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "Кинопоиск, Окко, Иви и другие",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
                 }
               }
             },
@@ -44,155 +61,8 @@
             },
             "actions": [
               {
-                "type": "text",
-                "text": "Сервисы вне Сбера"
-              }
-            ],
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d3"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "СберПрайм или СберПрайм+",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "Управлять подпиской",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "disclosure_right_view"
-                }
-              ]
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Отключить Сберпрайм"
-              }
-            ],
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d3"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Переводы без комиссии",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "Управлять подпиской",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "disclosure_right_view"
-                }
-              ]
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Переводы без комиссии"
-              }
-            ],
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d3"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Платные услуги",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "Узнать, какие платные услуги Сбера подключены",
-                  "typeface": "footnote1",
-                  "max_lines": 2,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "disclosure_right_view"
-                }
-              ]
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Платные услуги"
+                "type": "deep_link",
+                "deep_link": "sberbankonline://profile/dynamic_tariffication?internal_source=audiohelper650"
               }
             ],
             "vertical_gravity": "center"
