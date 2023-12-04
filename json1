@@ -28,8 +28,8 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/cards_carousel.png",
-                  "placeholder": "cards_carousel"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/sberPrime.png",
+                  "placeholder": "mobile_plus"
                 },
                 "size": {
                   "width": "medium",
@@ -93,8 +93,8 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/cards_carousel.png",
-                  "placeholder": "cards_carousel"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/sberPrime.png",
+                  "placeholder": "mobile_plus"
                 },
                 "size": {
                   "width": "medium",
