@@ -1,27 +1,236 @@
 {
   "items": [
     {
-      "bubble": {
-        "text": "{period}\n«{merchant}»\n# {sum_total}'",
-        "markdown": true
+      "card": {
+        "type": "list_card",
+        "paddings": {
+          "top": "10x",
+          "left": "8x",
+          "right": "8x",
+          "bottom": "10x"
+        },
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Расходы c 23 февраля по сегодня",
+              "typeface": "headline3",
+              "text_color": "default",
+              "max_lines": 2
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "10 512 ₽",
+              "typeface": "headline1",
+              "text_color": "default"
+            },
+            "paddings": {
+              "top": "6x"
+            }
+          }
+        ]
       }
     },
     {
-      "bubble": {
-        "text": "Расходы с 23.02.2021 по 01.03.2021\nна Автомобиль\n# 1 884 ₽",
-        "markdown": true
-      }
-    },
-    {
-      "bubble": {
-        "text": "2Расходы с 23.02.2021 по 01.03.2021\n _«Автомобиль»_\n# 1 884 ₽",
-        "markdown": true
-      }
-    },
-        {
-      "bubble": {
-        "text": "3Расходы с 23.02.2021 по 01.03.2021\n\n_«Автомобиль»_\n# 1 884 ₽",
-        "markdown": true
+      "card": {
+        "type": "list_card",
+        "paddings": {
+          "top": "8x",
+          "bottom": "4x",
+          "left": "4x"
+        },
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/1.png",
+                  "placeholder": "car"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Автомобиль",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "2 операции",
+                  "typeface": "footnote1",
+                  "max_lines": 3,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "orientation": "horizontal",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "text": "5 256 ₽",
+                    "typeface": "body1",
+                    "text_color": "default"
+                  },
+                  "margins": {
+                    "left": "4x"
+                  }
+                },
+                {
+                  "type": "disclosure_right_view"
+                }
+              ]
+            },
+            "actions": [
+              {
+                "text": "Самые большие операции в категории автомобиль за последнюю неделю",
+                "type": "text",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "fin_advisor"
+                  },
+                  "parameters": {
+                    "scenario": "pfm_operations_history",
+                    "from": "23.02.2021",
+                    "to": "01.03.2021",
+                    "period_name": "last_7_days",
+                    "category": "1",
+                    "sort_by": "amount"
+                  }
+                }
+              }
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/22.png",
+                  "placeholder": "photo"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Искусство",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "2 операции",
+                  "typeface": "footnote1",
+                  "max_lines": 3,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "orientation": "horizontal",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "text": "5 256 ₽",
+                    "typeface": "body1",
+                    "text_color": "default"
+                  },
+                  "margins": {
+                    "left": "4x"
+                  }
+                },
+                {
+                  "type": "disclosure_right_view"
+                }
+              ]
+            },
+            "actions": [
+              {
+                "text": "Самые большие операции в категории искусство за последнюю неделю",
+                "type": "text",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "fin_advisor"
+                  },
+                  "parameters": {
+                    "scenario": "pfm_operations_history",
+                    "from": "23.02.2021",
+                    "to": "01.03.2021",
+                    "period_name": "last_7_days",
+                    "category": "22",
+                    "sort_by": "amount"
+                  }
+                }
+              }
+            ],
+            "vertical_gravity": "center"
+          }
+        ]
       }
     }
   ]
