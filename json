@@ -55,7 +55,7 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/1.png",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/test-icon_openbanking.png",
                   "placeholder": "car"
                 },
                 "size": {
@@ -63,7 +63,8 @@
                   "height": "medium"
                 },
                 "margins": {
-                  "right": "6x"
+                  "right": "6x",
+                  "left": "10x"
                 },
                 "tint_color": "solid_brand",
                 "rounded_corners": "circle"
