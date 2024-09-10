@@ -59,19 +59,19 @@
                   "placeholder": "car"
                 },
                 "size": {
-                  "width": "medium",
-                  "height": "medium"
+                  "width": "large",
+                  "height": "large"
                 },
                 "margins": {
-                  "right": "6x"
+                  "right": "2x",
                 },
                 "tint_color": "solid_brand",
-                "rounded_corners": "circle"
+                "rounded_corners": "none"
               },
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "Автомобиль",
+                  "text": "test1 ",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
@@ -126,23 +126,23 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/test1.png",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/test1t.png",
                   "placeholder": "car"
                 },
                 "size": {
-                  "width": "medium",
-                  "height": "medium"
+                  "width": "large",
+                  "height": "large"
                 },
                 "margins": {
-                  "right": "6x"
+                  "right": "2x"
                 },
                 "tint_color": "solid_brand",
-                "rounded_corners": "circle"
+                "rounded_corners": "none"
               },
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "Автомобиль",
+                  "text": "test1t",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
@@ -201,19 +201,19 @@
                   "placeholder": "car"
                 },
                 "size": {
-                  "width": "medium",
-                  "height": "medium"
+                  "width": "large",
+                  "height": "large"
                 },
                 "margins": {
                   "right": "6x"
                 },
                 "tint_color": "solid_brand",
-                "rounded_corners": "circle"
+                "rounded_corners": "none"
               },
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "Автомобиль",
+                  "text": "test2",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
@@ -272,19 +272,19 @@
                   "placeholder": "car"
                 },
                 "size": {
-                  "width": "medium",
-                  "height": "medium"
+                  "width": "large",
+                  "height": "large"
                 },
                 "margins": {
                   "right": "6x"
                 },
                 "tint_color": "solid_brand",
-                "rounded_corners": "circle"
+                "rounded_corners": "none"
               },
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "Автомобиль",
+                  "text": "test2t",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
