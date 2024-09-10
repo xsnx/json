@@ -63,7 +63,7 @@
                   "height": "large"
                 },
                 "margins": {
-                  "right": "2x",
+                  "right": "2x"
                 },
                 "tint_color": "solid_brand",
                 "rounded_corners": "none"
