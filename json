@@ -1,260 +1,79 @@
 {
-  "type": "list_card",
-  "paddings": {
-    "top": "8x",
-    "bottom": "4x",
-    "left": "4x"
-  },
-  "cells": [
+  "items": [
     {
-      "type": "text_cell_view",
-      "paddings": {
-        "top": "4x",
-        "left": "8x"
-      },
-      "content": {
-        "text": "8 операций",
-        "typeface": "headline3",
-        "text_color": "default"
+      "bubble": {
+        "text": "С 1 января 2025 года начнёт действовать прогрессивная шкала НДФЛ с пятью ставками — от 13% до 22%",
+        "markdown": true
       }
     },
     {
-      "type": "text_cell_view",
-      "paddings": {
-        "top": "1x",
-        "left": "8x",
-        "bottom": "8x"
-      },
-      "content": {
-        "text": "В марте",
-        "typeface": "footnote1",
-        "text_color": "secondary"
-      }
-    },
-    {
-      "type": "left_right_cell_view",
-      "paddings": {
-        "left": "8x",
-        "top": "8x",
-        "right": "8x",
-        "bottom": "8x"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "icon": {
-          "address": {
-            "type": "url",
-            "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/1.png",
-            "placeholder": "star_light"
-          },
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "margins": {
-            "right": "6x"
-          },
-          "tint_color": "solid_brand",
-          "rounded_corners": "circle"
+      "card": {
+        "type": "list_card",
+        "paddings": {
+          "top": "8x",
+          "bottom": "4x",
+          "left": "4x"
         },
-        "icon_vertical_gravity": "top",
-        "texts": {
-          "title": {
-            "text": "TINEK HOUSE",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 3
-          },
-          "subtitle": {
-            "text": "Рестораны и кафе",
-            "typeface": "footnote1",
-            "max_lines": 3,
-            "text_color": "secondary",
-            "margins": {
-              "top": "1x"
-            }
-          }
-        }
-      },
-      "right": {
-        "type": "right_cell_array_view",
-        "orientation": "horizontal",
-        "items": [
+        "cells": [
           {
-            "type": "detail_right_view",
-            "info_and_icon": {
+            "type": "text_cell_view",
+            "paddings": {
+              "right": "8x",
+              "top": "4x",
+              "left": "8x",
+              "bottom": "8x"
+            },
+            "content": {
+              "text": "Калькулятор НДФЛ",
+              "typeface": "headline3",
+              "text_color": "default",
+              "max_lines": 3
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/11.png",
-                  "placeholder": "star_light"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/23.png"
+                }
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Калькулятор НДФЛ",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
                 },
-                "size": {
-                  "width": "xsmall",
-                  "height": "xsmall"
-                },
-                "margins": {
-                  "left": "0x",
-                  "top": "0x",
-                  "right": "0x",
-                  "bottom": "8x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "circle"
+                "subtitle": {
+                  "text": "Расчитаю вам налог и расскажу про новый закон",
+                  "typeface": "footnote1",
+                  "max_lines": 3,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
               }
-            }
-          },
-          {
-            "type": "detail_right_view",
-            "detail": {
-              "text": "100 ₽",
-              "typeface": "body1",
-              "text_color": "default"
             },
-            "margins": {
-              "left": "4x"
-            },
-            "info_and_icon": {
-              "info": {
-                "text": "1 марта, 10:22",
-                "typeface": "footnote1",
-                "text_color": "secondary",
-                "max_lines": 1
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
               }
-            }
-          },
-          {
-            "type": "disclosure_right_view"
+            },
+            "vertical_gravity": "center"
           }
         ]
-      },
-      "actions": [
-        {
-          "type": "server_action",
-          "message_name": "RUN_APP",
-          "intent": "run_app",
-          "server_action": {
-            "action_id": "run_app",
-            "app_info": {
-              "systemName": "fin_advisor"
-            },
-            "parameters": {
-              "intent": "pfm_merchant_expenses",
-              "operation_name": "CAVIAR HOUSE AIRPORT P FRANKFURT DEU",
-              "merchant": "CAVIAR HOUSE AIRPORT P FRANKFURT DEU",
-              "from": "01.03.2021",
-              "to": "01.03.2021",
-              "period_name": "month",
-              "merchant_img_url": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg"
-            }
-          }
-        }
-      ],
-      "vertical_gravity": "center",
-      "divider": {
-        "style": "default",
-        "size": "d5"
-      }
-    },
-    {
-      "type": "left_right_cell_view",
-      "paddings": {
-        "left": "8x",
-        "top": "8x",
-        "right": "8x",
-        "bottom": "8x"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "icon": {
-          "address": {
-            "type": "url",
-            "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/1.png",
-            "placeholder": "star_light"
-          },
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "margins": {
-            "right": "6x"
-          },
-          "tint_color": "solid_brand",
-          "rounded_corners": "circle"
-        },
-        "icon_vertical_gravity": "top",
-        "texts": {
-          "title": {
-            "text": "CAVIAR HOUSE AIRPORT P FRANKFURT DEU",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 3
-          },
-          "subtitle": {
-            "text": "Рестораны и кафе",
-            "typeface": "footnote1",
-            "max_lines": 3,
-            "text_color": "secondary",
-            "margins": {
-              "top": "1x"
-            }
-          }
-        }
-      },
-      "right": {
-        "type": "right_cell_array_view",
-        "orientation": "horizontal",
-        "items": [
-          {
-            "type": "detail_right_view",
-            "detail": {
-              "text": "1 000 ₽",
-              "typeface": "body1",
-              "text_color": "default"
-            },
-            "margins": {
-              "left": "4x"
-            },
-            "info_and_icon": {
-              "info": {
-                "text": "1 марта, 10:21",
-                "typeface": "footnote1",
-                "text_color": "secondary",
-                "max_lines": 1
-              }
-            }
-          },
-          {
-            "type": "disclosure_right_view"
-          }
-        ]
-      },
-      "actions": [
-        {
-          "type": "server_action",
-          "message_name": "RUN_APP",
-          "intent": "run_app",
-          "server_action": {
-            "action_id": "run_app",
-            "app_info": {
-              "systemName": "fin_advisor"
-            },
-            "parameters": {
-              "intent": "pfm_merchant_expenses",
-              "operation_name": "CAVIAR HOUSE AIRPORT P FRANKFURT DEU",
-              "merchant": "CAVIAR HOUSE AIRPORT P FRANKFURT DEU",
-              "from": "01.03.2021",
-              "to": "01.03.2021",
-              "period_name": "month",
-              "merchant_img_url": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg"
-            }
-          }
-        }
-      ],
-      "vertical_gravity": "center",
-      "divider": {
-        "style": "default",
-        "size": "d5"
       }
     }
   ]
