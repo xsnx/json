@@ -43,8 +43,8 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/23.png",
-                  "placeholder": "tax_consultant_calculate"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/Icon_calculator.png",
+                  "placeholder": "info"
                 },
                 "size": {
                   "width": "medium",
