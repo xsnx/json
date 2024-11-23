@@ -34,7 +34,7 @@
             "content": {
               "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/summary_finance_slider_3.png",
               "size": {
-                "width": "medium",
+                "width": "resizable",
                 "aspect_ratio": 0.5
               }
             }
