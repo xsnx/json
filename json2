@@ -13,11 +13,11 @@
           {
             "type": "text_cell_view",
             "paddings": {
-              "left": "4x",
+              "left": "14x",
               "right": "4x"
             },
             "content": {
-              "text": "С начала месяца вы потратили на 69% меньше, чем в среднем за этот период 27",
+              "text": "С начала месяца вы потратили на 69% меньше, чем в среднем за этот период 27 14x",
               "typeface": "title1",
               "text_color": "default",
               "max_lines": 0
