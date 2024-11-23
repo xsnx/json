@@ -1,36 +1,9 @@
 {
   "items": [
     {
-      "card": {
-        "type": "list_card",
-        "paddings": {
-          "top": "10x",
-          "left": "8x",
-          "right": "8x",
-          "bottom": "10x"
-        },
-        "cells": [
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Расходы c 23 февраля по сегодня",
-              "typeface": "headline3",
-              "text_color": "default",
-              "max_lines": 2
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "10 512 ₽",
-              "typeface": "headline1",
-              "text_color": "default"
-            },
-            "paddings": {
-              "top": "6x"
-            }
-          }
-        ]
+      "bubble": {
+        "text": "С 1 января 2025 года начнёт действовать прогрессивная шкала НДФЛ с пятью ставками — от 13% до 22%",
+        "markdown": true
       }
     },
     {
@@ -43,74 +16,18 @@
         },
         "cells": [
           {
-            "type": "left_right_cell_view",
+            "type": "text_cell_view",
             "paddings": {
-              "left": "8x",
-              "top": "8x",
               "right": "8x",
+              "top": "4x",
+              "left": "8x",
               "bottom": "8x"
             },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/test1.png",
-                  "placeholder": "car"
-                },
-                "size": {
-                  "width": "large",
-                  "height": "large"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "none"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "test1 ",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "2 операции",
-                  "typeface": "footnote1",
-                  "max_lines": 3,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "detail_right_view",
-                  "detail": {
-                    "text": "5 256 ₽",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  },
-                  "margins": {
-                    "left": "4x"
-                  }
-                },
-                {
-                  "type": "disclosure_right_view"
-                }
-              ]
-            },
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
+            "content": {
+              "text": "Калькулятор НДФЛ",
+              "typeface": "headline3",
+              "text_color": "default",
+              "max_lines": 3
             }
           },
           {
@@ -126,221 +43,8 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/test1t.png",
-                  "placeholder": "car"
-                },
-                "size": {
-                  "width": "large",
-                  "height": "large"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "none"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "test1t",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "2 операции",
-                  "typeface": "footnote1",
-                  "max_lines": 3,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "detail_right_view",
-                  "detail": {
-                    "text": "5 256 ₽",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  },
-                  "margins": {
-                    "left": "4x"
-                  }
-                },
-                {
-                  "type": "disclosure_right_view"
-                }
-              ]
-            },
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/test2.png",
-                  "placeholder": "car"
-                },
-                "size": {
-                  "width": "large",
-                  "height": "large"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "none"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "test2",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "2 операции",
-                  "typeface": "footnote1",
-                  "max_lines": 3,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "detail_right_view",
-                  "detail": {
-                    "text": "5 256 ₽",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  },
-                  "margins": {
-                    "left": "4x"
-                  }
-                },
-                {
-                  "type": "disclosure_right_view"
-                }
-              ]
-            },
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/test2t.png",
-                  "placeholder": "car"
-                },
-                "size": {
-                  "width": "large",
-                  "height": "large"
-                },
-                "margins": {
-                  "right": "6x"
-                },
-                "tint_color": "solid_brand",
-                "rounded_corners": "none"
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "test2t",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "2 операции",
-                  "typeface": "footnote1",
-                  "max_lines": 3,
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "detail_right_view",
-                  "detail": {
-                    "text": "5 256 ₽",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  },
-                  "margins": {
-                    "left": "4x"
-                  }
-                },
-                {
-                  "type": "disclosure_right_view"
-                }
-              ]
-            },
-            "vertical_gravity": "center",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/22.png",
-                  "placeholder": "photo"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/Icon_calculator.png",
+                  "placeholder": "info"
                 },
                 "size": {
                   "width": "medium",
@@ -355,13 +59,13 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "Originally",
+                  "text": "Калькулятор НДФЛ",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
                 },
                 "subtitle": {
-                  "text": "2 операции",
+                  "text": "Расчитаю вам налог и расскажу про новый закон",
                   "typeface": "footnote1",
                   "max_lines": 3,
                   "text_color": "secondary",
@@ -372,25 +76,32 @@
               }
             },
             "right": {
-              "type": "right_cell_array_view",
-              "orientation": "horizontal",
-              "items": [
-                {
-                  "type": "detail_right_view",
-                  "detail": {
-                    "text": "5 256 ₽",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  },
-                  "margins": {
-                    "left": "4x"
-                  }
-                },
-                {
-                  "type": "disclosure_right_view"
-                }
-              ]
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
             },
+            "actions": [
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "fin_advisor"
+                  },
+                  "parameters": {
+                    "intent": "pfm_my_taxes",
+                    "subintent": "tax_calculate"
+                  }
+                }
+              },
+              {
+                "text": "Калькулятор НДФЛ",
+                "type": "text",
+                "should_send_to_backend": false
+              }
+            ],
             "vertical_gravity": "center"
           }
         ]
