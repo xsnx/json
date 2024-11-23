@@ -17,7 +17,7 @@
               "right": "4x"
             },
             "content": {
-              "text": "С начала месяца вы потратили на 69% меньше, чем в scale_aspect_fit",
+              "text": "С начала месяца вы потратили на 69% меньше, чем в scale_aspect_fit 0.4",
               "typeface": "title1",
               "text_color": "default",
               "max_lines": 0
@@ -36,7 +36,7 @@
               "scale_mode": "scale_aspect_fit",
               "size": {
                 "width": "resizable",
-                "aspect_ratio": 0.25
+                "aspect_ratio": 0.4
               }
             }
           },
