@@ -17,7 +17,7 @@
               "right": "4x"
             },
             "content": {
-              "text": "С начала месяца вы потратили на 69% меньше, чем в среднем за этотsada",
+              "text": "С начала месяца вы потратили на 69% меньше, чем в среднем за 22",
               "typeface": "title1",
               "text_color": "default",
               "max_lines": 0
@@ -36,7 +36,7 @@
               "scale_mode": "scale_aspect_fill",
               "size": {
                 "width": "large",
-                "aspect_ratio": 0.27
+                "aspect_ratio": 0.22
               }
             }
           },
