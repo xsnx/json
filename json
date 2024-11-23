@@ -17,7 +17,7 @@
               "right": "4x"
             },
             "content": {
-              "text": "С начала месяца вы потратили на 69% scale_aspect_fill ,16x",
+              "text": "С начала месяца вы потратили на 69% scale_aspect_fill ,1231231",
               "typeface": "title1",
               "text_color": "default",
               "max_lines": 0
@@ -26,17 +26,17 @@
           {
             "type": "image_cell_view",
             "paddings": {
-              "left": "2x",
+              "left": "12x",
               "top": "6x",
-              "right": "16x",
+              "right": "12x",
               "bottom": "4x"
             },
             "content": {
               "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/summary_finance_slider_3.png",
               "scale_mode": "scale_aspect_fill",
               "size": {
-                "width": "resizable",
-                "aspect_ratio": 0.25
+                "width": "large",
+                "aspect_ratio": 0.27
               }
             }
           },
