@@ -4,147 +4,101 @@
       "card": {
         "type": "list_card",
         "paddings": {
-          "top": "8x",
-          "bottom": "4x",
-          "left": "4x",
-          "right": "4x"
+          "top": "10x",
+          "left": "2x",
+          "right": "2x",
+          "bottom": "6x"
         },
-        "actions": [
-          {
-            "type": "server_action",
-            "message_name": "RUN_APP",
-            "intent": "run_app",
-            "server_action": {
-              "app_info": {
-                "systemName": "fin_advisor"
-              },
-              "parameters": {
-                "previous_intent": "pfm_my_expenses",
-                "intent": "pfm_get_financial_insight",
-                "from": "01.03.2021",
-                "to": "01.03.2021",
-                "period_name": "month"
-              }
-            }
-          }
-        ],
         "cells": [
           {
             "type": "text_cell_view",
+            "paddings": {
+              "left": "4x",
+              "right": "4x"
+            },
             "content": {
-              "text": "2 628 ₽",
-              "typeface": "headline3",
-              "text_color": "default",
-              "max_lines": 0,
-              "margins": {
-                "top": "2x",
-                "bottom": "2x",
-                "left": "2x",
-                "right": "2x"
-              }
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Это самый большой платеж за этот период, в Hyperglobus Pushkino Pushkino Rus 1 марта",
-              "typeface": "footnote1",
-              "text_color": "default",
-              "max_lines": 0,
-              "margins": {
-                "top": "2x",
-                "bottom": "2x",
-                "left": "2x",
-                "right": "2x"
-              }
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Интересный факт",
-              "typeface": "footnote1",
-              "text_color": "tertiary",
-              "max_lines": 0,
-              "margins": {
-                "top": "2x",
-                "bottom": "2x",
-                "left": "2x",
-                "right": "2x"
-              }
-            }
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "text_2",
-              "typeface": "body1",
+              "text": "С начала месяца вы потратили на 69% scale_aspect_fill ,_10",
+              "typeface": "title1",
               "text_color": "default",
               "max_lines": 0
-            },
-            "paddings": {
-              "left": "8x",
-              "top": "6x",
-              "right": "8x",
-              "bottom": "4x"
             }
           },
           {
-            "type": "button_cell_view",
+            "type": "image_cell_view",
+            "paddings": {
+              "left": "2x",
+              "top": "6x",
+              "right": "10x",
+              "bottom": "4x"
+            },
             "content": {
-              "text": "Узнать куда привязаны карты",
-              "typeface": "button2",
-              "style": "secondary",
-              "type": "accept",
-              "actions": [
-                {
-                  "type": "deep_link",
-                  "deep_link": "android-app://ru.sberbankmobile_alpha/profile"
+              "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/summary_finance_slider_3.png",
+              "scale_mode": "scale_aspect_fill",
+              "size": {
+                "width": "resizable",
+                "aspect_ratio": 0.25
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "2x",
+              "top": "4x",
+              "right": "4x",
+              "bottom": "2x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Это 30% от среднего ежемесячного расхода",
+                  "typeface": "body1",
+                  "text_color": "secondary",
+                  "max_lines": 0
                 }
-              ],
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
               }
             },
-            "paddings": {
-              "left": "8x",
-              "top": "6x",
-              "right": "8x",
-              "bottom": "8x"
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d2"
             }
           },
           {
-            "type": "button_cell_view",
-            "content": {
-              "text": "anyText",
-              "typeface": "body2",
-              "type": "disabled",
-              "margins": {
-                "left": "2x",
-                "top": "2x",
-                "right": "2x",
-                "bottom": "2x"
-              },
-              "log_id": "custom_log_id",
-              "version": 2,
-              "style_v2": "clear"
-            },
+            "type": "left_right_cell_view",
             "paddings": {
-              "left": "8x",
-              "top": "6x",
-              "right": "8x",
-              "bottom": "8x"
-            }
+              "left": "2x",
+              "top": "4x",
+              "right": "4x",
+              "bottom": "2x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Ваш средний ежемесячный расход:",
+                  "typeface": "body1",
+                  "text_color": "secondary",
+                  "max_lines": 0
+                },
+                "subtitle": {
+                  "text": "140 821 ₽",
+                  "typeface": "footnote1",
+                  "max_lines": 1,
+                  "text_color": "default",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "margins": {
+              "left": "4x"
+            },
+            "vertical_gravity": "center"
           }
         ]
       }
