@@ -17,7 +17,7 @@
               "right": "4x"
             },
             "content": {
-              "text": "С начала месяца вы потратили на 69% scale_aspect_fill ,0000",
+              "text": "С начала месяца вы потратили на 69% scale_aspect_fill ,16x",
               "typeface": "title1",
               "text_color": "default",
               "max_lines": 0
@@ -28,7 +28,7 @@
             "paddings": {
               "left": "2x",
               "top": "6x",
-              "right": "0x",
+              "right": "16x",
               "bottom": "4x"
             },
             "content": {
