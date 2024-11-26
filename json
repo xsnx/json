@@ -15,7 +15,7 @@
               "right": "6x"
             },
             "content": {
-              "text": "С начала месяца вы потратили на 69% меньше, чем в без",
+              "text": "С начала месяца вы потратили на 69% меньше, чем в scale_aspect_fit",
               "typeface": "title1",
               "text_color": "default",
               "max_lines": 0
@@ -28,7 +28,8 @@
               "bottom": "4x"
             },
             "content": {
-              "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/summary_finance_slider_3.png"
+              "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/summary_finance_slider_3.png",
+              "scale_mode": "scale_aspect_fit"
             }
           },
           {
