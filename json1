@@ -23,24 +23,15 @@
           },
           {
             "type": "image_cell_view",
-            "paddings": {
-              "top": "6x",
-              "bottom": "4x"
-            },
             "content": {
               "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/summary_finance_slider_3_1.png",
-              "scale_mode": "scale_aspect_fill",
-              "size": {
-                "width": "resizable",
-                "aspect_ratio": 0.35
-              }
+              "scale_mode": "scale_aspect_fit"
             }
           },
           {
             "type": "left_right_cell_view",
             "paddings": {
               "left": "6x",
-              "top": "4x",
               "right": "6x",
               "bottom": "2x"
             },
