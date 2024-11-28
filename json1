@@ -17,6 +17,11 @@
               "typeface": "body1",
               "text_color": "default"
             },
+            "bottom_text": {
+              "text": "Можно оплачивать налоги с кредитной карты?",
+              "typeface": "body1",
+              "text_color": "default"
+            },
             "paddings": {
               "top": "8x",
               "left": "8x",
@@ -31,6 +36,11 @@
               "typeface": "body1",
               "text_color": "default"
             },
+            "bottom_text": {
+              "text": "Можно оплачивать налоги с кредитной карты?",
+              "typeface": "body1",
+              "text_color": "default"
+            },
             "paddings": {
               "top": "8x",
               "left": "8x",
@@ -39,8 +49,7 @@
             }
           }
         ],
-        "columns": 2,
-        "item_width": "small"
+        "columns": 2
       }
     },
     {
