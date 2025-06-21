@@ -22,25 +22,6 @@
               "right": "8x",
               "bottom": "8x"
             }
-          },
-          {
-            "type": "greeting_grid_item",
-            "top_text": {
-              "text": " ",
-              "typeface": "body1",
-              "text_color": "default"
-            },
-            "bottom_text": {
-              "text": "Можно оплачивать налоги с кредитной карты?",
-              "typeface": "body1",
-              "text_color": "default"
-            },
-            "paddings": {
-              "top": "8x",
-              "left": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            }
           }
         ],
         "columns": 2
