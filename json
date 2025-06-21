@@ -22,6 +22,25 @@
               "right": "8x",
               "bottom": "8x"
             }
+          },
+          {
+            "type": "greeting_grid_item",
+            "top_text": {
+              "text": " ",
+              "typeface": "body1",
+              "text_color": "default"
+            },
+            "bottom_text": {
+              "text": "Можно оплачивать налоги с кредитной карты?",
+              "typeface": "body1",
+              "text_color": "default"
+            },
+            "paddings": {
+              "top": "8x",
+              "left": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            }
           }
         ],
         "columns": 2
@@ -293,18 +312,7 @@
               "typeface": "button2",
               "style": "default",
               "type": "accept",
-              "actions": [
-                {
-                  "intent": "run_app",
-                  "server_action": {
-                    "action_id": "run_app",
-                    "parameters": {
-                      "intent": "tax_deduction",
-                      "text_key": "agreement_activate"
-                    }
-                  }
-                }
-              ],
+              "actions": [],
               "margins": {
                 "left": "10x",
                 "top": "5x",
@@ -318,6 +326,56 @@
               "right": "8x",
               "bottom": "8x"
             }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/agreement_unv.png",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Текст согласия",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/agreement_unv.pdf"
+              }
+            ],
+            "vertical_gravity": "center"
           }
         ]
       }
