@@ -285,6 +285,39 @@
               }
             },
             "vertical_gravity": "center"
+          },
+          {
+            "type": "button_cell_view",
+            "content": {
+              "text": "Я согласен",
+              "typeface": "button2",
+              "style": "default",
+              "type": "accept",
+              "actions": [
+                {
+                  "intent": "run_app",
+                  "server_action": {
+                    "action_id": "run_app",
+                    "parameters": {
+                      "intent": "tax_deduction",
+                      "text_key": "agreement_activate"
+                    }
+                  }
+                }
+              ],
+              "margins": {
+                "left": "10x",
+                "top": "5x",
+                "right": "10x",
+                "bottom": "5x"
+              }
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "1x",
+              "right": "8x",
+              "bottom": "8x"
+            }
           }
         ]
       }
