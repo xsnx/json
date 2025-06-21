@@ -291,7 +291,7 @@
             "content": {
               "text": "cjukfcfy",
               "typeface": "button2",
-              "style": "transparent",
+              "style": "default",
               "type": "accept",
               "actions": [
               {
