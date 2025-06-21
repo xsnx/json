@@ -1,12 +1,6 @@
 {
   "items": [
     {
-      "bubble": {
-        "text": "Что вы хотели узнать о налогах?",
-        "markdown": true
-      }
-    },
-    {
       "card": {
         "type": "grid_card",
         "items": [
@@ -17,17 +11,8 @@
               "typeface": "body1",
               "text_color": "default"
             },
-            "paddings": {
-              "top": "8x",
-              "left": "8x",
-              "right": "8x",
-              "bottom": "8x"
-            }
-          },
-          {
-            "type": "greeting_grid_item",
-            "top_text": {
-              "text": "Как получить стандартный налоговый вычет за детей?",
+            "bottom_text": {
+              "text": " ",
               "typeface": "body1",
               "text_color": "default"
             },
@@ -57,6 +42,91 @@
               "left": "8x",
               "top": "8x",
               "right": "8x",
+              "bottom": "1x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Сбер поможет вернуть часть вычета:",
+                  "typeface": "headline3",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "vertical_gravity": "center"
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "1x",
+              "right": "8x",
+              "bottom": "2x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/green_lightining.png",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "texts": {
+                "title": {
+                  "text": "170 045 ₽",
+                  "typeface": "headline1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "vertical_gravity": "center"
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "1x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Мы поможем оформить упрощённый налоговый вычет за пополнение ИИС, выплаченные проценты по ипотеке, а также расходы, которые вы совершали в организациях-партнерах Сбера",
+                  "typeface": "footnote1",
+                  "max_lines": 0,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "6x"
+                  }
+                }
+              }
+            },
+            "vertical_gravity": "center"
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
               "bottom": "8x"
             },
             "left": {
@@ -64,7 +134,7 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/diamond.png",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/chek_box.png",
                   "placeholder": "star_light"
                 },
                 "size": {
@@ -80,7 +150,172 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "Частые вопросы",
+                  "text": "Без сбора документов",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Мы соберем все документы за вас и передадим в налоговую",
+                  "typeface": "footnote1",
+                  "max_lines": 0,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/chek_box.png",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Без подачи заявления",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Вам нужно будет только подписать уже сформированное заявление в личном кабинете ФНС",
+                  "typeface": "footnote1",
+                  "max_lines": 0,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/chek_box.png",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Бесплатно",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "vertical_gravity": "center"
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "1x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Чтобы мы начали оформлять вычет, нажмите на кнопку «Я согласен» – так вы подпишите свое согласие на обработку персональных данных",
+                  "typeface": "footnote1",
+                  "max_lines": 0,
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "6x"
+                  }
+                }
+              }
+            },
+            "vertical_gravity": "center"
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/agreement_unv.png",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand",
+                "rounded_corners": "circle"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "Текст согласия",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
@@ -95,24 +330,8 @@
             },
             "actions": [
               {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "fin_advisor"
-                  },
-                  "parameters": {
-                    "intent": "pfm_my_taxes",
-                    "subintent": "tax_gigachat",
-                    "text_key": "private_questions"
-                  }
-                }
-              },
-              {
-                "text": "Ещё о налогах и вычетах",
-                "type": "text",
-                "should_send_to_backend": false
+                "type": "deep_link",
+                "deep_link": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/agreement_unv.pdf"
               }
             ],
             "vertical_gravity": "center"
