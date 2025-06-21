@@ -7,7 +7,7 @@
           {
             "type": "greeting_grid_item",
             "top_text": {
-              "text": "Можно оплачивать налоги с кредитной карты?",
+              "text": "Можно оплачивать налоги с кредитной карты21231?",
               "typeface": "body1",
               "text_color": "default"
             },
@@ -289,11 +289,16 @@
           {
             "type": "button_cell_view",
             "content": {
-              "text": "Я согласен",
+              "text": "cjukfcfy",
               "typeface": "button2",
-              "style": "default",
+              "style": "transparent",
               "type": "accept",
-              "actions": [],
+              "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/agreement_unv.pdf"
+              }
+            ],
               "margins": {
                 "left": "10x",
                 "top": "5x",
@@ -303,7 +308,7 @@
             },
             "paddings": {
               "left": "8x",
-              "top": "1x",
+              "top": "8x",
               "right": "8x",
               "bottom": "8x"
             }
